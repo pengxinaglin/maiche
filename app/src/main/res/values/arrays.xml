@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filter_standard">
+        <item>不限</item>
+        <item>国二及以上 </item>
+        <item>国三及以上</item>
+        <item>国四及以上</item>
+        <item>国五</item>
+    </string-array>
+
+    <string-array name="filter_gearbox">
+        <item>请选择</item>
+        <item>未知</item>
+        <item>手动 </item>
+        <item>自动</item>
+    </string-array>
+
+    <string-array name="filter_level">
+        <item>N级：3个月有买车可能</item>
+        <item>B级：30天内买车</item>
+        <item>A级：7天内买车</item>
+        <item>H级：三天内买车</item>
+    </string-array>
+
+    <string-array name="revisit_n">
+        <item>不再回访</item>
+        <item>1天后</item>
+        <item>2天后</item>
+        <item>3天后</item>
+        <item>4天后</item>
+        <item>5天后</item>
+    </string-array>
+
+    <string-array name="revisit_b">
+        <item>1天后</item>
+        <item>2天后</item>
+        <item>3天后</item>
+    </string-array>
+
+    <string-array name="revisit_a">
+        <item>1天后</item>
+        <item>2天后</item>
+    </string-array>
+
+    <string-array name="revisit_h">
+        <item>1天后</item>
+    </string-array>
+
+    <string-array name="filter_cancel_convention">
+        <item>请选择</item>
+        <item>车主</item>
+        <item>买家</item>
+    </string-array>
+
+    <string-array name="filter_vehicle_source_online">
+        <item>请选择</item>
+        <item>上线</item>
+        <item>下线</item>
+    </string-array>
+
+    <string-array name="filter_vehicle_transfer_type">
+        <item>公司过户</item>
+        <item>自行过户</item>
+    </string-array>
+
+    <string-array name="filter_vehicle_warranty_type">
+        <item>请选择质保方式</item>
+        <item>无质保</item>
+        <item>公司质保</item>
+        <item>第三方质保</item>
+    </string-array>
+
+</resources>

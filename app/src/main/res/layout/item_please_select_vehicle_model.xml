@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/hc_self_white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="@dimen/margin_308dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_item_transaction_series"
+                android:layout_width="@dimen/margin_308dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_15dp"
+                android:paddingLeft="@dimen/margin_15dp"
+                android:paddingTop="@dimen/margin_20dp"
+                android:text=""
+                android:textColor="@color/hc_self_black"
+                android:textSize="@dimen/font_12"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_item_take_time"
+                    style="@style/hc_resurrection_buyer"
+                    android:text="带看时间 :"
+                    android:textColor="@color/hc_self_gray"/>
+
+                <TextView
+                    android:id="@+id/tv_item_date"
+                    style="@style/hc_resurrection_buyer"
+                    android:paddingLeft="@dimen/margin_5dp"
+                    android:text="--------------"
+                    android:textColor="@color/hc_self_gray"/>
+                <TextView
+                    android:id="@+id/tv_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/margin_20dp"
+                    android:paddingLeft="@dimen/margin_38dp"
+                    android:text="编号:"
+                    android:layout_marginLeft="@dimen/margin_30dp"
+                    android:textColor="@color/hc_self_gray"
+                    android:textSize="@dimen/font_12"/>
+
+                <TextView
+                    android:id="@+id/tv_number_math"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv_number"
+                    android:paddingBottom="@dimen/margin_20dp"
+                    android:paddingLeft="@dimen/margin_5dp"
+                    android:text="---------"
+                    android:textColor="@color/hc_self_gray"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_84dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp">
+
+            <CheckBox
+                android:id="@+id/cb_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:button="@null"
+                android:focusable="false"
+                android:clickable="false"
+                android:focusableInTouchMode="false"
+                android:background="@drawable/hc_quit_buy_reason_rb"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- title -->
+    <dimen name="ll_common_title_height">48dp</dimen>
+    <dimen name="ll_common_title_textsize">18dp</dimen>
+    <!-- 按钮字体大小和高度 -->
+    <dimen name="ll_resend_button_width">90dp</dimen>
+    <dimen name="ll_next_button_textsize">18dp</dimen>
+    <dimen name="ll_next_button_height">48dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="ll_casher_text_size_10">12dp</dimen>
+    <dimen name="ll_casher_text_size_12">13dp</dimen>
+    <dimen name="ll_casher_text_size_14">15dp</dimen>
+    <dimen name="ll_casher_text_size_16">17dp</dimen>
+    <dimen name="ll_casher_text_size_18">18dp</dimen>
+    <dimen name="ll_casher_text_size_20">20dp</dimen>
+    <dimen name="ll_casher_text_size_24">23dp</dimen>
+    <dimen name="ll_casher_text_size_30">25dp</dimen>
+    <dimen name="ll_casher_text_size_36">31dp</dimen>
+    <dimen name="ll_casher_text_size_40">36dp</dimen>
+    
+    
+    
+    
+    
+</resources>

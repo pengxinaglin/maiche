@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/wh_mw"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/self_white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_20dp">
+
+    <!--剩余应收款-->
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transfer_start_remaind"/>
+
+        <TextView
+            android:id="@+id/tv_transfer_start_remaind"
+            style="@style/HCTheme.TextMain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:text="---"
+            android:textSize="@dimen/hc_text_size_normal"/>
+
+        <TextView
+            style="@style/HCTheme.TextMain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:text="元"
+            android:textSize="@dimen/hc_text_size_normal"/>
+
+    </LinearLayout>
+
+    <!--线下支付-->
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transfer_start_remaind_offline"/>
+
+        <RadioGroup
+            android:id="@+id/rg_transfer_start_offline"
+            style="@style/hc_weight1_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_yes"
+                android:gravity="center"/>
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_no"
+                android:gravity="center"/>
+
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

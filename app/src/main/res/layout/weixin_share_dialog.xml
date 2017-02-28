@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:textColor="@color/self_white">
+
+    <TextView
+        android:id="@+id/text_view_share_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:text="@string/share_dialog_text_weixin"
+        android:textColor="@color/self_black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(微信示意图)"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/share_dialog_img"/>
+
+    <TextView
+        android:id="@+id/text_view_share_dialog_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/color_blue_turn_deep"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="分享"
+        android:textColor="@color/self_white"
+        android:textSize="@dimen/font_16" />
+
+</LinearLayout>

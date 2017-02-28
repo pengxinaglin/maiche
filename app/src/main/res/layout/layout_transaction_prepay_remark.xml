@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/HCTheme.VehicleSubBlock"
+        android:orientation="vertical">
+
+        <!--客户备注lable-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/HCTheme.TextMain"
+                android:text="@string/p_appoint_comment"
+                android:textSize="@dimen/hc_text_size_normal"/>
+
+            <View
+                android:layout_width="@dimen/margin_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_transfer_remark_count"
+                style="@style/HCTheme.TextHint"
+                android:layout_height="match_parent"
+                android:text="100"
+                android:textSize="@dimen/hc_text_size_normal"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_transfer_remark"
+            style="@style/HCTheme.VehicleSubBlock.Remark"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="@dimen/margin_20dp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

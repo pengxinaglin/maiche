@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hello world!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+  
+    <string name="ll_verifypattern_msg">请稍候</string>
+    <string name="ll_title_prompt">提示</string>
+    <string name="ll_title_unbind">商户收款</string>
+    <string name="ll_title_swiping">刷卡收款</string>
+    <string name="ll_title_swiping_applepay">Apple Pay收款</string>
+    <string name="ll_title_preauth">预授权交易</string>
+    <string name="ll_title_qrcode">微信扫码收款</string>
+    <string name="ll_title_qrcode_zhifubao">支付宝扫码收款</string>
+    <string name="ll_title_state_manage">终端管理</string>
+    <string name="ll_title_bindpos">绑定移动终端</string>
+    <string name="ll_title_reprint">打印签购单</string>
+    <string name="ll_title_casher_success">交易成功</string>
+    
+    <string name="ll_common_button_ok">确定</string>
+    <string name="ll_common_button_next">下一步</string>
+
+    <string name="ll_index_pay_text">收款</string>
+    <string name="ll_index_pay_text_payauth">预授权</string>
+    <string name="ll_index_pay_yuan">元</string>
+    <string name="ll_index_payment_text">收款方</string>
+    <string name="ll_index_payment_text_payauth">商户名称</string>
+    <string name="ll_index_goods_text">商品</string>
+    <string name="ll_index_paystate_text">选择收款方式</string>
+    <string name="ll_index_preauth_text">请选择预授权方式</string>
+    <string name="ll_index_call_service_text">本次收款由连连支付提供。客服电话：<![CDATA[<font color=\'#3300FF\'>400-600-5200</font>]]></string>
+    <string name="ll_login_call_text">确认拨打客服热线</string>
+ 
+    <string name="ll_setting_customer_service">联系客服</string>
+    <string name="ll_setting_bind_bt">绑定移动终端</string>
+    <string name="ll_setting_bind_bt_suc">移动终端绑定成功</string>
+    <string name="ll_setting_unbind_succsee">移动终端解绑成功</string>
+    <string name="ll_setting_unbind_failed">解绑失败，请稍后重试。</string>
+    <string name="ll_setting_unbind_bt">解除移动终端</string>
+    <string name="ll_casher_yuan">元</string>
+    <string name="ll_casher_swiping_text_new">蓝牙名称：</string>
+    <string name="ll_casher_trade_number">订单号码：</string>
+    <string name="ll_casher_swiping_text">银行卡IC卡，插卡时将芯片部分朝上保持直至交易完成</string>
+    <string name="ll_casher_swiping_help">帮助</string>
+    <string name="ll_casher_create_num">正在创建订单</string>
+    <string name="ll_casher_timeout_pay">已超时请重新下单</string>
+    <string name="ll_casher_cancel_trade">确认是否取消该笔交易</string>
+    <string name="ll_casher_photo_uplode">图片上传中</string>
+    <string name="ll_casher_trading">正在收款中</string>
+    <string name="ll_casher_applepay">交易处理中</string>
+    <string name="ll_casher_chongzheng">正在冲正中</string>
+    <string name="ll_casher_failed">收款失败</string>
+    <string name="ll_casher_pay_type">选择收款方式</string>
+    <string name="ll_casher_back_fail">交易撤销失败</string>
+    <string name="ll_casher_back_success">交易撤销成功</string>
+
+    
+    <string name="ll_dialog_ok_btn">确定</string>
+    <string name="ll_dialog_cancel">取消</string>
+    <string name="ll_dialog_quit">退出</string>
+    <string name="ll_dialog_in_btn">继续收款</string>
+    <string name="ll_dialog_in_cancel">取消收款</string>
+    <string name="ll_dialog_exit_message">确定要退出吗？</string>
+    <string name="ll_dialog_go_on_trade">继续交易</string>
+    <string name="ll_dialog_again_conn">重新连接</string>
+    <string name="ll_dialog_again_pay">重新收款</string>
+    <string name="ll_dialog_quit_pay">是否取消收款？</string>
+    <string name="ll_dialog_to_call">拨打</string>
+    <string name="ll_dialog_return_business">返回商家</string>
+    <string name="ll_dialog_no_btn">否</string>
+    <string name="ll_dialog_yes_btn">是</string>
+    
+    <string name="ll_bind_nobind_pos">没有绑定的移动终端</string>
+    <string name="ll_bind_tobind_pos">绑定移动终端</string>
+    <string name="ll_bind_unbind_pos">解绑</string>
+    <string name="ll_bind_pos_manage">终端管理</string>
+    <string name="ll_bind_bt_scan">正在扫描可用设备</string>
+    <string name="ll_bind_bt_button">重新扫描设备</string>
+    <string name="ll_bind_bt_problem">配对遇到问题？</string>
+    <string name="ll_bind_bt_pair">点此手动配对</string>
+    <string name="ll_bind_bt_no_bt">暂未发现可用移动终端</string>
+    <string name="ll_bind_scan_state">扫描到以下可用移动终端</string>
+    <string name="ll_ll_unbind_state_title">您还没有绑定移动终端，是否现在绑定？</string>
+    <string name="ll_bind_state_success">移动终端绑定成功！</string>
+    <string name="ll_unbind_bt_state_message">您确定要解除此尾号为%1$s的移动终端吗？</string>
+    <string name="ll_bind_no_bluet">该设备不支持蓝牙</string>
+    <string name="ll_bind_text_nopos">您需要绑定移动终端后才可以继续收款</string>
+    <string name="ll_bind_text_item">点击设备列表中的移动终端进行绑定后才可以继续收款</string>
+
+
+    <string name="ll_swiping_cont_bt">正在连接蓝牙</string>
+    <string name="ll_swiping_cont_fail">连接错误，请重试。</string>
+    <string name="ll_swiping_sign">正在签到</string>
+    <string name="ll_swiping_user_sign">等待用户签字</string>
+    <string name="ll_swiping_sign_fail">签到失败，请重新签到。</string>
+    <string name="ll_swiping_sign_over">签到结束</string>
+    <string name="ll_swiping_update_TMK">更新TMK失败</string>
+    <string name="ll_swiping_wait_card">等待用户刷卡</string>
+    <string name="ll_swiping_swip_timeout">连接移动终端超时,重新连接？</string>
+    <string name="ll_swiping_cancel_trade">交易已取消,重新发起交易？</string>
+    <string name="ll_swiping_error_timeout">刷卡或插卡已超时,请按开始再试一次</string>
+    <string name="ll_swiping_error_again">刷卡不良好,请再试刷卡</string>
+    <string name="ll_swiping_POS_again">移动终端已重置</string>
+    <string name="ll_swiping_to_open_pos">请检查移动终端和手机蓝牙，保持打开状态</string>
+    <string name="ll_swiping_bluetooth_disconnected">蓝牙已断开</string>
+    <string name="ll_swiping_pos_nocall">移动终端没有回复</string>
+    <string name="ll_swiping_pos_error">移动终端异常请重试</string>
+    <string name="ll_swiping_pos_busy">移动终端忙碌</string>
+    <string name="ll_swiping_input_error">输入格式无效</string>
+    <string name="ll_swiping_call_error">通讯错误</string>
+    <string name="ll_swiping_pos_mac">MAC错误</string>
+    <string name="ll_swiping_cont_help">连接帮助</string>
+    <string name="ll_swiping_topay_again">是否重新发起交易？</string>
+    <string name="ll_swiping_pos_over">移动终端签到失败，请联系客服。客服电话：400-600-5200</string>
+    <string name="ll_swiping_nobt_find">未搜寻到移动终端，请确保设备处于开机且激活</string>
+    <string name="ll_qrcode_scaning">请扫描终端设备上的二维码</string>
+    <string name="ll_qrcode_no_result">交易超时，重新发起交易？</string>
+    <string name="ll_swiping_wait_applepay">等待支付</string>
+    
+    <string name="ll_regist_open_bt">请先打开手机蓝牙</string>
+    <string name="ll_closed_bluetooth">手机蓝牙异常，请检查</string>
+    <string name="ll_index_swiping_card_text">刷卡收款</string>
+    <string name="ll_index_swiping_preauth_text">刷卡预授权</string>
+    <string name="ll_index_qrcode_weixin_text">微信扫码收款</string>
+    <string name="ll_index_qrcode_applepay_text">Apple Pay收款</string>
+    <string name="ll_index_qrcode_zhifubao_text">支付宝扫码收款</string>
+    
+    <string name="ll_card_print_title_sign">签购单</string>
+    <string name="ll_card_print_title">中国银联</string>
+    <string name="ll_card_print_card_user">持卡人存根</string>
+    <string name="ll_card_print_business">商户存根</string>
+    <string name="ll_card_print_business_english">MERCHANT COPY</string>
+    <string name="ll_card_print_busname">商户名称：</string>
+    <string name="ll_card_print_busnum">商户编号：</string>
+    <string name="ll_card_print_pos_upper">终端编号：</string>
+    <string name="ll_card_print_posid">终端序列号：</string>
+    <string name="ll_card_print_order">订单号：</string>
+    <string name="ll_card_print_operator">操作员：</string>
+    <string name="ll_card_print_acquiring">收单机构：</string>
+    <string name="ll_card_print_comb">发卡机构：</string>
+    <string name="ll_card_print_cardno">卡号：</string>
+    <string name="ll_card_print_bustype">交易类型：</string>
+    <string name="ll_card_print_validity">有效期：</string>
+    <string name="ll_card_print_batchno">批次号：</string>
+    <string name="ll_card_print_certificate">凭证号：</string>
+    <string name="ll_card_print_license">授权码：</string>
+    <string name="ll_card_print_referenceno">参考号：</string>
+    <string name="ll_card_print_date">日期/时间：</string>
+    <string name="ll_card_print_money">金额：</string>
+    <string name="ll_card_print_comments">备注：</string>
+    <string name="ll_card_print_cardsign">持卡人签名：</string>
+    <string name="ll_card_print_textshow">本人确认以上交易，同意将其计入本卡账户</string>
+    <string name="ll_card_print_line">------------------------</string>
+    <string name="ll_card_print_button">更多操作</string>
+    <string name="ll_card_print_more_text">更多操作</string>
+    <string name="ll_card_print_btn_send">发送签购单</string>
+	<string name="ll_card_print_btn_print">打印签购单</string>
+	<string name="ll_card_print_error_nopage">打印机缺纸，请安装打印纸后继续打印.</string>
+	<string name="ll_card_print_error_printer">打印机故障，请检查移动终端</string>
+	<string name="ll_card_print_eror_nopos">未检查到移动终端，请开启设备并打开蓝牙</string>
+	<string name="ll_card_printing_show">正在打印</string>
+	<string name="ll_card_printing_ordershow">正在打印签购单</string>
+	<string name="ll_card_print_text_phone">请输入接收手机号</string>
+	<string name="ll_card_print_edittext_hint">手机号码</string>
+	<string name="ll_card_print_btn_phone">发送</string>
+	
+	<!-- emv参数 -->
+	<string name="ll_card_print_aid">aid:</string>
+	<string name="ll_card_print_aip">aip:</string>
+	<string name="ll_card_print_apm">apm:</string>
+	<string name="ll_card_print_app_label">app_label:</string>
+	<string name="ll_card_print_arqc">arqc:</string>
+	<string name="ll_card_print_atc">atc:</string>
+	<string name="ll_card_print_csn">csn:</string>
+	<string name="ll_card_print_cvmr">cvmr:</string>
+	<string name="ll_card_print_iad">iad:</string>
+	<string name="ll_card_print_term_capa">term_capa:</string>
+	<string name="ll_card_print_tsi">tsi:</string>
+	<string name="ll_card_print_tvr">tvr:</string>
+	<string name="ll_card_print_unpr_num">unpr_num:</string>
+	
+</resources>

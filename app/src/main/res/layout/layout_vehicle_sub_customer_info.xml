@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_activity_vehicle_sub_customer_info"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--客户备注-->
+    <LinearLayout
+
+        style="@style/HCTheme.VehicleSubBlock"
+        android:orientation="vertical">
+
+        <!--客户备注lable-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/HCTheme.TextMain"
+                android:text="@string/vehicle_subscribe_condition_remark_lable"
+                android:textSize="@dimen/hc_text_size_normal" />
+
+            <View
+                android:layout_width="@dimen/margin_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_layout_vehicle_sub_remark_count"
+                style="@style/HCTheme.TextHint"
+                android:layout_height="match_parent"
+                android:text="50"
+                android:textSize="@dimen/hc_text_size_normal" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_vehicle_sub_remark"
+            style="@style/HCTheme.VehicleSubBlock.Remark"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="@dimen/margin_20dp"
+
+            />
+    </LinearLayout>
+</LinearLayout>

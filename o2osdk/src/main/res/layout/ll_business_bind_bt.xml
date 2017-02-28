@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ll_color_tx13"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ll_common_title" />
+
+    <ImageView
+        android:id="@+id/ll_bind_bt_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ll_casher_text_size_10"
+        android:layout_marginRight="@dimen/ll_casher_text_size_10"
+        android:layout_gravity="center"
+        android:layout_marginTop="46dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ll_business_bind_top" />
+
+    <TextView
+        android:id="@+id/ll_bind_bt_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/ll_color_tx6"
+        android:textSize="@dimen/ll_casher_text_size_18" />
+
+    <ListView
+        android:id="@+id/ll_bind_bt_list"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="@dimen/ll_casher_text_size_10"
+        android:layout_marginRight="@dimen/ll_casher_text_size_10"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ll_bg_qrcode"
+        android:divider="@null"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="3dp"
+        android:scrollbars="none" >
+    </ListView>
+
+    <Button
+        android:id="@+id/ll_bind_bt_button"
+        style="@style/LLButton.Next"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ll_next_button_height"
+        android:layout_marginLeft="@dimen/ll_casher_text_size_10"
+        android:layout_marginRight="@dimen/ll_casher_text_size_10"
+        android:layout_marginTop="36dp"
+        android:enabled="false"
+        android:text="@string/ll_bind_bt_button"
+        android:textColor="@color/ll_color_tx13"
+        android:textSize="@dimen/ll_casher_text_size_18" />
+    <TextView
+        android:id="@+id/ll_bind_text_button_down"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ll_casher_text_size_12"
+        android:layout_marginLeft="@dimen/ll_casher_text_size_10"
+        android:text="@string/ll_bind_text_nopos"
+        android:textColor="#999999"
+        android:textSize="@dimen/ll_casher_text_size_10" />
+
+
+</LinearLayout>

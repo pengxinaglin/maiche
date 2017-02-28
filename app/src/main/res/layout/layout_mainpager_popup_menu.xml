@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_popup_menu_appraisal"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_white_turn_gray"
+        android:paddingBottom="@dimen/margin_12dp"
+        android:paddingLeft="@dimen/margin_12dp"
+        android:paddingTop="@dimen/margin_12dp"
+        android:text="@string/hc_popup_menu_titlebar_appraisal"
+        android:textColor="@color/hc_self_black"
+        android:textSize="@dimen/font_16"
+        />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:background="@color/divider_line"
+        />
+
+    <TextView
+        android:id="@+id/tv_popup_menu_wukong"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_white_turn_gray"
+        android:paddingBottom="@dimen/margin_12dp"
+        android:paddingLeft="@dimen/margin_12dp"
+        android:paddingTop="@dimen/margin_12dp"
+        android:text="悟空保"
+        android:textColor="@color/hc_self_black"
+        android:textSize="@dimen/font_16"
+        />
+
+    <LinearLayout
+        android:id="@+id/store_layout"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color_white_turn_gray"
+            android:duplicateParentState="true"
+            android:paddingBottom="@dimen/margin_12dp"
+            android:paddingLeft="@dimen/margin_12dp"
+            android:paddingTop="@dimen/margin_12dp"
+            android:text="@string/store"
+            android:textColor="@color/hc_self_black"
+            android:textSize="@dimen/font_16"
+            />
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="1dp"
+            android:background="@color/divider_line"
+            />
+    </LinearLayout>
+
+</LinearLayout>

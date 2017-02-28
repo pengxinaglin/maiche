@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rel_brand_parent"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/brand_letter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e6e6e6"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/UMAppUpdate"
+        android:textColor="@color/promote_black"
+        android:textSize="14sp"/>
+
+    <com.haoche51.sales.custom.HCTextView
+        android:id="@+id/brand_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/brand_letter"
+        android:background="@drawable/selector_common_click"
+        android:drawableLeft="@drawable/empty_brand"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/self_grey"
+        android:textSize="14sp"/>
+
+</RelativeLayout>

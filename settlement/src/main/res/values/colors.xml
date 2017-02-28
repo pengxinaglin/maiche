@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 透明 -->
+    <color name="pay_transparent">#00000000</color>
+    <!-- 白色 -->
+    <color name="pay_white">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="pay_black">#000000</color>
+    <!-- 标题栏背景颜色 -->
+    <color name="pay_titlebar">#393A3F</color>
+    <!-- 标题按钮点击态颜色 -->
+    <color name="pay_titlebar_click">#2E2E32</color>
+    <!-- 高灰色(用于item副标题等) -->
+    <color name="pay_high_gray">#666666</color>
+    <!-- 中灰色(用于label等) -->
+    <color name="pay_middle_gray">#888888</color>
+    <!-- 低灰色(用于界面提示等) -->
+    <color name="pay_low_gray">#A9A9A9</color>
+    <!-- 输入框提示颜色 -->
+    <color name="pay_edit_text_hint">#BBBBBB</color>
+    <!-- item点击态 -->
+    <color name="pay_item_click">#9F9F9F</color>
+    <!-- 分割线颜色 -->
+    <color name="pay_divider_line">#D9D9D9</color>
+    <!-- 分隔行颜色 -->
+    <color name="pay_divider_row">#EBEBEB</color>
+    <!-- 红色-正常态 -->
+    <color name="pay_red">#FF3333</color>
+    <!-- 红色-点击态 -->
+    <color name="pay_red_click">#BC1A1A</color>
+    <!--半透明-搜索蒙板 -->
+    <color name="pay_half_black">#55000000</color>
+
+
+    <color name="pay_ksw_md_ripple_normal">#1E000000</color>
+    <color name="pay_ksw_md_ripple_checked">#33019285</color>
+    <color name="pay_ksw_md_solid_shadow">#33000000</color>
+    <color name="pay_ksw_md_solid_normal">#ECECEC</color>
+    <color name="pay_ksw_md_solid_checked">#019285</color>
+    <color name="pay_ksw_md_solid_disable">#FFFFFF</color>
+    <color name="pay_ksw_md_solid_checked_disable">#aaaaaa</color>
+
+    <color name="pay_self_gray">#4D4D4D</color>
+    <color name="pay_self_background">#d9d9d9</color>
+
+    <color name="pay_half_transparent">#b0000000</color>
+    <color name="pay_transfer_item_gray">#cccccc</color>
+
+    <color name="pay_self_black">#263238</color>
+    <color name="pay_indicator">#06c1ae</color>
+    <color name="pay_self_input_bg">#f5f8fa</color>
+
+    <color name="pay_again_send">#6600FF</color>
+    <color name="hc_blue">#007aff</color>
+    <color name="transfer_item_gray">#cccccc</color>
+</resources>

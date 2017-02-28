@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--刷卡金额-->
+    <LinearLayout
+        android:id="@+id/ll_intention_pospay_price"
+        style="@style/hc_ll_transfer_info"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_intention_pospay_price" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/et_intention_pospay_price"
+                style="@style/HCTheme.VehicleSubBlock.Input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:paddingRight="@dimen/margin_25dp" />
+
+            <TextView
+                style="@style/wh_wrap"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:text="@string/hc_yuan"
+                android:textSize="@dimen/hc_text_size_normal" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <!--车源编号-->
+    <LinearLayout
+        android:id="@+id/ll_intention_pospay_vehicle_id"
+        style="@style/hc_ll_transfer_info"
+        android:layout_below="@+id/ll_intention_pospay_price"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_intention_pospay_vehicle" />
+
+        <EditText
+            android:id="@+id/et_intention_pospay_vehicle_id"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:paddingRight="@dimen/margin_25dp" />
+
+    </LinearLayout>
+
+    <!--操作员-->
+    <LinearLayout
+        android:id="@+id/ll_intention_pospay_operator"
+        style="@style/hc_ll_transfer_info"
+        android:layout_below="@+id/ll_intention_pospay_vehicle_id"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_intention_pospay_operator" />
+
+        <EditText
+            android:id="@+id/et_intention_pospay_operator"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingRight="@dimen/margin_25dp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_transaction_pospay_lianlian"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/color_red_turn_deep"
+        android:gravity="center"
+        android:text="@string/hc_intention_pospay_lianlian"
+        android:textColor="@color/hc_self_white"
+        android:textSize="@dimen/hc_text_size_middle"
+        android:visibility="visible" />
+</RelativeLayout>

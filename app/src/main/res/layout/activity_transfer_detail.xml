@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hc_self_gray_bg"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_custom_state"
+                />
+
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transfer_detail_info"/>
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transaction_vc_price"/>
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transfer_deal_price"/>
+
+
+            <include
+                layout="@layout/layout_transfer_detail_contact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_10dp"/>
+
+            <include
+                layout="@layout/layout_transfer_detail_extinfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        layout="@layout/layout_transfer_detail_bottom_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

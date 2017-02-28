@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/height_10dp"
+              android:background="@color/self_white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginBottom="@dimen/height_10dp"
+        android:layout_marginTop="@dimen/height_10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_vehicle_equal_sys"
+            android:textColor="@color/hc_self_black"/>
+
+        <RadioGroup
+            android:id="@+id/rg_vehicle_equal_sys"
+            style="@style/hc_weight1_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_equal_sys"
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_yes"
+                android:checked="true"
+                android:gravity="center"/>
+
+            <RadioButton
+                android:id="@+id/rb_unequal_sys"
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_no"
+                android:gravity="center"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_vehicle_unequal_reason"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:horizontalSpacing="@dimen/margin_5dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_vehicle_unequal_reason_normal"
+                android:button="@null"
+                android:gravity="center"
+                android:onClick="onChooseReason"
+                android:text="发动机排量不符"
+                android:textColor="@color/hc_half_black"
+                android:textSize="@dimen/hc_text_size_normal">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_vehicle_unequal_reason_normal"
+                android:button="@null"
+                android:gravity="center"
+                android:onClick="onChooseReason"
+                android:text="变速箱不符"
+                android:textColor="@color/hc_half_black"
+                android:textSize="@dimen/hc_text_size_normal">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_vehicle_unequal_reason_normal"
+                android:button="@null"
+                android:gravity="center"
+                android:onClick="onChooseReason"
+                android:text="天窗不符"
+                android:textColor="@color/hc_half_black"
+                android:textSize="@dimen/hc_text_size_normal">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_vehicle_unequal_reason_normal"
+                android:button="@null"
+                android:gravity="center"
+                android:onClick="onChooseReason"
+                android:text="上牌时间不符"
+                android:textColor="@color/hc_half_black"
+                android:textSize="@dimen/hc_text_size_normal">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_vehicle_unequal_reason_normal"
+                android:button="@null"
+                android:gravity="center"
+                android:onClick="onChooseReason"
+                android:text="过户时间不符"
+                android:textColor="@color/hc_half_black"
+                android:textSize="@dimen/hc_text_size_normal">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_vehicle_unequal_reason_normal"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@color/hc_half_black"
+                android:textSize="@dimen/hc_text_size_normal"
+                android:visibility="invisible">
+
+            </Button>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_unequal_reason"
+            style="@style/hc_ed_quit_buy"
+            android:layout_marginBottom="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:hint="填写不符原因"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

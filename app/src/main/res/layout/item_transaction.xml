@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/color_white_turn_gray"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/margin_5dp">
+
+    <!--我的客户列表Item-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_item_buyer_name"
+            style="@style/hc_tv_name"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/margin_15dp"
+            android:text="---"/>
+
+        <TextView
+            android:id="@+id/tv_item_transaction_source"
+            style="@style/tv_source"
+            android:layout_width="@dimen/margin_30dp"
+            android:layout_height="@dimen/margin_18dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_item_buyer_name"
+            android:text="---"/>
+
+        <TextView
+            android:id="@+id/tv_item_today_task"
+            style="@style/hc_tv_name"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_4dp"
+            android:layout_toRightOf="@+id/tv_item_transaction_source"
+            android:text="[车商]"
+            android:textColor="@color/hc_self_red"
+            android:textSize="@dimen/hc_text_size_normal"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_item_buyer_phone"
+            style="@style/hc_tv_phone"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/margin_15dp"
+            android:text="----"
+            android:textColorLink="@color/hc_indicator"
+            android:textSize="@dimen/hc_text_size_large"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_item_transaction_time_label"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/p_appoint_time"/>
+
+        <TextView
+            android:id="@+id/tv_item_transaction_time"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_item_transaction_time_label"
+            android:gravity="right"
+            android:text="------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_item_transaction_add_label"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_transaction_add"/>
+
+        <TextView
+            android:id="@+id/tv_item_transaction_address"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_item_transaction_add_label"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_10dp">
+
+        <TextView
+            android:id="@+id/tv_item_transaction_vehicle_label"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_name"/>
+
+        <TextView
+            android:id="@+id/tv_item_transaction_vehicle"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_item_transaction_vehicle_label"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="-----------"/>
+    </RelativeLayout>
+
+</LinearLayout>

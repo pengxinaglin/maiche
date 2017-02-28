@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/self_white"
+    android:id="@+id/ll_msg_item"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_1dp"
+        android:background="@color/hc_self_gray_bg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/message_title"
+            style="@style/HCTheme.TextHint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:gravity="left"
+            android:padding="@dimen/margin_15dp"
+            android:text="新的任务"
+            android:textColor="@color/hc_indicator"
+            android:textSize="@dimen/margin_14dp"/>
+
+        <TextView
+            android:id="@+id/message_date"
+            style="@style/HCTheme.TextHint"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:drawableRight="@drawable/ic_setting_arrow"
+            android:paddingRight="@dimen/margin_15dp"
+            android:text="2016-10-15 15:00"
+            android:textSize="@dimen/margin_14dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/dash_graylight_line"
+        android:layerType="software"
+        />
+
+    <TextView
+        android:id="@+id/message_detail"
+        style="@style/HCTheme.TextHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="@dimen/margin_15dp"
+        android:text="xxxxxxxxxxxxxxxxxxxxxxx"
+        android:textSize="@dimen/margin_14dp"
+        />
+
+</LinearLayout>

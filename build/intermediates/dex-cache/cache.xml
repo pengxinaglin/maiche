@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-22.2.0_64f05f8adb554e31437610c1d3fb67b5fc46103e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-22.2.0_4971033be9072bf582c924156617f4f9cd091905/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="f4e7adebf49e683db82fb6efac2caaf3d768b8d4">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.squareup.leakcanary-leakcanary-android-1.3_c651ab599a2b0911fdfeb09ace41603be7f1d826/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/dspread_android_sdk_2.1.8_02.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="3b684635b79046e2677341f80c249ef1ed57640b">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/dspread_android_sdk_2.1.8_02_4826cb180721260243f15c883e73c0ae3e29c08d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_fcd7bf57330797c3eaeb05d042207c4ab7ecac63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.jungly/gridPasswordView/0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="6e62346608e2fb3e9eae3e9351c31672f053fca2">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jungly-gridPasswordView-0.3_8b929c3ac3f48f0de93c6dffa7706e6e8d603887/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.2_5b3e5cf9d065112e077b69570116ae6bf89f72c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_9499bc38c172538bae06bd65c9f455636cdde92a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_960e906e606a0b342936184fd389de6b539f4acf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/1.1/b7b2e61ee1ad2d1ac6ae3122de9c940fb0d0e635/haha-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b7b2e61ee1ad2d1ac6ae3122de9c940fb0d0e635">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/haha-1.1_b8d050365a737503e52c17b153d268aaa3028bfd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/umeng-update-v2.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ee700e317f574886dc0a236b801f219df6fbd26d">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/umeng-update-v2.4.2_6add9339d7ff998390a7e604f34b895ac37c390f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.umeng.analytics/analytics/6.0.9/5259c1d58a8f2373c2bbb7cb0ff33aee0eef4503/analytics-6.0.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="5259c1d58a8f2373c2bbb7cb0ff33aee0eef4503">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/analytics-6.0.9_67277d5ad2825eed29a8c350c6f96946adbb03ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="14f2b55ce8e60cfa037a5a96fa14fa1a03a0b8c7">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_066c7b1d904cefacac4fcfd44de108ae7874c321/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/pushservice-4.6.0.68.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="9e621de2ae1a572cdacf774c655fcd4c0caa85b3">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/pushservice-4.6.0.68_d61c8480c5c0fc579e61f17d61fcac015d872cea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.3/632482a61ad24b7ec864072945d221369f9a606/leakcanary-watcher-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="0632482a61ad24b7ec864072945d221369f9a606">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-watcher-1.3_80243ba4e3f6d9cab6f944854c660ed115b2d89f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.networkbench.newlens.agent.android/nbs.newlens.agent/2.3.1/4733e2da310cbd006999bd5d378e75c11ec4502d/nbs.newlens.agent-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4733e2da310cbd006999bd5d378e75c11ec4502d">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/nbs.newlens.agent-2.3.1_b37aaf203bb27d75c85ee6cb102dec749fd7569b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/reader_landicorp_1.1.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="860fed2ce7cbfe4741dedb3f16d9e09cbba122a6">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/reader_landicorp_1.1.7_fce7c27773eb298281743a9be85cfe855f34431e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/universal-image-loader-1.9.3_53cab49468870ec08dadc90335bff6a61f47b4d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/libammsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/libammsdk_3f2f8c46386872d3e837f465550aec83f3506fbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/android-saripaar-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c24cfd9331b6d5a2ee15dccb60774c7cc5debd99">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-saripaar-1.0.3_ca1bf077c03e22d28e7787594a97b61b3a311997/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="a79cbcb72c6a97de71040365767d14d4c38f86cf">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9df50cb31fb55d2551f5c01feec0f641ddec5436/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/yintong_o2o.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="e06a0471b1fbed8818767658cf204187023d1f00">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/yintong_o2o_5d540fee5505d178dbd49388385d22caec0d1897/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.10/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="f7aa9a64408679b54260b859ae8eb723b69ecd30">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/in.srain.cube-ultra-ptr-1.0.10_60f545717ef4ef77ee3d1c78d49edf85817dbce5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.0/a7537446a030da8eb0da4c71424d16c2589f6c4a/glide-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.6.0_427b655f82853a40a654d25152dec8b474fc064e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/locSDK_6.13.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/locSDK_6.13_c16766e1e418a88414b39fae495c67cf5356350a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/core-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="fb52cf43975eb06d1696b341b5b7d8e40e8a59e5">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/core-3.0.0_d8194df60e9cdc35c1486f0caabdfab8eba192b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/1.1/b7b2e61ee1ad2d1ac6ae3122de9c940fb0d0e635/haha-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="b7b2e61ee1ad2d1ac6ae3122de9c940fb0d0e635">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/haha-1.1_b8d050365a737503e52c17b153d268aaa3028bfd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.3/c5399b18a672f7973c8a9b9d6b731a3a36e590cc/leakcanary-analyzer-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c5399b18a672f7973c8a9b9d6b731a3a36e590cc">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-analyzer-1.3_1805b7337d89eceff071d990a80dd0f124247050/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ceede7b6556204fe68873cfa1abc3dd98139fef5">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9df50cb31fb55d2551f5c01feec0f641ddec5436/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/locSDK_6.13.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/locSDK_6.13_c16766e1e418a88414b39fae495c67cf5356350a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_fcd7bf57330797c3eaeb05d042207c4ab7ecac63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/dspread_android_sdk_2.1.8_02.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3b684635b79046e2677341f80c249ef1ed57640b">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/dspread_android_sdk_2.1.8_02_4826cb180721260243f15c883e73c0ae3e29c08d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.3/c5399b18a672f7973c8a9b9d6b731a3a36e590cc/leakcanary-analyzer-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c5399b18a672f7973c8a9b9d6b731a3a36e590cc">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-analyzer-1.3_1805b7337d89eceff071d990a80dd0f124247050/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.jungly/gridPasswordView/0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e62346608e2fb3e9eae3e9351c31672f053fca2">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jungly-gridPasswordView-0.3_8b929c3ac3f48f0de93c6dffa7706e6e8d603887/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-22.2.0_4971033be9072bf582c924156617f4f9cd091905/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/o2osdk-lib.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="7c903200904634ac75f677e2df0193bababd9cc6">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/o2osdk-lib_2083efc617d732be829d5fdbe5d59a0b4df033a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/library/1.4.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="1ccc48d671038e7f5ab1c79092ec33bca77c2311">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.ogaclejapan.smarttablayout-library-1.4.1_4c80bcb6e0f30339bc436e4c41f9fb2426cf0d8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.1_8fae63bfdb81eb8c05c7300b2a20a85506d3f008/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.2_5b3e5cf9d065112e077b69570116ae6bf89f72c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.8/77bbfe240e437ecb396d982afa0d3bd4f9090ba7/android-async-http-1.4.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.8_93c81dad55e7caf5ca5d4489fe6f72feed6058c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/core-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fb52cf43975eb06d1696b341b5b7d8e40e8a59e5">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/core-3.0.0_d8194df60e9cdc35c1486f0caabdfab8eba192b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.0/a7537446a030da8eb0da4c71424d16c2589f6c4a/glide-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.6.0_427b655f82853a40a654d25152dec8b474fc064e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.10/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f7aa9a64408679b54260b859ae8eb723b69ecd30">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/in.srain.cube-ultra-ptr-1.0.10_60f545717ef4ef77ee3d1c78d49edf85817dbce5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.3/632482a61ad24b7ec864072945d221369f9a606/leakcanary-watcher-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0632482a61ad24b7ec864072945d221369f9a606">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-watcher-1.3_80243ba4e3f6d9cab6f944854c660ed115b2d89f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/LandiCommDriver.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="aa1050a12a6d8bb33f9d6c8a9cbb3e7af3a726cc">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/LandiCommDriver_3aafc514f330a98a610f49b63a564ea571d8f7a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_960e906e606a0b342936184fd389de6b539f4acf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.qiniu/happy-dns/0.2.11/167d00c3da419367bdcc42f39a8fbf96c24fbbaf/happy-dns-0.2.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="167d00c3da419367bdcc42f39a8fbf96c24fbbaf">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/happy-dns-0.2.11_229030bae4fccfdecee47e17a55993500db7bfd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/reader_landicorp_1.1.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="860fed2ce7cbfe4741dedb3f16d9e09cbba122a6">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/reader_landicorp_1.1.7_fce7c27773eb298281743a9be85cfe855f34431e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_c2db20cabc414e87c12224bea7edbe19f7e0208e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/httpmime-4.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3b762f16a072dbe778a2b72531974b1f133cb15b">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/httpmime-4.1.1_f1c64bc9b32c12797bfa2b9aadfaf4cdae375a3d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_9499bc38c172538bae06bd65c9f455636cdde92a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/pinyin4j-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/pinyin4j-2.5.0_1092b198b8aa01b06b26b17c108a8a2b42264568/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/android-saripaar-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c24cfd9331b6d5a2ee15dccb60774c7cc5debd99">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-saripaar-1.0.3_ca1bf077c03e22d28e7787594a97b61b3a311997/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_bba096a268d172d1ca8654e7b27976aedb86eba3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.0_d6a2406801198589a7cc412e02073279a9f17aa5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.0_5a89a3221de1a40d20dcd9736f80f429bd58cede/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/pushservice-4.6.0.68.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9e621de2ae1a572cdacf774c655fcd4c0caa85b3">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/pushservice-4.6.0.68_d61c8480c5c0fc579e61f17d61fcac015d872cea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_b6af4745f704b9b5c4ab46d80a9131c3a3875637/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/iBridge.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5b4d99f1893fb6881e79e863f37e5ebf559e4f77">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/iBridge_2e7eda7f5ee9c086234bb35dcebc9b31ddf25ab4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/library/1.4.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1ccc48d671038e7f5ab1c79092ec33bca77c2311">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.ogaclejapan.smarttablayout-library-1.4.1_4c80bcb6e0f30339bc436e4c41f9fb2426cf0d8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/JBIG.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2d691a385de4716fb94191aacd56ad0ffcfb6931">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/JBIG_145624b7af3cddd9dd01d3576bfa85ca9bee2b62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/iBridge.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="5b4d99f1893fb6881e79e863f37e5ebf559e4f77">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/iBridge_2e7eda7f5ee9c086234bb35dcebc9b31ddf25ab4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.1_8fae63bfdb81eb8c05c7300b2a20a85506d3f008/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="74ec6ffe1138ca5290a008a44d541e703d0d52bb">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_066c7b1d904cefacac4fcfd44de108ae7874c321/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_9d517f414cc71b5a33f52ddf3c3bb533ec8cd96a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/xUtils-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="455d08e790d5728ef6fd13ad4f6a524726c7bd9b">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/xUtils-2.6.2_b19c0a04e6af071ed63585b97e20b5cbd716071c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/httpmime-4.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="3b762f16a072dbe778a2b72531974b1f133cb15b">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/httpmime-4.1.1_f1c64bc9b32c12797bfa2b9aadfaf4cdae375a3d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_bba096a268d172d1ca8654e7b27976aedb86eba3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/pinyin4j-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/pinyin4j-2.5.0_1092b198b8aa01b06b26b17c108a8a2b42264568/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/umeng-update-v2.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="ee700e317f574886dc0a236b801f219df6fbd26d">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/umeng-update-v2.4.2_6add9339d7ff998390a7e604f34b895ac37c390f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_b6af4745f704b9b5c4ab46d80a9131c3a3875637/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/universal-image-loader-1.9.3_53cab49468870ec08dadc90335bff6a61f47b4d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/LandiCommDriver.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="aa1050a12a6d8bb33f9d6c8a9cbb3e7af3a726cc">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/LandiCommDriver_3aafc514f330a98a610f49b63a564ea571d8f7a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.8/77bbfe240e437ecb396d982afa0d3bd4f9090ba7/android-async-http-1.4.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.8_93c81dad55e7caf5ca5d4489fe6f72feed6058c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/JBIG.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2d691a385de4716fb94191aacd56ad0ffcfb6931">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/JBIG_145624b7af3cddd9dd01d3576bfa85ca9bee2b62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.networkbench.newlens.agent.android/nbs.newlens.agent/2.3.1/4733e2da310cbd006999bd5d378e75c11ec4502d/nbs.newlens.agent-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4733e2da310cbd006999bd5d378e75c11ec4502d">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/nbs.newlens.agent-2.3.1_b37aaf203bb27d75c85ee6cb102dec749fd7569b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/xUtils-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="455d08e790d5728ef6fd13ad4f6a524726c7bd9b">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/xUtils-2.6.2_b19c0a04e6af071ed63585b97e20b5cbd716071c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/o2osdk-lib.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cb4d9a3edfdcffe89c8458045e7fb6607faf6e0e">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/o2osdk-lib_2083efc617d732be829d5fdbe5d59a0b4df033a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f4e7adebf49e683db82fb6efac2caaf3d768b8d4">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.squareup.leakcanary-leakcanary-android-1.3_c651ab599a2b0911fdfeb09ace41603be7f1d826/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/libs/libammsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/2/libammsdk_3f2f8c46386872d3e837f465550aec83f3506fbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.0_d6a2406801198589a7cc412e02073279a9f17aa5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/android_studio_sales/o2osdk/unspecified/jars/libs/yintong_o2o.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e06a0471b1fbed8818767658cf204187023d1f00">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/8/yintong_o2o_5d540fee5505d178dbd49388385d22caec0d1897/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/mac/Documents/AndroidProject/android_studio_sales/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-22.2.0_64f05f8adb554e31437610c1d3fb67b5fc46103e/classes.dex" />
+    </item>
+
+</items>

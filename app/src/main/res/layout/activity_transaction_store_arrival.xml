@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hc_self_white"
+        android:fillViewport="true"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_buyer_name"
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/hc_isarrival"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_isarrival"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_nomeet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hc_unarrival"/>
+
+                    <RadioButton
+                        android:id="@+id/rb_meet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_15dp"
+                        android:text="@string/hc_arrivaled"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/hc_transaction_customer_arrival"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <TextView
+                    android:id="@+id/tv_arrival_time"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="---默认提交时间---"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/font_16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/hc_custom_level"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <Spinner
+                    android:id="@+id/sp_buyer_level"
+                    style="@style/HCTheme.VehicleSubBlock.Spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:entries="@array/filter_level"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/hc_next_revisit_time"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <Spinner
+                    android:id="@+id/sp_buyer_revisit"
+                    style="@style/HCTheme.VehicleSubBlock.Spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:entries="@array/revisit_n"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_revisit"
+                style="@style/HCTheme.VehicleSubBlock.Remark"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="@dimen/margin_15dp"
+                android:hint="@string/hc_transaction_revisit"/>
+
+            <Button
+                android:id="@+id/revisit_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_45dp"
+                android:layout_marginBottom="@dimen/margin_5dp"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:background="@drawable/color_red_turn_deep"
+                android:text="@string/commit"
+                android:textColor="@color/hc_self_white"
+                android:textSize="@dimen/font_16"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_customer_state"
+        style="@style/hc_succeed_state_ll"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_audit_status"
+            style="@style/hc_succeed_state"
+            android:textColor="@color/hc_titlebar_black"
+            android:paddingBottom="@dimen/margin_15dp"
+            android:paddingTop="@dimen/margin_15dp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_audit_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/margin_15dp"
+            android:textSize="@dimen/margin_12dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+</FrameLayout>

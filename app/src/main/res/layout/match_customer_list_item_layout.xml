@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@color/hc_self_gray_bg"
+    >
+
+
+    <!-- <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/hc_self_gray_bg"
+         android:orientation="vertical">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/self_white"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/margin_20dp"
+                android:paddingLeft="@dimen/margin_15dp"
+                android:paddingRight="@dimen/margin_15dp"
+                android:paddingTop="@dimen/margin_20dp">
+
+                <TextView
+                    android:id="@+id/text_view_match_customer_list_item_layout_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/margin_16dp"/>
+
+                <TextView
+                    android:layout_width="@dimen/margin_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/text_view_match_customer_list_item_layout_phone"
+                    style="@style/hc_tv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_phone"
+                    android:drawablePadding="@dimen/margin_3dp"
+                    android:text="--"
+                    android:textColor="@color/hc_indicator"
+                    android:textSize="@dimen/margin_14dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_view_match_customer_list_item_layout_vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_15dp"
+                android:paddingRight="@dimen/margin_15dp"
+                android:text="--"
+                android:textColor="@color/hc_self_black"
+                android:textSize="@dimen/margin_12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/margin_15dp"
+                android:paddingRight="@dimen/margin_15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="价格范围"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/margin_12dp"/>
+
+                <TextView
+                    android:id="@+id/text_view_match_customer_list_item_layout_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="--"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/margin_12dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/margin_15dp"
+                android:paddingRight="@dimen/margin_15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="客户备注"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/margin_12dp"
+                    />
+
+                <TextView
+                    android:id="@+id/text_view_match_customer_list_item_layout_remark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="--"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/margin_12dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/button_match_customer_list_item_layout_shares"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/color_gray_turn_deep"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_15dp"
+                    android:drawableLeft="@drawable/ic_hc_share"
+                    android:drawablePadding="@dimen/margin_10dp"
+                    android:focusable="false"
+                    android:text="分享"
+                    android:textColor="@color/hc_indicator"
+                    android:textSize="@dimen/font_16"
+                    android:visibility="visible"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    <!--</android.support.v7.widget.CardView>-->
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/hc_ll_transfer_info"
+    android:layout_height="@dimen/height_35dp"
+    android:layout_marginTop="@dimen/margin_0dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        style="@style/HCTheme.TextHint.Lable"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/hc_city"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical|left">
+
+        <Spinner
+            android:id="@+id/spn_city"
+            android:layout_width="match_parent"
+            style="@style/HCTheme.VehicleSubBlock.Spinner"
+            />
+
+        <ImageView
+            style="@style/wh_wrap"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_5dp"
+            android:src="@drawable/ic_hc_spinner_arrow"/>
+    </RelativeLayout>
+
+</LinearLayout>

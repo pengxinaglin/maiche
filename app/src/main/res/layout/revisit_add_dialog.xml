@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="完成买家回访，加油！"
+        android:textColor="@color/hc_indicator"
+        android:textSize="@dimen/hc_text_size_middle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="有回访，必有成交！"
+        android:textSize="@dimen/hc_text_size_middle" />
+
+    <TextView
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/hc_self_red"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/hc_self_white"
+        android:textSize="@dimen/hc_text_size_middle" />
+
+</LinearLayout>

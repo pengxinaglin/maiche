@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/hc_self_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_15dp"
+        android:paddingRight="@dimen/margin_15dp"
+        android:paddingTop="@dimen/margin_20dp"
+        android:paddingBottom="@dimen/margin_10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/margin_15dp">
+
+            <TextView
+                android:id="@+id/time_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14:20:32"
+                android:textColor="@color/hc_self_black"
+                android:textSize="@dimen/font_14" />
+
+            <TextView
+                android:id="@+id/content_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="准备资料去带看，车源编号87993。车主预约在2点40左右"
+                android:textColor="@color/hc_self_black"
+                android:textSize="@dimen/font_16"
+                android:lineSpacingExtra="@dimen/margin_2dp"
+                android:layout_marginTop="@dimen/margin_8dp" />
+
+            <TextView
+                android:id="@+id/place_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="海淀区：西二旗大街"
+                android:textColor="@color/hc_self_gray"
+                android:textSize="@dimen/font_12"
+                android:layout_marginTop="@dimen/margin_20dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/reply_image_view"
+            android:layout_width="@dimen/margin_80dp"
+            android:layout_height="@dimen/margin_80dp"
+            android:background="@drawable/image_click_shadow"
+            android:src="@drawable/image_default_load"
+            android:scaleType="fitCenter"
+            android:layout_alignParentRight="true" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/hc_self_gray_bg"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/work_report_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin_15dp"
+        android:paddingRight="@dimen/margin_15dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:visibility="gone" />
+</LinearLayout>

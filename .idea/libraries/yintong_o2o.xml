@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="yintong_o2o">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/o2osdk/libs/yintong_o2o.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

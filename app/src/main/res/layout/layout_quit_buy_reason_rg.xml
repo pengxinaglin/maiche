@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    android:id="@+id/rg_quit_buy_reason"
+    style="@style/wh_mw"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RadioButton
+        android:id="@+id/rb_quit_buy_nomeet"
+        style="@style/hc_rb_quit_buy_reason"
+        android:text="@string/hc_nomeet"/>
+
+    <RadioButton
+        android:id="@+id/rb_quit_buy_pricebad"
+        style="@style/hc_rb_quit_buy_reason"
+        android:text="@string/hc_price_bad"/>
+
+    <RadioButton
+        android:id="@+id/rb_quit_buy_lookbad"
+        style="@style/hc_rb_quit_buy_reason"
+        android:text="@string/hc_look_bad"/>
+
+</RadioGroup>

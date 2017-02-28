@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/self_white"
+    android:orientation="vertical">
+
+
+    <com.haoche51.sales.custom.HCSmartTabLayout
+        android:id="@+id/hc_smarttab_layout_content_view"
+        style="@style/wh_match"/>
+
+    <FrameLayout
+        android:id="@+id/fl_activity_common_smarttab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

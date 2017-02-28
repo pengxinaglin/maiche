@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <WebView
+            android:id="@+id/web_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/view_for_progress"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:background="@color/reminder_red" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hc_self_gray_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_activity_evaluation_download_path"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/hc_self_white"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/margin_10dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/margin_10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_activity_evaluation_download_path"
+            style="@style/HCTheme.TextHint"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:text="download/"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_report_download"
+            android:layout_width="@dimen/margin_80dp"
+            android:layout_height="@dimen/height_35dp"
+            android:background="@drawable/color_red_turn_deep"
+            android:layout_marginLeft="@dimen/margin_22dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:text="下载"
+            android:textColor="@color/hc_self_white"
+            android:textSize="@dimen/hc_text_size_middle" />
+    </LinearLayout>
+</LinearLayout>

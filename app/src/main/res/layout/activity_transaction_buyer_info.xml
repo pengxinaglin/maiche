@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_custom_state"
+                />
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transaction_buyer_info"
+                />
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transaction_vc_price"/>
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_vehicle_transfer_price"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hc_self_white"
+                android:paddingBottom="@dimen/margin_10dp"
+                android:paddingTop="@dimen/margin_10dp">
+
+                <include
+                    style="@style/wh_mw"
+                    layout="@layout/layout_seller_contact"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transaction_success_contract_photos"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transaction_prepay_transfer_photo"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transaction_comment"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transaction_suc_buyer_detail"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        layout="@layout/layout_transaction_suc_bottom_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        >
+    </include>
+
+    <LinearLayout
+        android:id="@+id/ll_upload_transfer_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hc_self_red"
+        android:clickable="true"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/tv_upload_transfer_picture"
+            style="@style/hc_transfer_tv_2"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:padding="@dimen/margin_15dp"
+            android:text="@string/hc_upload_transfer_picture"
+            />
+    </LinearLayout>
+</LinearLayout>

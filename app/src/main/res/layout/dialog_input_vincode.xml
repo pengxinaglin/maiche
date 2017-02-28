@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_30dp"
+        android:text="@string/tips"
+        android:textSize="16sp"
+        android:textColor="@color/self_white"
+        android:paddingLeft="@dimen/margin_5dp"
+        android:gravity="center_vertical"
+        android:background="@color/hc_backgroud_black"/>
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_100dp"
+        android:paddingLeft="@dimen/margin_5dp"
+        android:hint="请输入VIN码"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:textColorHint="@color/self_grey"
+        android:layout_margin="15dp"
+        android:background="@drawable/shape_main_edit"/>
+
+    <include layout="@layout/dialog_button"/>
+</LinearLayout>

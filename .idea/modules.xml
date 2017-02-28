@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_studio_sales.iml" filepath="$PROJECT_DIR$/android_studio_sales.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hccorelib/hccorelib.iml" filepath="$PROJECT_DIR$/hccorelib/hccorelib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hctimepicker/hctimepicker.iml" filepath="$PROJECT_DIR$/hctimepicker/hctimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/o2osdk/o2osdk.iml" filepath="$PROJECT_DIR$/o2osdk/o2osdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photospicker/photospicker.iml" filepath="$PROJECT_DIR$/photospicker/photospicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiniu/qiniu.iml" filepath="$PROJECT_DIR$/qiniu/qiniu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/settlement/settlement.iml" filepath="$PROJECT_DIR$/settlement/settlement.iml" />
+    </modules>
+  </component>
+</project>

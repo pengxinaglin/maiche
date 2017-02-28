@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/self_white"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/height_10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_transfer_info_lable"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_transfer_detail_title"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_info"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_transfer_info_lable"
+            android:gravity="right"
+            android:text="------ --:-- ----"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_transfer_order_time"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_order_time"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="------ --:--"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_transfer_order_number"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_order_number"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="------ --:--"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_transfer_vc_id_label"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_source_id"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_vc_id"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_transfer_vc_id_label"
+            android:gravity="right"
+            android:text="-----------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_transfer_plate_number_label"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_plate_number"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_plate_number"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_transfer_plate_number_label"
+            android:gravity="right"
+            android:text="------"
+            android:textSize="@dimen/margin_12dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_transfer_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_transfer_vehicle_lable"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_model"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_vehicle"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_transfer_vehicle_lable"
+            android:gravity="right"
+            android:text="------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_transfer_vehicle_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_vehicle_type_text_lable"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_tag_lable"
+            />
+
+        <TextView
+            android:id="@+id/tv_vehicle_type_text"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_vehicle_type_text_lable"
+            android:gravity="right"
+            android:text="------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_vehicle_tag_text_lable"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_lable"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <com.haoche51.sales.custom.TagsLayout
+            android:id="@+id/ll_vehicle_tag"
+            style="@style/wh_wrap"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="@dimen/height_10dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:layout_alignRight="@+id/tv_vehicle_tag_text_lable"
+            android:paddingLeft="@dimen/margin_60dp"
+            android:paddingTop="@dimen/height_10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_transfer_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_transfer_remark_lable"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_transfer_detail_remark"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_remark"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_transfer_remark_lable"
+            android:gravity="right"
+            android:text="-----------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_transfer_service_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_transfer_company_lable"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_company_transfer_pay"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_mode"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_transfer_company_lable"
+            android:gravity="right"
+            android:text="-----------"/>
+    </RelativeLayout>
+
+</LinearLayout>

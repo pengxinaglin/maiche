@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/wh_mw"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="@color/self_white"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/margin_15dp">
+
+    <!--是否贷款-->
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="是否贷款"/>
+
+        <com.haoche51.sales.custom.switchbutton.SwitchButton
+            android:id="@+id/swb_is_loan"
+            style="@style/pay_SwitchButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:kswAnimationDuration="300"
+            app:kswBackDrawable="@drawable/pay_back_drawable"
+            app:kswBackMeasureRatio="1.4"
+            app:kswThumbDrawable="@drawable/pay_thumb"
+            app:kswThumbMarginBottom="-8dp"
+            app:kswThumbMarginLeft="-5dp"
+            app:kswThumbMarginRight="-5dp"
+            app:kswThumbMarginTop="-2.5dp"/>
+    </LinearLayout>
+
+    <!--买家通过公司转账-->
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="车主定金转服务费"/>
+
+        <com.haoche51.sales.custom.switchbutton.SwitchButton
+            android:id="@+id/swb_owner_earnest_to_service"
+            style="@style/pay_SwitchButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:kswAnimationDuration="300"
+            app:kswBackDrawable="@drawable/pay_back_drawable"
+            app:kswBackMeasureRatio="1.4"
+            app:kswThumbDrawable="@drawable/pay_thumb"
+            app:kswThumbMarginBottom="-8dp"
+            app:kswThumbMarginLeft="-5dp"
+            app:kswThumbMarginRight="-5dp"
+            app:kswThumbMarginTop="-2.5dp"/>
+    </LinearLayout>
+
+    <!--复检后车辆成交价-->
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_transfer_start_pay_for_car"
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transaction_guarantee_amount"/>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/et_transfer_start_pay_for_car"
+                style="@style/HCTheme.VehicleSubBlock.Input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:paddingRight="@dimen/margin_25dp"
+                android:text="0"/>
+
+            <TextView
+                style="@style/wh_wrap"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:text="@string/hc_yuan"
+                android:textSize="@dimen/hc_text_size_normal"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!--复检减免服务费-->
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="其他收入"/>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/et_transfer_start_pos_fee"
+                style="@style/HCTheme.VehicleSubBlock.Input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:paddingRight="@dimen/margin_25dp"/>
+
+            <TextView
+                style="@style/wh_wrap"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:text="@string/hc_yuan"
+                android:textSize="@dimen/hc_text_size_normal"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="其他支出"/>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/et_other_cost"
+                style="@style/HCTheme.VehicleSubBlock.Input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:paddingRight="@dimen/margin_25dp"/>
+
+            <TextView
+                style="@style/wh_wrap"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:text="@string/hc_yuan"
+                android:textSize="@dimen/hc_text_size_normal"/>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

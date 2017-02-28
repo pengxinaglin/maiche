@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/wh_mw"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/self_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40dp"
+        android:layout_margin="@dimen/margin_20dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/release_party"
+            android:textColor="@color/hc_self_black"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left">
+
+            <Spinner
+                android:id="@+id/spn_cancel_convention"
+                style="@style/HCTheme.VehicleSubBlock.Spinner"
+                android:entries="@array/filter_cancel_convention"
+                />
+
+            <ImageView
+                style="@style/wh_wrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:src="@drawable/ic_hc_spinner_arrow"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40dp"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/vehicle_operation"
+            android:textColor="@color/hc_self_black"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left">
+
+            <Spinner
+                android:id="@+id/spn_vehicle_source_online"
+                style="@style/HCTheme.VehicleSubBlock.Spinner"
+                android:entries="@array/filter_vehicle_source_online"
+                />
+
+            <ImageView
+                style="@style/wh_wrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:src="@drawable/ic_hc_spinner_arrow"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/wh_match"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_common_titlebar" />
+
+    <ScrollView
+        style="@style/wh_match"
+        android:layout_weight="10">
+
+        <LinearLayout
+            style="@style/wh_match"
+            android:orientation="vertical">
+
+            <!--基本信息-->
+            <include layout="@layout/layout_modify_transfer_info" />
+
+            <!--公司过户信息-->
+            <LinearLayout
+                android:id="@+id/ll_transfer_company_layout"
+                style="@style/wh_match"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_10dp"
+                    android:background="@color/hc_self_gray_bg" />
+
+                <!--定金-->
+                <include layout="@layout/layout_transaction_prepay_earnest_money" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_transfer_modify_preferential"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_10dp"
+                    android:background="@color/hc_self_gray_bg" />
+
+                <!--优惠券，大礼包，是否包过户-->
+                <include layout="@layout/layout_transfer_modify_preferential" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_transfer_ext_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_10dp"
+                    android:background="@color/hc_self_gray_bg" />
+
+                <!--更多信息-->
+                <include layout="@layout/layout_transaction_prepay_ext_info" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_10dp"
+                android:background="@color/hc_self_gray_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hc_self_white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/HCTheme.TextHint.Lable"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="买家姓名" />
+
+                    <EditText
+                        android:id="@+id/et_buyer_name"
+                        style="@style/HCTheme.VehicleSubBlock.Input"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingRight="@dimen/margin_25dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/HCTheme.TextHint.Lable"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="买家身份证号" />
+
+                    <EditText
+                        android:id="@+id/et_buyer_id"
+                        style="@style/HCTheme.VehicleSubBlock.Input"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:maxLength="18"
+                        android:paddingRight="@dimen/margin_25dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/HCTheme.TextHint.Lable"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="车辆VIN码" />
+
+                    <EditText
+                        android:id="@+id/et_vehicle_vin"
+                        style="@style/HCTheme.VehicleSubBlock.Input"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:maxLength="17"
+                        android:paddingRight="@dimen/margin_25dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_transfer_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_10dp"
+                    android:background="@color/hc_self_gray_bg" />
+
+                <include layout="@layout/layout_transaction_prepay_remark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_transfer_contract_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_10dp"
+                    android:background="@color/hc_self_gray_bg" />
+                <!--照片-->
+                <include layout="@layout/layout_transaction_prepay_contract_photo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_transfer_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_10dp"
+                    android:background="@color/hc_self_gray_bg" />
+
+                <include layout="@layout/layout_transaction_prepay_transfer_photo" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--支付定金按钮-->
+    <FrameLayout
+        android:id="@+id/btn_transaction_prepay_commit"
+        style="@style/wh_mw"
+        android:layout_height="48dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_50dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_modify_transfer_diff"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/hc_self_white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p_service_pay_sub"
+                    android:textColor="@color/hc_self_red"
+                    android:textSize="@dimen/hc_text_size_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/height_2dp"
+                    android:text="￥"
+                    android:textColor="@color/hc_self_red"
+                    android:textSize="@dimen/hc_text_size_normal" />
+
+                <TextView
+                    android:id="@+id/tv_layout_transfer_final_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/hc_self_red"
+                    android:textSize="@dimen/hc_text_size_xlarge" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/ll_modify_transfer_diff_line"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/hc_self_gray_line" />
+
+            <LinearLayout
+                android:id="@+id/ll_modify_transfer_diff_pay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/hc_prepay_bottom_btn_yellow"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tv_modify_transfer_diff_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#0000"
+                    android:drawableLeft="@drawable/ic_transaction_prepay"
+                    android:drawablePadding="@dimen/margin_10dp"
+                    android:text="@string/hc_transfer_modify_diff_pay"
+                    android:textColor="@color/hc_self_white"
+                    android:textSize="@dimen/hc_text_size_normal" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_bottom_commit"
+            style="@style/hc_transfer_tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/color_red_turn_deep"
+            android:gravity="center"
+            android:text="提交审核"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+</LinearLayout>

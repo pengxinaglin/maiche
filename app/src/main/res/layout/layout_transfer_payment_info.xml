@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/wh_mw"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/self_white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_15dp">
+
+    <!--复检后车辆成交价-->
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transfer_start_price"/>
+
+        <TextView
+            android:id="@+id/tv_transfer_payment_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:text="----"
+            android:textColor="@color/hc_self_black"
+            android:textSize="@dimen/hc_text_size_normal"/>
+
+    </LinearLayout>
+
+    <!--复检减免服务费-->
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transfer_start_reduce"/>
+
+        <TextView
+            android:id="@+id/tv_transferpayment_reduce"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:text="----"
+            android:textColor="@color/hc_self_black"
+            android:textSize="@dimen/hc_text_size_normal"/>
+
+    </LinearLayout>
+
+    <!--买家通过公司转账-->
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transfer_start_companytrans"/>
+
+        <TextView
+            android:id="@+id/tv_transfer_payment_comtrans"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:text="----"
+            android:textColor="@color/hc_self_black"
+            android:textSize="@dimen/hc_text_size_normal"/>
+    </LinearLayout>
+    <!--买家转给公司金额-->
+    <LinearLayout
+        android:id="@+id/ll_transfer_payment_comtrans_price"
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_0dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transfer_start_comtrans_price"/>
+
+        <TextView
+            android:id="@+id/tv_transfer_payment_comtrans_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:text="----"
+            android:textColor="@color/hc_self_black"
+            android:textSize="@dimen/hc_text_size_normal"/>
+
+    </LinearLayout>
+
+    <!--过户费用-->
+    <LinearLayout
+        android:id="@+id/ll_transfer_payment_fee"
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transfer_start_fee"/>
+
+        <TextView
+            android:id="@+id/tv_transfer_payment_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:text="----"
+            android:textColor="@color/hc_self_black"
+            android:textSize="@dimen/hc_text_size_normal"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/self_white"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/height_10dp"
+    android:paddingBottom="@dimen/height_10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_vehicle_source_id_label"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_source_id"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_vehicl_source_id"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_vehicle_source_id_label"
+            android:gravity="right"
+            android:textSize="@dimen/margin_12dp"
+            android:text="------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_vehicle_plate_number_label"
+            style="@style/hc_tv_title"
+            android:textSize="@dimen/margin_12dp"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_plate_number"
+            />
+
+        <TextView
+            android:id="@+id/tv_vehicle_plate_number"
+            style="@style/hc_tv_desc"
+            android:textSize="@dimen/margin_12dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_vehicle_plate_number_label"
+            android:gravity="right"
+            android:text="------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_online_time_label"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_online_time"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_online_time"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_online_time_label"
+            android:gravity="right"
+            android:textSize="@dimen/margin_12dp"
+            android:text="------ --:--"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_saler_comment_label"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_saler_comment"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_saler_comment"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_saler_comment_label"
+            android:gravity="right"
+            android:textSize="@dimen/margin_12dp"
+            android:text="-----------"/>
+    </RelativeLayout>
+</LinearLayout>

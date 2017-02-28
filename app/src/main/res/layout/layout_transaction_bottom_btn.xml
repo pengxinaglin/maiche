@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/wh_mw"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/hc_self_white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hc_self_gray"
+        />
+
+    <LinearLayout
+        style="@style/wh_mw"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/hc_self_white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btn_transaction_dropbuy"
+            style="@style/hc_transfer_bottom_1"
+            android:background="@drawable/color_white_turn_gray"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_transaction_fail"
+                android:drawablePadding="@dimen/margin_10dp"
+                android:padding="@dimen/margin_15dp"
+                android:text="@string/hc_transaction_fail"
+                android:textColor="@color/hc_self_black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_transaction_prepay_commit"
+            style="@style/hc_transfer_bottom_1"
+            android:background="@drawable/color_red_turn_deep"
+            android:clickable="true"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_transaction_prepay"
+                android:drawablePadding="@dimen/margin_10dp"
+                android:padding="@dimen/margin_15dp"
+                android:text="@string/reservation"
+                android:textColor="@color/hc_self_white"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_transaction_take"
+            style="@style/hc_transfer_bottom_1"
+            android:background="@drawable/color_white_turn_gray"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_15dp"
+                android:text="@string/hc_transaction_take_task"
+                android:textColor="@color/hc_self_black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_transaction_arrival"
+            style="@style/hc_transfer_bottom_1"
+            android:background="@drawable/color_orange_turn_deep"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_15dp"
+                android:text="@string/hc_transaction_fail"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_transaction_prepay"
+            style="@style/hc_transfer_bottom_1"
+            android:background="@drawable/color_red_turn_deep"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_15dp"
+                android:text="@string/reservation"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

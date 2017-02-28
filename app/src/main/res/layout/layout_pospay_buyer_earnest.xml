@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_pospay_buyer_earnest"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hc_self_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_pospay_buyer_title"
+        style="@style/HCTheme.Pospay.Payer"
+        android:text="@string/hc_pospay_buyer"
+        />
+
+    <TextView
+        android:id="@+id/tv_pospay_buyer_lable"
+        style="@style/HCTheme.Pospay.PriceLable"
+        android:text="@string/hc_pospay_earnest_lable"
+        />
+
+    <TextView
+        android:id="@+id/tv_pospay_buyer_price"
+        style="@style/HCTheme.Pospay.Price"
+        android:text="0000"
+        />
+
+    <TextView
+        android:id="@+id/tv_pospay_buyer_type_lable"
+        style="@style/HCTheme.Pospay.Cash"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:id="@+id/ll_pospay_buyer_pay_btu"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:background="@color/zy_click_gray"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/ll_pospay_buyer_pay_btu_cash"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                style="@style/HCTheme.Pospay.CashBtn"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pospay_buyer_pay_btu_card"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                style="@style/HCTheme.Pospay.CardBtn"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

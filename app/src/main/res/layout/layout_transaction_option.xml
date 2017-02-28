@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/album_to_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/self_white"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/hc_photo_pupo"
+            android:drawableLeft="@drawable/upload_photo"
+            android:text="@string/hc_album_option"
+            />
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/hc_self_gray_bg"
+            />
+
+    <LinearLayout
+        android:id="@+id/take_a_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/self_white"
+        android:clickable="true"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/hc_photo_pupo"
+            android:drawableLeft="@drawable/upload_camera"
+            android:text="@string/hc_take_picture"
+            />
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_10dp"
+            />
+
+    <LinearLayout
+        android:id="@+id/update_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/self_white"
+        android:clickable="true"
+        android:orientation="vertical">
+        <TextView
+            style="@style/hc_photo_pupo"
+            android:text="取消"
+            />
+    </LinearLayout>
+
+</LinearLayout>

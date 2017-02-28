@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main_titlebar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_titlebar_height"
+    android:background="@color/hc_titlebar_black">
+
+    <!-- 这里多套一层 是为了保证顶部栏在collapse动画时 不变形 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_titlebar_height"
+        >
+
+        <TextView
+            android:id="@+id/tv_common_back"
+            style="@style/hc_styel_titlebar_view_back"
+            />
+
+        <!-- 左分割线 -->
+        <View
+            android:id="@+id/left_divider_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/tv_common_back"
+            android:background="@color/titlebar_click"
+            />
+
+        <LinearLayout
+            style="@style/wh_wm"
+            android:layout_centerInParent="true"
+            >
+
+            <TextView
+                android:id="@+id/tv_customer"
+                style="@style/hc_styel_titlebar_view_title"
+                android:text="@string/app_name"
+                />
+
+            <TextView
+                android:id="@+id/tv_level"
+                style="@style/tv_level"
+                android:layout_gravity="center_vertical"
+                android:text="--"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

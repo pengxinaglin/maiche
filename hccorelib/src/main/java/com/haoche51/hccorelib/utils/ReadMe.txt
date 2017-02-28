@@ -1,0 +1,1 @@
+与业务无关的公用方法，比如对 SharePreferences 的封装

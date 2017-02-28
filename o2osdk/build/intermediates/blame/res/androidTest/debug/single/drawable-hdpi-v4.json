@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ll_ic_shuaka.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ll_ic_shuaka.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ll_ic_preauth.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ll_ic_preauth.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ll_ic_alipay.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ll_ic_alipay.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ll_ic_weixin.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ll_ic_weixin.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ll_casher_swiping_bt.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ll_casher_swiping_bt.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ll_ic_nopos_bind.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ll_ic_nopos_bind.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ll_ic_applepay.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ll_ic_applepay.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ll_ic_launcher.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ll_ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ll_common_title_back.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ll_common_title_back.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ll_ic_qrcode_text.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ll_ic_qrcode_text.png"
+    }
+]

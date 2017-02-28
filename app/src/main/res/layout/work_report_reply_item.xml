@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reply_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="工作状态不错"
+    android:textSize="@dimen/font_16"
+    android:lineSpacingExtra="@dimen/margin_3dp"
+    android:paddingTop="@dimen/margin_3dp"
+    android:paddingBottom="@dimen/margin_3dp" />

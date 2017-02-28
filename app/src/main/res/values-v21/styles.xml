@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--登录、主页使用的Theme-->
+    <style name="HCLoginTheme" parent="android:Theme.Material">
+        <!--无ActionBar-->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <!--输入文本的字体颜色-->
+        <item name="android:textColorPrimary">@color/hc_self_black</item>
+        <item name="android:colorPrimaryDark">@color/hc_self_gray_bg</item>
+        <item name="android:windowBackground">@color/hc_self_gray_bg</item>
+    </style>
+
+    <!--主页使用的Theme-->
+    <style name="HCTheme.MainPager" parent="android:Theme.Material">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:windowBackground">@color/hc_self_gray_bg</item>
+        <item name="android:popupMenuStyle">@style/HCTheme.PopupMenu</item>
+        <!--无ActionBar-->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--输入文本的字体颜色-->
+        <item name="android:textColorPrimary">@color/hc_self_black</item>
+        <item name="android:colorPrimaryDark">@color/hc_self_gray_bg</item>
+    </style>
+
+    <!--&lt;!&ndash;默认使用的Theme&ndash;&gt;-->
+    <!--<style name="HCTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <!--<item name="android:textColor">@color/hc_self_black</item>-->
+    <!--<item name="android:windowBackground">@color/hc_self_gray_bg</item>-->
+    <!--<item name="android:popupMenuStyle">@style/HCTheme.PopupMenu</item>-->
+    <!--&lt;!&ndash;无ActionBar&ndash;&gt;-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <!--&lt;!&ndash;输入文本的字体颜色&ndash;&gt;-->
+    <!--<item name="android:textColorPrimary">@color/hc_self_black</item>-->
+    <!--<item name="android:colorPrimaryDark">@color/hc_titlebar_black</item>-->
+    <!--&lt;!&ndash;设置系统默认的popMenu、spinner等的背景色&ndash;&gt;-->
+    <!--<item name="android:colorBackground">@color/hc_self_gray_bg</item>-->
+    <!--</style>-->
+
+</resources>

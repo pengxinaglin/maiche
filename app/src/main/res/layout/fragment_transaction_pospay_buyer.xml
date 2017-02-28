@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_0dp"
+        android:layout_weight="1"
+        android:background="@color/hc_self_gray_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hc_self_gray_bg"
+            android:orientation="vertical">
+
+            <!-- 买家定金 -->
+            <LinearLayout
+                android:id="@+id/ll_transaction_pospay_buyer_earnest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hc_self_white"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_15dp">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="买家定金"
+                    android:textSize="@dimen/hc_text_size_normal" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/margin_1dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_transaction_pospay_buyer_earnest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="元" />
+            </LinearLayout>
+
+            <!-- 服务费 -->
+            <LinearLayout
+                android:id="@+id/ll_transaction_pospay_buyer_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hc_self_white"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_15dp">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="服务费"
+                    android:textSize="@dimen/hc_text_size_normal" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/margin_1dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_transaction_pospay_buyer_service"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="元" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_transaction_pospay_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <!-- 车辆成交价 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/hc_self_white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/margin_15dp">
+
+                    <TextView
+                        style="@style/HCTheme.TextHint.Lable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="车辆成交价"
+                        android:textSize="@dimen/hc_text_size_normal" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/margin_1dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv_transaction_pospay_vehicle_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="万元" />
+                </LinearLayout>
+
+                <!-- 预收车款 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_50dp"
+                    android:background="@color/hc_self_white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_10dp"
+                    android:paddingLeft="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_15dp"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:visibility="visible">
+
+                    <CheckBox
+                        android:id="@+id/cb_transaction_pospay_vehicle_pre"
+                        style="@style/cb_carbody"
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="预收车款"
+                        android:textSize="@dimen/hc_text_size_normal" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <FrameLayout
+                        android:id="@+id/fl_transaction_pospay_vehicle_pre"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="gone">
+
+                        <EditText
+                            android:id="@+id/et_transaction_pospay_vehicle_pre"
+                            style="@style/HCTheme.VehicleSubBlock.Input"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:paddingRight="@dimen/margin_25dp" />
+
+                        <TextView
+                            style="@style/wh_wrap"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:text="@string/hc_yuan"
+                            android:textSize="@dimen/hc_text_size_normal" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <!-- 代收GPS费用 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_50dp"
+                    android:background="@color/hc_self_white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_10dp"
+                    android:paddingLeft="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_15dp"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:visibility="visible">
+
+                    <CheckBox
+                        android:id="@+id/cb_transaction_pospay_gps"
+                        style="@style/cb_carbody"
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="代收GPS费用"
+                        android:textSize="@dimen/hc_text_size_normal" />
+
+                    <View
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="@dimen/margin_1dp"
+                        android:layout_weight="1" />
+
+                    <FrameLayout
+                        android:id="@+id/fl_transaction_pospay_gps"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="gone">
+
+                        <EditText
+                            android:id="@+id/et_transaction_pospay_gps"
+                            style="@style/HCTheme.VehicleSubBlock.Input"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:paddingRight="@dimen/margin_25dp" />
+
+                        <TextView
+                            style="@style/wh_wrap"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:text="@string/hc_yuan"
+                            android:textSize="@dimen/hc_text_size_normal" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <!-- 代收过户费用 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_50dp"
+                    android:background="@color/hc_self_white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_10dp"
+                    android:paddingLeft="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_15dp"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:visibility="visible">
+
+                    <CheckBox
+                        android:id="@+id/cb_transaction_pospay_transfer"
+                        style="@style/cb_carbody"
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="代收过户费用"
+                        android:textSize="@dimen/hc_text_size_normal" />
+
+                    <View
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="@dimen/margin_1dp"
+                        android:layout_weight="1" />
+
+                    <FrameLayout
+                        android:id="@+id/fl_transaction_pospay_transfer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="gone">
+
+                        <EditText
+                            android:id="@+id/et_transaction_pospay_transfer"
+                            style="@style/HCTheme.VehicleSubBlock.Input"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:paddingRight="@dimen/margin_25dp" />
+
+                        <TextView
+                            style="@style/wh_wrap"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:text="@string/hc_yuan"
+                            android:textSize="@dimen/hc_text_size_normal" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <!-- 代收保险费用 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_50dp"
+                    android:background="@color/hc_self_white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_10dp"
+                    android:paddingLeft="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_15dp"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:visibility="visible">
+
+                    <CheckBox
+                        android:id="@+id/cb_transaction_pospay_insurance"
+                        style="@style/cb_carbody"
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="代收保险费用"
+                        android:textSize="@dimen/hc_text_size_normal" />
+
+                    <View
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="@dimen/margin_1dp"
+                        android:layout_weight="1" />
+
+                    <FrameLayout
+                        android:id="@+id/fl_transaction_pospay_insurance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="gone">
+
+                        <EditText
+                            android:id="@+id/et_transaction_pospay_insurance"
+                            style="@style/HCTheme.VehicleSubBlock.Input"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:paddingRight="@dimen/margin_25dp" />
+
+                        <TextView
+                            style="@style/wh_wrap"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:text="@string/hc_yuan"
+                            android:textSize="@dimen/hc_text_size_normal" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <!-- 金融服务费 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_50dp"
+                    android:background="@color/hc_self_white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_10dp"
+                    android:paddingLeft="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_15dp"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:visibility="visible">
+
+                    <CheckBox
+                        android:id="@+id/cb_transaction_pospay_finance_service"
+                        style="@style/cb_carbody"
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="金融服务费"
+                        android:textSize="@dimen/hc_text_size_normal" />
+
+                    <View
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="@dimen/margin_1dp"
+                        android:layout_weight="1" />
+
+                    <FrameLayout
+                        android:id="@+id/fl_transaction_pospay_finance_service"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="gone">
+
+                        <EditText
+                            android:id="@+id/et_transaction_pospay_finance_service"
+                            style="@style/HCTheme.VehicleSubBlock.Input"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:paddingRight="@dimen/margin_25dp" />
+
+                        <TextView
+                            style="@style/wh_wrap"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:text="@string/hc_yuan"
+                            android:textSize="@dimen/hc_text_size_normal" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <!-- 金融手续费 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_50dp"
+                    android:background="@color/hc_self_white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_10dp"
+                    android:paddingLeft="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_15dp"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:visibility="visible">
+
+                    <CheckBox
+                        android:id="@+id/cb_transaction_pospay_finance"
+                        style="@style/cb_carbody"
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="金融手续费"
+                        android:textSize="@dimen/hc_text_size_normal" />
+
+                    <View
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="@dimen/margin_1dp"
+                        android:layout_weight="1" />
+
+                    <FrameLayout
+                        android:id="@+id/fl_transaction_pospay_finance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="gone">
+
+                        <EditText
+                            android:id="@+id/et_transaction_pospay_finance"
+                            style="@style/HCTheme.VehicleSubBlock.Input"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:paddingRight="@dimen/margin_25dp" />
+
+                        <TextView
+                            style="@style/wh_wrap"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:text="@string/hc_yuan"
+                            android:textSize="@dimen/hc_text_size_normal" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <!-- 抵押费 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_50dp"
+                    android:background="@color/hc_self_white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_10dp"
+                    android:paddingLeft="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_15dp"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:visibility="visible">
+
+                    <CheckBox
+                        android:id="@+id/cb_transaction_pospay_mortgage"
+                        style="@style/cb_carbody"
+                        android:layout_width="@dimen/margin_0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="抵押费"
+                        android:textSize="@dimen/hc_text_size_normal" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/margin_1dp"
+                        android:layout_weight="1" />
+
+                    <FrameLayout
+                        android:id="@+id/fl_transaction_pospay_mortgage"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="gone">
+
+                        <EditText
+                            android:id="@+id/et_transaction_pospay_mortgage"
+                            style="@style/HCTheme.VehicleSubBlock.Input"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:paddingRight="@dimen/margin_25dp" />
+
+                        <TextView
+                            style="@style/wh_wrap"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:text="@string/hc_yuan"
+                            android:textSize="@dimen/hc_text_size_normal" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_transaction_pospay_extra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/hc_self_white"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                </LinearLayout>
+
+                <!-- 自定义 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/hc_self_white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_10dp"
+                    android:paddingLeft="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_15dp"
+                    android:paddingTop="@dimen/margin_10dp">
+
+                    <EditText
+                        android:id="@+id/et_transaction_pospay_extra_name"
+                        style="@style/HCTheme.VehicleSubBlock.Input"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="请输入费用名称"
+                        android:inputType="text"
+                        android:paddingRight="@dimen/margin_25dp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/margin_1dp"
+                        android:layout_weight="1"
+                        android:visibility="visible" />
+
+                    <FrameLayout
+                        android:id="@+id/fl_transaction_pospay_extra"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <EditText
+                            android:id="@+id/et_transaction_pospay_extra"
+                            style="@style/HCTheme.VehicleSubBlock.Input"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:paddingRight="@dimen/margin_25dp" />
+
+                        <TextView
+                            style="@style/wh_wrap"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:text="@string/hc_yuan"
+                            android:textSize="@dimen/hc_text_size_normal" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hc_self_white"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/margin_10dp"
+                android:paddingLeft="@dimen/margin_15dp"
+                android:paddingTop="@dimen/margin_10dp">
+
+                <Button
+                    android:id="@+id/btn_transaction_pospay_extra_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/margin_3dp"
+                    android:paddingLeft="@dimen/margin_9dp"
+                    android:paddingRight="@dimen/margin_9dp"
+                    android:paddingTop="@dimen/margin_3dp"
+                    android:text="@string/hc_transaction_prepay_buyer_more"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/hc_text_size_normal" />
+            </LinearLayout>
+
+
+            <include
+                layout="@layout/layout_transfer_start_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:background="@color/hc_self_white"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/margin_15dp"
+                android:paddingLeft="@dimen/margin_15dp"
+                android:paddingRight="@dimen/margin_15dp">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/hc_transaction_prepay_buyer_intention_money" />
+
+                <TextView
+                    android:id="@+id/tv_transaction_pospay_intention_money"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:text=""
+                    android:textSize="@dimen/hc_text_size_normal" />
+
+                <TextView
+                    style="@style/HCTheme.TextMain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:text="元"
+                    android:textSize="@dimen/hc_text_size_normal" />
+
+            </LinearLayout>
+
+            <include
+                layout="@layout/layout_transfer_start_remaind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_0dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp">
+
+        <include layout="@layout/layout_transfer_start_bottom_btn" />
+    </LinearLayout>
+</LinearLayout>

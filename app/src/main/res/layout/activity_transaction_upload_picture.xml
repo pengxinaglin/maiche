@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/hc_self_gray_bg">
+
+    <include
+        android:id="@+id/conmen_title"
+        layout="@layout/layout_common_titlebar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_transaction_upload"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:layout_below="@+id/conmen_title">
+
+
+        <LinearLayout
+            android:id="@+id/ll_append_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_append_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_156dp"
+                android:background="@drawable/transaction_append"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:text="@string/hc_upload_dear"
+                android:textColor="@color/hc_upload_text"
+                android:textSize="@dimen/margin_12dp"/>
+
+            <TextView
+
+                style="@style/hc_photo_upload"
+                android:layout_gravity="center"
+                android:text="@string/hc_upload_thank"
+                />
+
+            <TextView
+                style="@style/hc_photo_upload"
+                android:text="@string/hc_upload_dream"
+                />
+
+            <TextView
+                style="@style/hc_photo_upload"
+                android:text="@string/hc_upload_refuel"
+                />
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_transaction_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/hc_self_red"
+        android:clickable="true"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_upload_transfer_picture"
+            style="@style/hc_transfer_tv_2"
+            android:padding="@dimen/margin_15dp"
+            android:text="@string/hc_upload"
+            android:textSize="@dimen/font_18"
+            />
+    </LinearLayout>
+</RelativeLayout>

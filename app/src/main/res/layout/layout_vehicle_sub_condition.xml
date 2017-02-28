@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/HCTheme.VehicleSubBlock"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- 价格-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/HCTheme.TextHint.Lable"
+                android:text="@string/vehicle_subscribe_condition_price_lable"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/et_layout_vehicle_sub_pricee_low"
+                style="@style/HCTheme.VehicleSubBlock.Input"
+                android:inputType="numberDecimal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="  —  "
+                android:textColor="@color/hc_self_gray_hint"/>
+
+            <EditText
+                android:id="@+id/et_layout_vehicle_sub_pricee_high"
+                style="@style/HCTheme.VehicleSubBlock.Input"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_more"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <!-- 车身结构-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:text="@string/vehicle_subscribe_condition_structure_lable"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left">
+
+                <TextView
+                    android:id="@+id/tv_layout_vehicle_sub_structure"
+                    style="@style/HCTheme.VehicleSubBlock.Spinner"
+                    android:ellipsize="end"
+                    android:entries="@array/filter_standard"
+                    android:singleLine="true"
+                    android:text="@string/nomarl_select_please_select"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 排量-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:text="@string/vehicle_subscribe_condition_displacement_lable"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/et_layout_vehicle_sub_displacement_low"
+                    style="@style/HCTheme.VehicleSubBlock.Input"
+                    android:inputType="numberDecimal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  —  "
+                    android:textColor="@color/hc_self_gray_hint"/>
+
+                <EditText
+                    android:id="@+id/et_layout_vehicle_sub_displacement_high"
+                    style="@style/HCTheme.VehicleSubBlock.Input"
+                    android:inputType="numberDecimal"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 排放标准-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:text="@string/vehicle_subscribe_condition_discharge_standard_lable"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left">
+
+
+                <TextView
+                    android:id="@+id/tv_layout_vehicle_sub_dischange_standard"
+                    style="@style/HCTheme.VehicleSubBlock.Spinner"
+                    android:entries="@array/filter_standard"
+                    android:text="@string/nomarl_select_please_select"/>
+                <!--<TextView-->
+                <!--android:id="@+id/text_view_vehicle_subcribe_condition_activity_dischange_standard"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_margin="@dimen/margin_6dp"-->
+                <!--android:background="@drawable/common_content_bg"-->
+                <!--android:drawableRight="@drawable/right_in"-->
+                <!--android:gravity="center_vertical|left"-->
+                <!--android:onClick="onClick"-->
+                <!--android:paddingLeft="@dimen/margin_6dp"-->
+                <!--android:paddingRight="@dimen/margin_6dp"-->
+                <!--android:text="请选择"-->
+                <!--android:textColor="@color/self_black"/>-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!-- 车龄-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:text="@string/vehicle_subscribe_condition_vehicle_old_lable"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/et_layout_vehicle_sub_old_low"
+                    style="@style/HCTheme.VehicleSubBlock.Input"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  —  "
+                    android:textColor="@color/hc_self_gray_hint"/>
+
+                <EditText
+                    android:id="@+id/et_layout_vehicle_sub_old_high"
+                    style="@style/HCTheme.VehicleSubBlock.Input"
+                    android:inputType="number"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- 变数箱-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="@dimen/margin_0dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:text="@string/vehicle_subscribe_condition_transmission_lable"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <Spinner
+                    android:id="@+id/sp_layout_vehicle_sub_gearbox"
+                    style="@style/HCTheme.VehicleSubBlock.Spinner"
+                    android:entries="@array/filter_gearbox"/>
+
+                <!--<TextView
+                    android:id="@+id/tv_layout_vehicle_sub_gearbox"
+                    style="@style/HCTheme.VehicleSubBlock.Spinner"
+                    android:entries="@array/filter_standard"
+                    android:text="@string/nomarl_select_please_select"
+                    />-->
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 颜色-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:text="@string/vehicle_subscribe_condition_color_lable"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_layout_vehicle_sub_color"
+                    style="@style/HCTheme.VehicleSubBlock.Spinner"
+                    android:ellipsize="end"
+                    android:entries="@array/filter_standard"
+                    android:singleLine="true"
+                    android:text="@string/nomarl_select_please_select"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_open_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/height_10dp"
+        android:gravity="center"
+        android:padding="@dimen/margin_15dp"
+        android:text="展开其他"
+        android:textColor="@color/hc_blue"/>
+
+</LinearLayout>

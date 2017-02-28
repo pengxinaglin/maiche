@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--暂时没有任务总数 不显示-->
+    <!--<include layout="@layout/layout_common_titlebar_totalcount"/>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1"
+        android:background="@color/hc_self_gray_bg" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.haoche51.sales.custom.HCPullToRefresh
+            android:id="@+id/pull_to_refresh"
+            style="@style/wh_match" />
+
+        <ImageButton
+            android:id="@+id/floatingactionbutton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="@dimen/margin_30dp"
+            android:layout_marginBottom="@dimen/margin_30dp"
+            android:background="@drawable/ic_add_recommend"
+            />
+    </FrameLayout>
+
+
+</LinearLayout>

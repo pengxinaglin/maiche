@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/hc_indicator"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_5dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image_button_music_player_lauyout_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/margin_3dp"
+            android:background="#0000"
+            android:src="@drawable/music_player_pause"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_music_player_layout_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/hc_self_transparent"
+            android:padding="@dimen/margin_15dp"
+            android:text="00:00"
+            android:textColor="@color/hc_self_white"/>
+
+        <SeekBar
+            android:id="@+id/seek_bar_music_player_layout"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxHeight="@dimen/margin_26dp"
+            android:minHeight="@dimen/margin_26dp"
+            android:paddingBottom="@dimen/margin_12dp"
+            android:paddingLeft="@dimen/margin_20dp"
+            android:paddingRight="@dimen/margin_20dp"
+            android:paddingTop="@dimen/margin_12dp"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/music_player_pause"
+            android:thumbOffset="0dp"/>
+        <!--android:thumb="@color/hc_self_transparent"-->
+
+        <TextView
+            android:id="@+id/tv_music_player_layout_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/hc_self_transparent"
+            android:padding="@dimen/margin_15dp"
+            android:text="00:00"
+            android:textColor="@color/hc_self_white"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

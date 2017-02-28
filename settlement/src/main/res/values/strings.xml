@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pay_app_name">支付结算</string>
+
+    <string name="pay_cancel">取消</string>
+    <string name="pay_loadmore">加载更多</string>
+    <string name="pay_nomore_data">没有更多数据了</string>
+    <string name="pay_loading">加载中...</string>
+
+    <string name="pay_input_vcode">已给客户%1$s手机号%2$s发送验证码，请输入验证码</string>
+    <string name="pay_input_vcode_2">已给手机号%1$s发送验证码，请输入验证码</string>
+
+    <string name="pay_pay_list">账单</string>
+    <string name="pay_add_pay">添加收款</string>
+    <string name="pay_pay_info">账单明细</string>
+    <string name="pay_again_send_code">秒后重新发送</string>
+    <string name="pay_validate_loading">正在验证中...</string>
+    <string name="pay_validate_success">验证成功</string>
+
+    <string name="pay_search_phone_hint">请输入手机号搜索</string>
+    <string name="pay_custom_phone">客户手机</string>
+    <string name="pay_unused_amount">可用余额</string>
+    <string name="pay_create_time">创建时间</string>
+    <string name="pay_comment">备注</string>
+    <string name="pay_please_input_phone">请输入手机号</string>
+    <string name="pay_please_input_right_phone">请输入正确的手机号</string>
+    <string name="pay_please_input_price">请输入金额</string>
+    <string name="pay_please_input_comment">请输入备注</string>
+    <string name="pay_need_amount">需收金额</string>
+    <string name="pay_add_pay_hint">提示：收款信息和客户手机号码直接关联，请确保输入无误!</string>
+    <string name="pay_pay">支付</string>
+    <string name="again_confirm_phone">请再次确认客户手机号码</string>
+    <string name="again_input">重新输入</string>
+    <string name="confirm_no_error">确认无误</string>
+    <string name="ll_title_support">暂不支持使用Pad收款</string>
+</resources>
+  
+ 

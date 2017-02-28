@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/hc_self_gray_bg"
+              android:orientation="vertical">
+
+    <!--  <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="@dimen/margin_3dp"
+          android:layout_marginBottom="@dimen/margin_9dp">-->
+
+    <LinearLayout
+        android:id="@+id/ll_layout_phone_record_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hc_self_white"
+        android:orientation="vertical">
+        <!--操作人-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/margin_11dp"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:paddingTop="@dimen/margin_22dp">
+
+            <TextView
+                style="@style/HCTheme.TextHint"
+                android:text="@string/hc_phone_record_list_item_operator"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="@dimen/margin_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/tv_layout_phone_record_list_item_operator"
+                style="@style/HCTheme.TextMain"
+                android:text="——"
+                android:textSize="@dimen/margin_14dp"/>
+
+            <TextView
+                style="@style/HCTheme.TextMain"
+                android:text="\u0020["/>
+
+            <TextView
+                android:id="@+id/tv_layout_phone_record_list_item_role"
+                style="@style/HCTheme.TextMain"
+                android:text="——"/>
+
+            <TextView
+                style="@style/HCTheme.TextMain"
+                android:text="]"/>
+        </LinearLayout>
+        <!--类型-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/margin_11dp"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:paddingTop="@dimen/margin_11dp">
+
+            <TextView
+                style="@style/HCTheme.TextHint"
+                android:text="@string/hc_phone_record_list_item_type"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="@dimen/margin_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:id="@+id/iv_layout_phone_record_list_item_play_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:src="@drawable/ic_phone_record_play_state"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_layout_phone_record_list_item_type"
+                style="@style/HCTheme.TextMain"
+                android:text="——"
+                android:textSize="@dimen/margin_14dp"/>
+
+            <TextView
+                style="@style/HCTheme.TextMain"
+                android:text="\u0020["/>
+
+            <TextView
+                android:id="@+id/tv_layout_phone_record_list_item_duration"
+                style="@style/HCTheme.TextMain"
+                android:text="——"/>
+
+            <TextView
+                style="@style/HCTheme.TextMain"
+                android:text="]"/>
+        </LinearLayout>
+        <!--时间-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/margin_20dp"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:paddingTop="@dimen/margin_11dp">
+
+            <TextView
+                style="@style/HCTheme.TextHint"
+                android:text="@string/hc_phone_record_list_item_time"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="@dimen/margin_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/tv_layout_phone_record_list_item_time"
+                style="@style/HCTheme.TextMain"
+                android:text="——"
+                android:textSize="@dimen/margin_14dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- </android.support.v7.widget.CardView>-->
+
+</LinearLayout>

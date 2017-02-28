@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/self_white"
+    android:orientation="vertical">
+
+    <View
+        style="@style/wh_mw"
+        android:layout_height="@dimen/height_1dp"
+        android:background="@color/hc_self_gray_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_trans_task_filter_level"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_40dp"
+            android:layout_weight="1"
+            android:background="@drawable/color_white_turn_gray"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp">
+
+            <TextView
+                android:id="@+id/tv_trans_task_filter_level"
+                style="@style/wh_match"
+                android:gravity="left|center_vertical"
+                android:text="@string/hc_trans_task_filter_level_hint"
+                android:textColor="@color/hc_self_gray"
+                android:textColorHint="@color/hc_self_gray" />
+
+            <ImageView
+                style="@style/wh_wrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_hc_spinner_arrow" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/hc_self_gray_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_trans_task_filter_time"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_40dp"
+            android:layout_weight="1"
+            android:background="@drawable/color_white_turn_gray"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp">
+
+            <TextView
+                android:id="@+id/tv_trans_task_filter_time"
+                style="@style/wh_match"
+                android:gravity="left|center_vertical"
+                android:text="@string/hc_trans_task_filter_time"
+                android:textColor="@color/hc_self_gray"
+                android:textColorHint="@color/hc_self_gray" />
+
+            <ImageView
+                style="@style/wh_wrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_hc_spinner_arrow" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1"
+        android:background="@color/hc_self_gray_bg" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.haoche51.sales.custom.HCPullToRefresh
+            android:id="@+id/pull_to_refresh"
+            style="@style/wh_match"
+            android:background="@color/hc_self_gray_bg" />
+
+        <LinearLayout
+            android:id="@+id/ll_list_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/result_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="@dimen/margin_9dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/hc_self_black"
+                android:textSize="@dimen/margin_16dp" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

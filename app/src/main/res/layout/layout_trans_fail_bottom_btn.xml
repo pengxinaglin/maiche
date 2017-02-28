@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/wh_mw"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/hc_self_white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hc_self_gray_line" />
+
+    <LinearLayout
+        style="@style/wh_mw"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/hc_self_white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_trans_fail_modify_vehicle_sub_condition"
+            style="@style/hc_transfer_bottom_1"
+            android:background="@drawable/color_white_turn_gray"
+            android:clickable="true"
+            android:visibility="visible">
+
+            <TextView
+                style="@style/hc_transfer_tv_2"
+                android:background="#0000"
+                android:padding="@dimen/margin_15dp"
+                android:text="@string/hc_modify_vehicle_sub"
+                android:textColor="@color/hc_self_red"
+                android:textSize="@dimen/hc_text_size_middle" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="@dimen/margin_50dp"
+            android:background="@color/hc_self_gray_line" />
+
+        <LinearLayout
+            android:id="@+id/ll_trans_fail_resurbuyer"
+            style="@style/hc_transfer_bottom_1"
+            android:background="@drawable/color_red_turn_deep"
+            android:clickable="true">
+
+
+            <TextView
+                style="@style/hc_transfer_tv_2"
+                android:background="#0000"
+                android:drawableLeft="@drawable/ic_hc_buyer_revice"
+                android:padding="@dimen/margin_15dp"
+                android:text="@string/hc_resurbuyer"
+                android:textColor="@color/hc_self_white"
+                android:textSize="@dimen/hc_text_size_middle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

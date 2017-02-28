@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="reader_landicorp_1.1.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/o2osdk/libs/reader_landicorp_1.1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

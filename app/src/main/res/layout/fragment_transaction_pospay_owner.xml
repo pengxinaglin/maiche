@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/hc_self_gray_bg"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_transaction_pospay_lianlian"
+        android:layout_alignParentTop="true"
+        android:background="@color/hc_self_white"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_15dp">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车主定金"
+            android:textSize="@dimen/hc_text_size_normal"/>
+
+        <TextView
+            android:id="@+id/tv_transaction_pospay_owner_status"
+            style="@style/HCTheme.TextMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:text="已付"
+            android:textColor="@color/hc_indicator"
+            android:textSize="@dimen/hc_text_size_normal"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="@dimen/margin_1dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tv_transaction_pospay_owner_earnest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="0元"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_transaction_pospay_lianlian"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/hc_self_red"
+        android:gravity="center"
+        android:text="@string/hc_transfer_pospay_lianlian"
+        android:textColor="@color/hc_self_white"
+        android:textSize="@dimen/hc_text_size_middle"
+        android:visibility="visible"/>
+
+
+</RelativeLayout>

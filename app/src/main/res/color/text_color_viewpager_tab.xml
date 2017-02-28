@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Viewpager 上方tab 颜色-->
+
+    <item android:color="@color/hc_indicator" android:state_selected="true"/>
+    <item android:color="@color/hc_self_black" android:state_selected="false"/>
+</selector>

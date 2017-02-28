@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/hc_self_gray_bg"
+    >
+    <include layout="@layout/web_view_common" />
+
+    <Button
+        android:id="@+id/take_look_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50dp"
+        android:background="@drawable/color_red_turn_deep"
+        android:text="@string/take_look"
+        android:textColor="@color/hc_self_white"
+        android:textSize="@dimen/font_16"
+        android:visibility="gone"
+        />
+
+    <include layout="@layout/web_view_network_error" />
+</LinearLayout>

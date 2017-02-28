@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/hc_self_white"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_view_match_customer_list_activity_vehicle_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/text_view_match_customer_list_activity_vehicle_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_15dp"
+        android:text="------"
+        android:textColor="@color/hc_self_black"
+        android:textSize="@dimen/margin_16dp"/>
+
+    <TextView
+        android:id="@+id/text_view_match_customer_list_activity_describe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="@dimen/margin_15dp"
+        android:text="——"
+        android:textColor="@color/hc_self_gray_hint"
+        android:textSize="@dimen/margin_11dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:background="@color/self_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_20dp"
+        android:paddingLeft="@dimen/margin_15dp">
+
+        <TextView
+            android:id="@+id/text_view_match_customer_list_activity_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="报价：——万"
+            android:textColor="@color/hc_self_red"
+            android:textSize="@dimen/margin_12dp"/>
+
+        <TextView
+            android:id="@+id/text_view_match_customer_list_activity_online_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:paddingRight="@dimen/margin_15dp"
+            android:text="——"
+            android:textColor="@color/hc_self_gray_hint"
+            android:textSize="@dimen/margin_11dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_15dp"
+        android:background="@color/hc_self_gray_bg"/>
+
+    <TextView
+        android:id="@+id/text_view_match_customer_list_activity_match_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_0dp"
+        android:padding="@dimen/margin_15dp"
+        android:text="共匹配客户  X"
+        android:textColor="@color/hc_self_black"
+        android:textSize="@dimen/margin_16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1dp"
+        android:background="@color/hc_self_gray_bg"/>
+</LinearLayout>

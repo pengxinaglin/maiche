@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hc_self_white"
+        android:fillViewport="true"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_buyer_phone"
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/hc_buyer_phone"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <EditText
+                    android:id="@+id/et_buyer_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/shape_common_input_bolck_bg"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:paddingLeft="@dimen/margin_10dp"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/font_16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_buyer_name"
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/hc_buyer_name"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <EditText
+                    android:id="@+id/et_buyer_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/shape_common_input_bolck_bg"
+                    android:paddingLeft="@dimen/margin_10dp"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/font_16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/hc_select_sale"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <Spinner
+                    android:id="@+id/spn_select_sale"
+                    style="@style/HCTheme.VehicleSubBlock.Spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/hc_vehicle_source_id"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <EditText
+                    android:id="@+id/et_vehicl_source_id"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/shape_common_input_bolck_bg"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:paddingLeft="@dimen/margin_10dp"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/font_16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/p_appoint_address"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <EditText
+                    android:id="@+id/et_task_address"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/shape_common_input_bolck_bg"
+                    android:maxLength="10"
+                    android:paddingLeft="@dimen/margin_10dp"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/font_16"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/take_look_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_45dp"
+                android:layout_marginBottom="@dimen/margin_5dp"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_30dp"
+                android:background="@drawable/color_red_turn_deep"
+                android:text="@string/commit"
+                android:textColor="@color/hc_self_white"
+                android:textSize="@dimen/font_16"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_common_title"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/ll_common_title_height"
+    android:background="@color/ll_color_tx7" >
+
+    <ImageView
+        android:id="@+id/ll_title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:padding="12dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ll_common_title_back"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/ll_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:textColor="@color/ll_color_tx13"
+        android:textSize="@dimen/ll_common_title_textsize" />
+
+    <TextView
+        android:id="@+id/ll_title_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:scaleType="centerInside"
+        android:textColor="@color/ll_color_tx13"
+        android:textSize="@dimen/ll_casher_text_size_12" />
+
+</RelativeLayout>

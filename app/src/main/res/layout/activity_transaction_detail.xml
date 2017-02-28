@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_buyer_app_info"
+                />
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_vehicle_price"/>
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transaction_vehicle_info"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transaction_contact"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_vehicle_buyer_detail"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        layout="@layout/layout_transaction_bottom_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        >
+    </include>
+</LinearLayout>

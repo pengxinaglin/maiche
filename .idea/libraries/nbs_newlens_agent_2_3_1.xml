@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="nbs.newlens.agent-2.3.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.networkbench.newlens.agent.android/nbs.newlens.agent/2.3.1/4733e2da310cbd006999bd5d378e75c11ec4502d/nbs.newlens.agent-2.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.networkbench.newlens.agent.android/nbs.newlens.agent/2.3.1/8fb4927cbbde05d1577b263ab6e8bc6455e45057/nbs.newlens.agent-2.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

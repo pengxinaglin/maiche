@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/wh_mw"
+    android:background="@color/self_white"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/hc_tv_title"
+        android:padding="@dimen/margin_15dp"
+        android:text="@string/hc_trans_refund"
+        android:textColor="@color/hc_self_black"
+        android:textSize="@dimen/hc_text_size_middle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hc_self_gray_line" />
+
+    <!-- 公司退车主 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="公司退买家（元）"
+            android:textColor="@color/hc_self_black" />
+
+        <EditText
+            android:id="@+id/et_trans_company_refund_buyer"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40dp"
+        android:layout_marginBottom="@dimen/margin_15dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="退买家金额到余额"
+            android:textColor="@color/hc_self_black" />
+
+        <com.haoche51.sales.custom.switchbutton.SwitchButton
+            android:id="@+id/swb_refund_buyer_to_balance"
+            style="@style/pay_SwitchButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:kswAnimationDuration="300"
+            app:kswBackDrawable="@drawable/pay_back_drawable"
+            app:kswBackMeasureRatio="1.4"
+            app:kswThumbDrawable="@drawable/pay_thumb"
+            app:kswThumbMarginBottom="-8dp"
+            app:kswThumbMarginLeft="-5dp"
+            app:kswThumbMarginRight="-5dp"
+            app:kswThumbMarginTop="-2.5dp" />
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_refund_way_buyer"-->
+        <!--style="@style/HCTheme.TextHint.Lable"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginLeft="@dimen/margin_15dp"-->
+        <!--android:layout_marginRight="@dimen/margin_15dp"-->
+        <!--android:text="买家退款方式及账号"-->
+        <!--android:textColor="@color/hc_self_black"-->
+        <!--android:visibility="visible" />-->
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/et_refund_way_buyer"-->
+        <!--style="@style/hc_ed_quit_buy"-->
+        <!--android:layout_marginBottom="@dimen/margin_15dp"-->
+        <!--android:layout_marginLeft="@dimen/margin_15dp"-->
+        <!--android:layout_marginRight="@dimen/margin_15dp"-->
+        <!--android:layout_marginTop="@dimen/margin_10dp"-->
+        <!--android:visibility="visible" />-->
+
+    <!-- 公司退车主 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="公司退车主（元）"
+            android:textColor="@color/hc_self_black" />
+
+        <EditText
+            android:id="@+id/et_trans_company_refund_seller"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40dp"
+        android:layout_marginBottom="@dimen/margin_15dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="退车主金额到余额"
+            android:textColor="@color/hc_self_black" />
+
+        <com.haoche51.sales.custom.switchbutton.SwitchButton
+            android:id="@+id/swb_refund_seller_to_balance"
+            style="@style/pay_SwitchButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:kswAnimationDuration="300"
+            app:kswBackDrawable="@drawable/pay_back_drawable"
+            app:kswBackMeasureRatio="1.4"
+            app:kswThumbDrawable="@drawable/pay_thumb"
+            app:kswThumbMarginBottom="-8dp"
+            app:kswThumbMarginLeft="-5dp"
+            app:kswThumbMarginRight="-5dp"
+            app:kswThumbMarginTop="-2.5dp" />
+    </LinearLayout>
+
+</LinearLayout>

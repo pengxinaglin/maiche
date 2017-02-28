@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/color_white_turn_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/vehicle_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:text="车牌号"
+            android:textColor="@color/BLACK"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vehicle_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_toLeftOf="@+id/ll"
+            android:layout_toRightOf="@id/vehicle_number"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="车源名称"
+            android:textColor="@color/BLACK"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="待过户"
+                android:textColor="@color/BLACK" />
+
+            <TextView
+                android:id="@+id/transfer_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6月10日12点"
+                android:textColor="@color/BLACK" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

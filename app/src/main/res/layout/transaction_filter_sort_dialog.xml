@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/hc_self_white"
+              android:orientation="vertical"
+              android:padding="@dimen/height_10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40dp">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/color_white_turn_gray"
+            android:gravity="center"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:text="@string/soft_update_cancel"
+            android:textColor="@color/hc_indicator"
+            android:textSize="@dimen/margin_16dp"/>
+
+        <TextView
+            style="@style/hc_weight1_horizontal"
+            android:layout_marginBottom="@dimen/margin_9dp"
+            android:layout_marginTop="@dimen/margin_9dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选择排序"
+            android:textSize="@dimen/margin_16dp"/>
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/color_white_turn_gray"
+            android:gravity="center"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:text="@string/action_ok"
+            android:textColor="@color/hc_indicator"
+            android:textSize="@dimen/margin_16dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:background="@color/divider_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:text="排序方式"
+            android:textColor="@color/hc_self_black"
+            android:textSize="@dimen/hc_text_size_normal"/>
+
+        <RadioGroup
+            android:id="@+id/rg_customer_sort"
+            style="@style/wh_mw"
+            android:layout_marginLeft="@dimen/margin_50dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rg_customer_asc"
+                style="@style/hc_rb_quit_buy_reason"
+                android:layout_weight="1"
+                android:text="升序"
+                android:textColor="@drawable/rb_textcolor_selector"/>
+
+            <RadioButton
+                android:id="@+id/rg_customer_desc"
+                style="@style/hc_rb_quit_buy_reason"
+                android:layout_weight="1"
+                android:text="降序"
+                android:textColor="@drawable/rb_textcolor_selector"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_customer_where"
+        style="@style/wh_mw">
+
+        <RadioButton
+            android:id="@+id/rb_customer_level"
+            style="@style/hc_rb_quit_buy_reason"
+            android:text="级别"
+            android:textColor="@drawable/rb_textcolor_selector"/>
+
+        <RadioButton
+            android:id="@+id/rb_customer_revisit"
+            style="@style/hc_rb_quit_buy_reason"
+            android:text="回访时间"
+            android:textColor="@drawable/rb_textcolor_selector"/>
+
+    </RadioGroup>
+
+</LinearLayout>

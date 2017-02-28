@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/hc_self_white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="买家姓名"/>
+
+                <EditText
+                    android:id="@+id/et_name"
+                    style="@style/HCTheme.VehicleSubBlock.Input"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.6"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="手机号"/>
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    style="@style/HCTheme.VehicleSubBlock.Input"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.6"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="微信"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.6">
+
+                    <EditText
+                        android:id="@+id/et_weixin"
+                        style="@style/HCTheme.VehicleSubBlock.Input"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                    <CheckBox
+                        android:id="@+id/checkbox"
+                        style="@style/cb_carbody"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_6dp"
+                        android:layout_weight="0.5"
+                        android:text="同手机号"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="客户级别"/>
+
+                <Spinner
+                    android:id="@+id/sp_buyer_level"
+                    style="@style/HCTheme.VehicleSubBlock.Spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/margin_40dp"
+                    android:layout_weight="1.6"
+                    android:entries="@array/filter_level"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="是否为车商"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_car_dealer"
+                    style="@style/hc_weight1_horizontal"
+                    android:layout_weight="1.6"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        style="@style/hc_weight1_horizontal"
+                        android:button="@drawable/select_transfer_extinfo_radio_yes"
+                        android:gravity="center"/>
+
+                    <RadioButton
+                        style="@style/hc_weight1_horizontal"
+                        android:button="@drawable/select_transfer_extinfo_radio_no"
+                        android:gravity="center"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="是否到店"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_arrival"
+                    style="@style/hc_weight1_horizontal"
+                    android:layout_weight="1.6"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        style="@style/hc_weight1_horizontal"
+                        android:button="@drawable/select_transfer_extinfo_radio_yes"
+                        android:gravity="center"/>
+
+                    <RadioButton
+                        style="@style/hc_weight1_horizontal"
+                        android:button="@drawable/select_transfer_extinfo_radio_no"
+                        android:gravity="center"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:layout_marginBottom="@dimen/height_10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="到店时间"/>
+
+                <TextView
+                    android:id="@+id/tv_arrival_time"
+                    style="@style/HCTheme.VehicleSubBlock.Input"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.6"
+                    android:background="@color/white"
+                    android:inputType="number"
+                    android:text="---默认提交时间---"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:layout_height="@dimen/margin_120dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="回访记录"/>
+
+                <EditText
+                    android:id="@+id/et_comment"
+                    style="@style/HCTheme.VehicleSubBlock.Input"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/margin_120dp"
+                    android:layout_weight="1.6"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:layout_marginBottom="@dimen/margin_15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="下次回访时间"/>
+
+                <Spinner
+                    android:id="@+id/sp_buyer_revisit"
+                    style="@style/HCTheme.VehicleSubBlock.Spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/margin_40dp"
+                    android:layout_weight="1.6"
+                    android:entries="@array/revisit_n"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_commit"
+        style="@style/hc_transfer_tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/color_red_turn_deep"
+        android:gravity="center"
+        android:padding="@dimen/margin_15dp"
+        android:text="添加"
+        android:textColor="@color/hc_self_white"
+        android:textSize="@dimen/hc_text_size_middle"/>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/hc_self_gray_bg"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hc_titlebar_resurgence_buyer"
+        android:background="@color/hc_self_white"
+        style="@style/hc_titlebar_buyer_revive"
+        />
+
+    <com.haoche51.sales.custom.HCPullToRefresh
+        android:id="@+id/lv_buyer_resurgence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/hc_self_gray_bg"
+        android:layout_above="@+id/tv_activation_buyer"
+        android:layout_below="@+id/hc_titlebar_resurgence_buyer"/>
+
+    <TextView
+        android:id="@+id/tv_activation_buyer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/color_red_turn_deep"
+        android:gravity="center"
+        android:padding="@dimen/margin_15dp"
+        android:text="@string/hc_activited_buyer"
+        android:textColor="@color/self_white"
+        android:textSize="@dimen/margin_14dp"
+        />
+
+
+</RelativeLayout>

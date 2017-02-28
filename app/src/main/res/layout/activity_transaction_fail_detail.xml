@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/layout_custom_state"/>
+
+            <include
+                layout="@layout/layout_transaction_fail_app_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/height_10dp"
+                android:layout_marginTop="@dimen/height_10dp"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/height_10dp"
+                android:paddingTop="@dimen/height_10dp">
+
+                <include layout="@layout/layout_seller_contact"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_trans_fail_reason_label"
+                    style="@style/hc_tv_title"
+                    android:text="@string/hc_trans_fail_reason"
+                    android:textColor="@color/self_black"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_trans_fail_reason"
+                    style="@style/hc_tv_desc"
+                    android:text="-----------"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/layout_common_bottom_match_btn"/>
+
+</LinearLayout>

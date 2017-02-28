@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/hc_self_gray_bg"
+    android:focusableInTouchMode="true">
+    <include layout="@layout/layout_common_titlebar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:focusableInTouchMode="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <!-- 基本信息 -->
+            <include layout="@layout/layout_transaction_prepay_transfer_info" />
+
+            <!--公司过户信息-->
+            <LinearLayout
+                android:id="@+id/ll_transfer_company_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_10dp"
+                    android:background="@color/hc_self_gray_bg"
+                    />
+                <!--优惠券，大礼包，是否包过户-->
+                <include layout="@layout/layout_transaction_prepay_preferential" />
+
+                <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/height_10dp"-->
+                <!--android:background="@color/hc_self_gray_bg"-->
+                <!--/>-->
+
+                <!--减免金额-->
+                <include
+                    android:id="@+id/ll_transfer_reduction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout_transaction_prepay_reduction"
+                    android:layout_marginTop="@dimen/margin_10dp" />
+
+                <!--定金-->
+                <include
+                    android:id="@+id/ll_transfer_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout_transaction_prepay_earnest_money"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    />
+                <!-- 买家付公司车款 -->
+                <include layout="@layout/layout_transaction_prepay_compay_car_money" />
+
+                <!--更多信息-->
+                <include
+                    android:id="@+id/ll_transfer_ext_info"
+                    layout="@layout/layout_transaction_prepay_ext_info"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_10dp"
+                android:background="@color/hc_self_gray_bg"
+                />
+
+            <include layout="@layout/layout_transaction_prepay_remark"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_10dp"
+                android:background="@color/hc_self_gray_bg"
+                />
+
+            <include layout="@layout/layout_transaction_prepay_contract_photo"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hc_self_gray_line"
+        />
+    <include layout="@layout/layout_paymoney_bottom"/>
+</LinearLayout>

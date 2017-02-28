@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/wh_mw"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/self_white"
+    android:layout_marginTop="@dimen/height_10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/height_10dp">
+
+        <TextView
+            style="@style/hc_tv_title.low"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_quit_buy_reason"
+            android:textSize="@dimen/hc_text_size_normal"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:textColor="@color/hc_self_black"/>
+
+        <TextView
+            android:id="@+id/tv_content_max_input_count"
+            style="@style/hc_tv_desc.low"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="100"
+            android:textColor="@color/hc_self_gray"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_quit_buy_reason_content"
+        style="@style/hc_ed_quit_buy"
+        android:layout_marginBottom="@dimen/margin_15dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        />
+</LinearLayout>

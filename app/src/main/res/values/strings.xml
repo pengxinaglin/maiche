@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">卖车神器</string>
+    <string name="hc_encouragement">新的一天，新的开始，为了牛B的理想，加油！</string>
+    <string name="action_settings">我的设置</string>
+    <string name="hc_income_detail">薪资详情>></string>
+    <string name="hc_income_title">薪资详情</string>
+
+
+    <string name="action_ok">确定</string>
+    <string name="p_title_orgin_pwd">原  密  码</string>
+    <string name="p_title_new_pwd">新  密  码</string>
+    <string name="p_title_new_pwd_again">确认密码</string>
+    <string name="p_appoint_time">预约时间 </string>
+    <string name="p_appoint_address">看车地点</string>
+    <string name="p_vehicle_source_id">车源编号</string>
+    <string name="seller_info">车\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020主</string>
+    <string name="p_seller">车主</string>
+    <string name="p_buyer">买家</string>
+    <string name="p_service_pay">服务费</string>
+    <string name="p_service_pay_sub">应补差价</string>
+
+    <string name="carmodel">车\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020型</string>
+    <string name="login">登录</string>
+    <string name="modify">修改</string>
+    <string name="change_pwd">修改密码</string>
+    <string name="logout">退出登录</string>
+    <string name="p_appoint_comment">备注</string>
+    <string name="yes">有</string>
+    <string name="comment">备注</string>
+
+    <string name="hc_loading">加载中...</string>
+
+    <string name="select_transfer_time">选择过户时间</string>
+
+    <string name="soft_update_cancel">取消</string>
+
+
+    <string name="p_cancel">取消</string>
+    <string name="p_ok">确认</string>
+    <string name="tips">提示</string>
+
+
+    <!-- 买家线索 -->
+    <string name="buyer_clues">我的推荐</string>
+    <string name="buyer_clues_null">全部线索列表为空</string>
+    <string name="buyer_clues_success_null">成功线索列表为空</string>
+    <string name="hint_buyerphone">买家电话</string>
+    <string name="hint_buyerinfo">请说明买家想购买的车型、预算、要求等,如：张先生要购买一辆12万左右的蓝色别克GL8</string>
+
+    <string name="button_ok">确定</string>
+    <string name="myqrcode">http://wx.haoche51.com/wx_center/share?checker_id=</string>
+
+    <!-- 看车任务 字符串 -->
+    <string name="hc_buyer_give_company">买家给公司定金</string>
+    <string name="hc_buyer_give_carowner">买家给车主定金</string>
+    <string name="hc_carowner_give_company">车主给公司定金</string>
+    <string name="hc_carowner_give_gift">赠送礼品</string>
+    <!-- 看车任务 字符串 -->
+
+    <string name="hc_transfer_source">车源编号</string>
+    <string name="hc_transfer_plate">车牌号码</string>
+    <string name="hc_modify_succ">修改成功</string>
+    <string name="hc_transfer_address">过户地点</string>
+    <string name="hc_succ">处理成功</string>
+    <string name="hc_error">处理失败</string>
+    <string name="hc_transfer_list_empty">过户列表为空</string>
+    <string name="hc_query">查询</string>
+    <string name="hc_yuan">元</string>
+    <string name="hc_wanyuan">万元</string>
+    <string name="hc_nomeet">未上门</string>
+    <string name="hc_look_bad">车没看上</string>
+    <string name="hc_price_bad">价格没谈拢</string>
+    <string name="hc_vehicle_equal_sys">车型与系统相符</string>
+    <array name="hc_vehicle_unequal_sys_reason">
+        <item>发动机排量不符</item>
+        <item>变速箱不符</item>
+        <item>天窗不符</item>
+        <item>上牌时间不符</item>
+        <item>过户时间不符</item>
+    </array>
+
+    <string name="hc_checker_accompany">地\u0020\u0020\u0020\u0020销</string>
+
+    <!-- 图像选择 -->
+
+    <string name="loading">请稍后&#8230;</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="hc_loadmore">加载更多</string>
+    <string name="hc_nomore_data">没有更多数据了</string>
+
+
+    <string name="see_failure">带看失败</string>
+
+
+    <string name="select_failed_type">请选择失败类型</string>
+
+    <!--公司包过户信息-->
+    <string name="hc_company_transfer_pay">公司包过户</string>
+    <string name="transfer_own">自行过户</string>
+    <string name="transfer_company">公司过户</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    ////////////////////////yangming add////////////////////////////
+
+    <string name="common_erro_http_gson_decode">网络数据解析出错</string>
+    <string name="common_erro_intent_extra">参数传递出错</string>
+
+    <string name="common_title_back">返回</string>
+    <string name="common_title_cancel">取消</string>
+    <string name="common_title_commit">确定</string>
+    <string name="hc_common_save">保存</string>
+    <string name="hc_common_modify">修改</string>
+
+    <string name="common_list_no_data">暂无数据</string>
+    <string name="common_click_to_refresh">点击刷新</string>
+
+    <string name="nomarl_select_unlimited">不限</string>
+    <string name="nomarl_select_please_select">请选择</string>
+
+
+    <!--车源订阅条件页面-->
+    <string name="vehicle_subscribe_condition_brand_lable">品牌车系</string>
+    <string name="vehicle_subscribe_condition_add">添加</string>
+    <string name="hc_clue_type">线索类型</string>
+    <string name="hc_outside_source">外网车源</string>
+    <string name="hc_inside_source">内网车源</string>
+    <string name="vehicle_subscribe_condition_remark_lable">客户备注</string>
+    <string name="vehicle_subscribe_condition_price_lable">价格范围[万元]</string>
+    <string name="vehicle_subscribe_condition_discharge_standard_lable">排放标准</string>
+    <string name="vehicle_subscribe_condition_structure_lable">车身结构</string>
+    <string name="vehicle_subscribe_condition_displacement_lable">排量</string>
+    <string name="vehicle_subscribe_condition_vehicle_old_lable">车龄（年）</string>
+
+    <string name="vehicle_subscribe_condition_transmission_lable">变速箱</string>
+    <string name="vehicle_subscribe_condition_color_lable">颜色</string>
+
+    <string name="vehicle_subscribe_condition_title">车源订阅</string>
+    <string name="vehicle_sube_brand_add__title">添加品牌车系</string>
+
+    <string name="match_customer_list_activity_title">车源推荐详情</string>
+
+    <string name="share_dialog_text_weixin">用户微信号已复制\n点击【分享】后进入微信\n将复制内容粘贴到搜索框\n</string>
+    <string name="share_dialog_text_phone">用户手机号已复制\n点击【分享】后进入微信\n将复制内容粘贴到搜索框\n</string>
+
+
+    <string name="view_vehicle_task_detail_status">任务状态</string>
+
+
+    <string name="layout_user_setting_qrcode">二维码分享</string>
+    <string name="layout_user_setting_update">检查更新</string>
+
+    ////////////////////////yangming end////////////////////////////
+    <string name="breach_of_promise">毁约</string>
+    <string name="already_breach_of_promise">已毁约</string>
+    <string name="breach_of_promise_to_confirm">毁约待确认</string>
+    <string name="the_unknown">未知</string>
+    <string name="with_the_failure">带看失败</string>
+    <string name="see_succ">带看成功</string>
+
+    <string name="cluesstatus_default">跟进中</string>
+    <string name="cluesstatus_processing">处理中</string>
+    <string name="cluesstatus_success">已处理</string>
+    <string name="cluesstatus_invalid">无效</string>
+
+
+    <string name="waiting_check">待检</string>
+    <string name="audit">审核</string>
+    <string name="online">上线</string>
+    <string name="reservation">预定</string>
+    <string name="sold">售出</string>
+    <string name="company_repurchase">公司回购</string>
+    <string name="seller_sold">车主售出</string>
+
+    <!--ProgressDialog-->
+    <string name="later">请稍后...</string>
+
+    <!--list-->
+
+    <!--format date-->
+    <string name="no_choose">不能选之前的时间</string>
+    <string name="server_no_response">对不起，服务器繁忙，请稍后重试...</string>
+    <string name="old_pwd_error">原始密码不正确</string>
+    <string name="loging">登录中请稍后...</string>
+    <string name="cancellation">注销中,请稍后...</string>
+    <string name="download_towifi">请在wifi下更新</string>
+    <string name="net_timeout">连接超时</string>
+    <string name="select_time">选择时间</string>
+    <string name="price_format_error">成交价格式不正确</string>
+    <string name="commission_format_error">服务费格式不正确</string>
+    <string name="company_prepay_format_error">买家给公司定金格式不正确</string>
+    <string name="seller_prepay_format_error">买家给车主定金格式不正确</string>
+    <string name="carowner_give_company_format_error">车主给公司定金格式不正确</string>
+    <string name="buyer_give_seller_money_empty">买家给车主定金不能为空，无定金请填0</string>
+    <string name="buyer_give_company_money_empty">买家给公司定金不能为空，无定金请填0</string>
+    <string name="seller_give_company_money_empty">车主给公司定金不能为空，无定金请填0</string>
+    <string name="transfer_place_empty">过户地点不能为空不能为空</string>
+    <string name="transfer_time_empty">过户时间不能为空</string>
+    <string name="add_revisit">添加回访记录</string>
+    <string name="tip_input_content">请输入内容~</string>
+    <string name="add_success">添加成功！</string>
+    <string name="transaction_detail">看车详情</string>
+    <string name="add_remark">添加备注</string>
+    <string name="modify_remark">修改备注</string>
+    <string name="tip_input_remark">请填写50字以内的备注信息</string>
+    <string name="buyer_revisit">回访记录</string>
+    <string name="buyer_trans_history">买家看车记录</string>
+    <string name="select_cancel_party">请选择毁约方~</string>
+    <string name="select_vehicle_status">请选择操作车源~</string>
+    <string name="successful">操作成功！</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="intended_source">意向车源</string>
+    <string name="lack_parameter">缺少参数~</string>
+
+    <string name="parameters_error">传递参数有误</string>
+    <string name="match_customer_count">共匹配客户\u0020%s</string>
+    <string name="pay_deposit">预定成功</string>
+    <string name="pay_deposit_succ">买家支付定金成功!</string>
+    <string name="lack_phone">信息不完整，缺少手机号~</string>
+    <string name="copy">复制成功</string>
+    <string name="pars_subscribe_error">获取订阅条件解析出错</string>
+    <string name="tip_low_less_height">最低价应低于最高价</string>
+    <string name="tip_low_less_height_displacement">最低排量应低于最高排量</string>
+    <string name="tip_lowage_less_heightage">最低车龄应低于最高车龄</string>
+    <string name="contact_group">好车无忧-客户</string>
+    <string name="did_not_get">未获取</string>
+    <string name="obtaing">获取中</string>
+    <string name="get_succ">获取成功</string>
+    <string name="get_fail">获取失败</string>
+    <string name="answer">呼入</string>
+    <string name="callout">呼出</string>
+    <string name="hc_wan">%s万元</string>
+    <string name="rc_icon_url">"%s?imageView2/2/w/180/h/140"</string>
+    <string name="hint_input_revisit">请输入回访内容</string>
+    <string name="transfer_type">过户方式</string>
+    <string name="release_party">毁约方</string>
+    <string name="vehicle_operation">车源操作</string>
+    <string name="hint_bgc_money">买家给公司定金（元）</string>
+    <string name="hint_bgs_money">买家给车主定金（元）</string>
+    <string name="hint_sgc_money">车主给公司定金（元）</string>
+    <string name="hint_cgb_money">公司退买家定金（元）</string>
+    <string name="hint_cgs_money">公司退车主定金（元）</string>
+    <string name="cancel_reason">毁约原因</string>
+    <string name="refund_and_account">退款方式及账号</string>
+
+    <!--首页权限问题-->
+    <string name="hc_right_work_report">工作汇报</string>
+    <string name="hc_right_transaction">看车任务</string>
+    <string name="hc_right_custom">客户</string>
+    <string name="hc_right_transfer">过户</string>
+    <string name="hc_right_vehicle_recommend">车源匹配</string>
+    <string name="hc_right_cashier">收款</string>
+    <string name="hc_right_buyer_recommend">推荐有奖</string>
+    <string name="hc_right_message">消息</string>
+    <string name="hc_right_return_visit">回访任务</string>
+    <string name="hc_right_back_source">全部车源</string>
+    <string name="hc_right_refuse">没有访问权限</string>
+
+    <!--title 添加 -->
+    <string name="hc_titlebar_add">添加</string>
+
+    <!-- 看车tab页title -->
+    <string name="hc_transaction_store">展厅</string>
+    <string name="hc_transaction_outdoors">户外</string>
+    <string name="hc_transaction_task">看车</string>
+    <string name="hc_transaction_success">成功</string>
+    <string name="hc_transaction_failed">失败</string>
+    <string name="activity_store_arrival_title">添加到店记录</string>
+    <string name="activity_store_take_title">添加看车任务</string>
+
+    <!--看车详情页字符串-->
+    <string name="hc_transaction_add">预约地点</string>
+    <string name="hc_vehicle_name">车\u0020\u0020\u0020\u0020\u0020\u0020\u0020型</string>
+    <string name="hc_seller_price">报价[万]</string>
+    <string name="hc_buyer_company">买家给公司定金[元]</string>
+    <string name="hc_buyer_owner">买家付公司车款[元]</string>
+    <string name="hc_owner_company">车主给公司定金[元]</string>
+    <string name="hc_cheap_price">底价[万]</string>
+    <string name="hc_eval_price">个人交易价[万]</string>
+    <string name="hc_eval_price_21">收车价[万]</string>
+    <string name="hc_eval_price_dealer">车商价[万]</string>
+    <string name="hc_vehicle_source_id">车源编号</string>
+    <string name="hc_online_time">上线时间</string>
+    <string name="hc_saler_comment">电销备注</string>
+    <string name="hc_seller_name_phone">车\u0020\u0020\u0020主</string>
+    <string name="hc_saller_name_phone">电\u0020\u0020\u0020销</string>
+    <string name="hc_checker_name_phone">评估师</string>
+    <string name="hc_transaction_guarantee_amount">担保车款（买家通过公司转\n给车主的车款）</string>
+    <string name="hc_transaction_guarantee_amount2">应付车款（买家应该付给公\n司的车款）</string>
+    <string name="hc_select_sale">选择地销</string>
+    <string name="hc_buyer_name">买家姓名</string>
+    <string name="hc_buyer_phone">买家电话</string>
+    <string name="hc_isarrival">是否到店</string>
+    <string name="hc_unarrival">未到店</string>
+    <string name="hc_arrivaled">已到店</string>
+    <string name="hc_custom_level">客户级别</string>
+    <string name="hc_next_revisit_time">下次回访时间</string>
+    <string name="hc_transaction_task_type">任务类型</string>
+
+    <string name="hc_vehicle_detail">车源详情</string>
+    <string name="hc_check_report">车检报告</string>
+    <string name="hc_cjd_report">4S店保养记录</string>
+    <string name="hc_vehicle_revisit">车源回访记录</string>
+    <string name="hc_buyer_revisit">买家回访记录</string>
+    <string name="hc_call_record">听录音</string>
+    <string name="similar_transaction">相似车源</string>
+
+    <!--底部button-->
+    <string name="hc_transaction_fail">看车失败</string>
+    <string name="hc_transaction_prepay">看车成功</string>
+    <string name="hc_transaction_prepay_pay">支付定金</string>
+    <string name="hc_transaction_prepay_commit">提交审核</string>
+    <string name="hc_transaction_take_task">互推</string>
+    <string name="hc_transaction_arrival_record">到店记录</string>
+    <string name="hc_vehicle_plate_number">车\u0020\u0020牌\u0020\u0020号</string>
+    <string name="hc_activited_buyer">激活</string>
+
+    <!--popup menu titlebar more-->
+    <string name="hc_popup_menu_titlebar_appraisal">车源估价</string>
+    <string name="store">门店</string>
+    <string name="online_pay">线上收款</string>
+    <string name="hc_popup_menu_titlebar_setting">设置</string>
+
+    <!--消息通知页面-->
+    <string name="hc_message_activity_title">消息通知</string>
+    <!--车源推荐页面-->
+    <string name="hc_vehicle_recommend_activity_title">车源推荐</string>
+    <!--看车任务主页-->
+    <string name="hc_trans_main_activity_title">任务</string>
+    <string name="hc_trans_task_activity_title">任务详情</string>
+    <string name="hc_titlebar_totalcout">共有%s条看车数据</string>
+    <string name="hc_transaction_subscribe_series">订阅车辆</string>
+    <string name="hc_transaction_subscribe_price">价格范围</string>
+    <string name="hc_transaction_follow_time">最近跟进</string>
+    <string name="hc_transaction_customer_comment">客户备注</string>
+    <string name="hc_transaction_customer_arrival">到店时间</string>
+    <string name="hc_transaction_customer_see_vehicle">带看车辆</string>
+    <string name="hc_transaction_status">状\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020态</string>
+    <!--放弃购买页面-->
+    <string name="hc_quit_buy_reason">带看失败具体原因</string>
+    <!--录音记录页面-->
+    <string name="hc_phone_record_list_activity_title">录音记录</string>
+    <string name="hc_trans_task_detail_activity_title">客户详情</string>
+    <string name="hc_phone_record_list_buyer">买家</string>
+    <string name="hc_phone_record_list_saler">车主</string>
+    <string name="hc_phone_record_list_item_operator">操作人</string>
+    <string name="hc_phone_record_list_item_type">类型</string>
+    <string name="hc_phone_record_list_item_time">时间</string>
+    <!--车源回访记录-->
+    <string name="hc_vehicle_revisit_activity_title">车源回访记录</string>
+
+    <!--预订成功页面-->
+    <string name="hc_transfer_order_number">订单编号</string>
+    <string name="hc_transfer_order_time">预定时间</string>
+    <string name="hc_transfer_type">过户方式</string>
+    <string name="hc_transfer_time2">过户时间</string>
+    <string name="hc_label_final_price_wanyuan">成交价[万元]</string>
+    <string name="hc_breakup">毁约</string>
+    <string name="hc_modify_transfer">修改过户信息</string>
+    <string name="hc_upload_transfer_picture">上传转账照片</string>
+    <string name="hc_upload">上传</string>
+    <string name="hc_trans_fail_reason">失败原因</string>
+    <!--添加推荐页面-->
+    <string name="hc_addbuyer_lead_activity_title">添加推荐</string>
+    <!--看车记录页面-->
+    <string name="hc_trans_history_activity_title">看车记录</string>
+    <string name="hc_trans_history_result">带看结果</string>
+    <string name="hc_trans_history_app_time">看车时间</string>
+    <string name="hc_search_hint">请输入姓名/手机号搜索</string>
+    <string name="hc_search_hint1">请输入姓名/手机号/车型搜索</string>
+    <string name="hc_trans_task_filter_time_hint">时\u0020\u0020\u0020\u0020\u0020\u0020\u0020间</string>
+    <string name="hc_trans_task_filter_time">跟进时间</string>
+    <string name="hc_trans_task_filter_level_hint">级别</string>
+    <string name="hc_trans_task_filter_sort_hint">排序</string>
+    <string name="hc_trans_task_filter_hint">筛选</string>
+    <string name="hc_trans_task_filter_time_tip">请选择正确的时间区段</string>
+    <string name="hc_common_result_nodata">没有你想要的数据了</string>
+    <string name="hc_common_result_offline">你掉线了哦~</string>
+    <!--订阅车源-->
+    <string name="hc_seller_price_label">报\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020价</string>
+    <string name="hc_seller_cheap_label">底\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020价</string>
+    <string name="hc_seller_desc_label">描\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020述</string>
+    <string name="hc_match_cus_desc">匹配客户</string>
+    <!--看车失败客户详情页面-->
+    <string name="hc_buyer_wx_number">微\u0020\u0020信\u0020\u0020号</string>
+    <string name="hc_transaction_intention_payment">意\u0020\u0020向\u0020\u0020金</string>
+    <string name="hc_transaction_buyer_sub">订阅条件</string>
+    <string name="hc_transaction_revisit">回访记录</string>
+    <string name="hc_modify_buyerlevel">添加意向金</string>
+    <string name="hc_modify_vehicle_sub">修改订阅</string>
+    <string name="hc_modify_buyerinfo">客户详情</string>
+    <string name="hc_resurbuyer">复活买家</string>
+
+    <string name="hc_seller_info">车主信息</string>
+    <!--毁约页面-->
+    <string name="hc_received_prepay">已收金额</string>
+    <string name="hc_trans_refund">退还金额</string>
+    <string name="hc_trans_company_refund_seller">公司退车主定金（元）</string>
+    <!--支付定金页面-->
+    <string name="hc_transfer_final_price">成\u0020\u0020交\u0020\u0020价</string>
+    <string name="hc_transfer_deal_price">成\u0020\u0020本\u0020\u0020价（此价格为转给车主\n的车款）</string>
+    <string name="hc_transfer_service_price">理论服务费</string>
+    <string name="hc_transfer_gift_bag">大\u0020\u0020礼\u0020\u0020包</string>
+    <string name="hc_transfer_coupons">优\u0020\u0020惠\u0020\u0020券</string>
+    <string name="hc_transfer_cash_reduction_money">减免金额</string>
+    <string name="hc_transfer_coupon_used">已用优惠券</string>
+    <string name="hc_transfer_gift_used">已用大礼包</string>
+    <string name="hc_transfer_alw_reduction_money">已减金额</string>
+    <string name="hc_company_transfer_free">是否包过户</string>
+    <string name="hc_transfer_warranty_type">质\u0020\u0020\u0020\u0020保</string>
+    <string name="hc_transfer_warranty_time">质保到期时间</string>
+    <string name="hc_select_warranty_time">选择质保到期时间</string>
+    <string name="hc_transfer_coupon_input">输入优惠码</string>
+    <string name="hc_transfer_coupon_choice">选择优惠券</string>
+    <string name="hc_transfer_coupon_no_use">不使用优惠券</string>
+    <string name="hc_transfer_coupon_search">查询</string>
+    <string name="hc_transfer_coupon_please_input_code">请输入兑换码</string>
+    <string name="hc_transfer_coupon_use">使用</string>
+    <string name="hc_transfer_coupon_unuse">取消</string>
+    <string name="hc_transfer_coupon_code_erro">优惠码不正确或已过期</string>
+
+
+    <!--二维码分享页面-->
+    <string name="hc_qrcode_share_title">二维码分享</string>
+    <string name="hc_qrcode_share_app_download">好车无忧下载二维码</string>
+    <string name="hc_qrcode_share_introduction">公司介绍二维码</string>
+
+    <!--车源订阅条件（颜色）-->
+    <string name="hc_vehicle_sub_color_black">黑色</string>
+    <string name="hc_vehicle_sub_color_white">白色</string>
+    <string name="hc_vehicle_sub_color_silver">银色</string>
+    <string name="hc_vehicle_sub_color_gray">灰色</string>
+    <string name="hc_vehicle_sub_color_red">红色</string>
+    <string name="hc_vehicle_sub_color_blue">蓝色</string>
+    <string name="hc_vehicle_sub_color_green">绿色</string>
+    <string name="hc_vehicle_sub_color_yellow">黄色</string>
+    <string name="hc_vehicle_sub_color_golden">金色</string>
+    <string name="hc_vehicle_sub_color_orange">橙色</string>
+    <!--车源订阅车身结构-->
+    <string name="hc_vehicle_sub_two_front">两厢</string>
+    <string name="hc_vehicle_sub_three_front">三厢</string>
+    <string name="hc_vehicle_sub_suv">SUV</string>
+    <string name="hc_vehicle_sub_mpv">MPV</string>
+    <string name="hc_vehicle_sub_wagon">旅行车</string>
+    <string name="hc_vehicle_sub_sports">跑车</string>
+    <string name="hc_vehicle_sub_pickup">皮卡</string>
+    <string name="hc_vehicle_sub_minibus">面包车</string>
+    <!--车源标签-->
+    <string name="hc_vehicle_lable">车源标签</string>
+    <string name="hc_vehicle_tag_lable">车源类型</string>
+    <string name="hc_please_select_models">请选择车型</string>
+    <!--合同状态-->
+
+    <string name="hc_album_option">从相册选择</string>
+    <string name="hc_take_picture">拍照</string>
+    <string name="hc_loading_photo">上传照片</string>
+    <string name="hc_upload_dear">亲爱的同学</string>
+    <string name="hc_upload_thank">感谢你在一线辛勤奋战</string>
+    <string name="hc_upload_dream">为了牛B的梦想</string>
+    <string name="hc_upload_refuel">加油!</string>
+
+    <!--看车成功任务状态-->
+    <string name="hc_transaction_status_contract_audit">合同审核中</string>
+    <string name="hc_transaction_status_contract_audit_fail">合同审核未通过</string>
+    <string name="hc_transaction_status_up_transfer_pic">上传转账照片</string>
+    <string name="hc_transaction_status_prepay_audit">预定审核中</string>
+    <string name="hc_transaction_status_prepay">预定收款中</string>
+    <string name="hc_transaction_status_prepay_audit_fail">预定收款失败</string>
+    <string name="hc_transaction_status_prepay_audit_fail_for_detail">预定收款失败,请联系城市经理修改</string>
+    <string name="hc_transaction_status_prepay_success">预定收款完成</string>
+    <string name="hc_transaction_status_finish">交易完成</string>
+    <string name="hc_transaction_status_breach_confirm">毁约待确认</string>
+    <string name="hc_transaction_status_breached">已毁约</string>
+    <string name="title_activity_buyer_revive">BuyerReviveActivity</string>
+
+
+    <!--毁约详情-->
+    <string name="hc_vehicle_model">车\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020型</string>
+
+
+    <!--支付页面-->
+    <string name="hc_pospay_buyer">买家</string>
+    <string name="hc_pospay_saller">卖家</string>
+    <string name="hc_pospay_earnest_lable">需付定金[元]</string>
+    <string name="hc_pospay_service_lable">需付服务费[元]</string>
+    <string name="hc_pospay_diff_service_lable">需付服务费差价[元]</string>
+    <string name="hc_pospay_diff_earnest_lable">需付定金差价[元]</string>
+    <string name="hc_pospay_earnest_cash">现金支付</string>
+    <string name="hc_pospay_earnest_card">去支付</string>
+    <string name="hc_pospay_earnest_success_buyer">买家支付定金成功</string>
+    <string name="hc_pospay_earnest_success_seller">卖家支付定金成功</string>
+    <string name="hc_pospay_service_success_buyer">买家支付服务费成功</string>
+    <string name="hc_transfer_modify_diff_pay">支付差价</string>
+
+    <!-- 过户页面 -->
+    <string name="hc_transfer_main_title">过户任务</string>
+    <string name="hc_transfer_detail_title">过户信息</string>
+    <string name="hc_transfer_main_transfer">待过户</string>
+    <string name="hc_transfer_main_audit">审核中</string>
+    <string name="hc_transfer_main_finish">已过户</string>
+    <string name="hc_transfer_detail_remark">备\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020注</string>
+    <string name="hc_transfer_detail_service_price">买家服务费[元]</string>
+    <string name="hc_transfer_detail_deal_price">成本价[元]</string>
+    <string name="hc_transfer_buyer">买\u0020\u0020\u0020\u0020家</string>
+    <string name="hc_transfer_detail_exinfo">附加信息</string>
+    <string name="hc_transfer_detail_start">开始过户</string>
+    <string name="hc_transfer_detail_modify">修改过户信息</string>
+    <string name="hc_transfer_fee">过户费</string>
+    <string name="hc_transfer_seller">转款</string>
+    <string name="hc_transfer_detail_payment">收款详情</string>
+    <string name="hc_transfer_search_hint">输入车牌号/车源id/订单编号搜索</string>
+    <string name="hc_transfer_received_monies">已收款项</string>
+
+    <!-- 过户附加信息 -->
+    <string name="emigrate">买家是否外迁</string>
+    <string name="resident">买家是否本市户口</string>
+    <string name="temp_resident">买家有无暂住证[有效期内]</string>
+    <string name="company_seller">车辆是否公户</string>
+    <string name="company_buyer">买家是否公户</string>
+    <string name="seller_present">车主是否本人到场</string>
+    <string name="buyer_present">买家是否本人到场</string>
+    <string name="hc_transfer_ext_loan">买家是否贷款</string>
+
+    <!-- 开始过户页面 -->
+    <string name="hc_transfer_start_title">开始过户</string>
+    <string name="hc_transfer_start_receivable">应收</string>
+    <string name="hc_transfer_start_remaind_service">剩余服务费[元]</string>
+    <string name="hc_transfer_start_remaind_price">剩余车款[元]</string>
+    <string name="hc_transfer_start_price">复检后车辆成交价</string>
+    <string name="hc_transfer_start_reduce">复检减免服务费</string>
+    <string name="hc_transfer_start_companytrans">买家通过公司转账</string>
+    <string name="hc_transfer_start_comtrans_price">买家转给公司金额</string>
+    <string name="hc_transfer_start_fee">过户费用</string>
+    <string name="hc_transfer_start_payment">收款历史</string>
+    <string name="hc_transfer_start_remaind">剩余应收款</string>
+    <string name="hc_transfer_start_remaind_offline">剩余应收款现金支付</string>
+    <string name="hc_transfer_payment_title">收款详情</string>
+    <string name="hc_transfer_start_remark">备注</string>
+
+    <!-- 过户POS机收款页面 -->
+    <string name="hc_transfer_pospay_title">POS机收款</string>
+    <string name="hc_transfer_pospay_price">刷卡金额</string>
+    <string name="hc_transfer_pospay_operator">操作员号</string>
+    <string name="hc_transfer_pospay_fee">手续费</string>
+    <string name="hc_transfer_pospay_notice">提示：\n首次刷卡免手续费，之后每笔刷卡收取手续费26元。</string>
+    <string name="hc_transfer_pospay_notice_new">提示：\n刷车款，每笔刷卡收取手续费100元。</string>
+    <string name="hc_transfer_pospay_lianlian">连接POS机</string>
+
+    <string name="hc_title_quji">渠寄车源</string>
+    <string name="hc_title_close">关闭</string>
+
+    <string name="notification_message">好车无忧服务运行中</string>
+    <string name="action_transfer">过户信息</string>
+
+    <!--买家预定收款-->
+    <string name="hc_transaction_prepay_buyer_more">更多收款</string>
+    <string name="hc_transaction_prepay_buyer_add_extra">增加收款项</string>
+    <string name="hc_transaction_prepay_buyer_intention_money">使用意向金</string>
+
+    <!-- 公海客户级别 -->
+    <string name="hc_transaction_level_nointerested">N级</string>
+    <string name="hc_transaction_level_interested">B级</string>
+
+    <!-- 工作汇报 -->
+    <string name="see_car_task">看车任务</string>
+    <string name="see_car_success">看车成功</string>
+    <string name="see_car_fail">看车失败</string>
+    <string name="relive_buyer">复活买家</string>
+    <string name="visit_record">回访记录</string>
+    <string name="consumer_turnover_rate">客户成交率[本月]</string>
+    <string name="content_not_null">输入内容不能为空</string>
+    <string name="locationing">正在定位...</string>
+    <string name="sending">正在发送...</string>
+    <string name="image_upload_fail">图片上传失败</string>
+    <string name="publish">发表</string>
+    <string name="exit_edit">退出此次编辑?</string>
+    <string name="exit">退出</string>
+
+    <string name="footer_msg_network_error">网络出错, 点击重试!</string>
+    <string name="p_finish">完成</string>
+
+    <string name="take_look">加带看</string>
+    <string name="select_take_look_time">选择带看时间</string>
+    <string name="commit">提交</string>
+    <string name="please_write_transaction_code">请填写车源编号</string>
+    <string name="please_select_take_look_time">请选择带看时间</string>
+    <string name="commiting">正在提交...</string>
+    <string name="take_look_success">提交加带看成功</string>
+    <!-- 意向金POS机收款页面 -->
+    <string name="hc_intention_pospay_title">意向金</string>
+    <string name="hc_intention_pospay_price">预定金额</string>
+    <string name="hc_intention_pospay_operator">操作员号</string>
+    <string name="hc_intention_pospay_vehicle">车源编号</string>
+    <string name="hc_intention_pospay_lianlian">POS机收款</string>
+
+    <!-- 意向金申请退款页面 -->
+    <string name="hc_intention_cancel_title">申请退款</string>
+    <string name="hc_intention_cancel_price">退款金额</string>
+    <string name="hc_intention_cancel_name">姓名</string>
+    <string name="hc_intention_cancel_bank">开户行</string>
+    <string name="hc_intention_cancel_card_number">银行卡号</string>
+    <string name="cancel_pay">取消收款</string>
+
+    <string name="id_error">参数错误</string>
+    <string name="click_screen_reload">轻触屏幕重新加载</string>
+    <string name="network_error">网络异常</string>
+    <string name="neee_pay_money">需付金额</string>
+    <string name="go_commit_verify">去提交审核</string>
+    <string name="no_need_pay">无需支付</string>
+    <string name="buyer_pay_success">买家支付成功</string>
+    <string name="seller_pay_success">车主支付成功</string>
+
+    <string name="hc_customer_mian_title">客户</string>
+    <string name="hc_overview">概览</string>
+    <string name="hc_my_customer">我的客户</string>
+    <string name="hc_high_seas">公海</string>
+    <string name="hc_revisit_today">今日需回访</string>
+    <string name="hc_revisit_mine">我的回访</string>
+    <string name="hc_revisit_recycled">回炉回访</string>
+    <string name="hc_revisit_nopush">未推出带看</string>
+    <string name="hc_revisit_door">已上门</string>
+    <string name="hc_recommended">新车推荐</string>
+    <string name="hc_new_recommended">新车推荐买家</string>
+    <string name="hc_customer_title_mine">今日需回访-我的回访</string>
+    <string name="hc_customer_title_recycled">今日需回访-回炉回访</string>
+    <string name="hc_customer_title_nopush">今日需回访-未推出带看</string>
+    <string name="hc_customer_title_nodoor">带看失败-未上门</string>
+    <string name="hc_customer_title_door">带看失败-已上门</string>
+    <string name="hc_customer_title_recommended">新车推荐-新车推荐买家</string>
+    <string name="hc_customer_edite_info">修改客户信息</string>
+    <string name="hc_customer_name">客户姓名</string>
+    <string name="hc_custom_wx">微\u0020\u0020信\u0020\u0020号</string>
+
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+
+    <!--推荐-->
+    <string name="hc_repurchase">回购</string>
+    <string name="hc_check_car">验车</string>
+    <string name="hc_seller_name">车主姓名</string>
+    <string name="hc_seller_phone">车主电话</string>
+    <string name="hc_vehicle_create_time">创建时间</string>
+    <string name="hc_curr_month_bonus">本月成功</string>
+    <string name="hc_history_bonus">历史成功</string>
+
+    <!--添加回购线索-->
+    <string name="hc_purchase_add_clue">添加收车线索</string>
+    <string name="hc_task_remark">任务备注</string>
+    <string name="hc_remark_content">请简单说明车主的时间和地点，或特殊需求</string>
+    <string name="hc_task_note">注：线索创建后会交由地收经理统一分配，收车成功即可拿奖励</string>
+    <string name="hc_commit_clue">提交线索</string>
+    <string name="hc_city">城\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020市</string>
+
+    <!--客户详情-->
+    <string name="hc_customer_arrival">到店时间:</string>
+
+    <!--更新-->
+    <string name="soft_update">软件更新</string>
+    <string name="latest_version">最新版本:V4.6.4</string>
+    <string name="update_content">更新内容</string>
+    <string name="update_now">立即更新</string>
+    <string name="app_version_isnew">当前版本已是最新的了</string>
+    <string name="version_downloading">正在下载中....</string>
+    <string name="downloading">正在更新中，可在通知栏查看下载进度</string>
+    <string name="force_download">紧急更新中，可在通知栏查看下载进度。紧急更新期间，其他操作均被屏蔽。更新完成，才能正常使用。</string>
+    <string name="after">稍后再说</string>
+</resources>
+
+  
+ 

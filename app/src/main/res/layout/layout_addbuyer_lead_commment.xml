@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_20dp"
+    android:paddingLeft="@dimen/margin_15dp"
+    android:paddingRight="@dimen/margin_15dp"
+    android:paddingTop="@dimen/margin_20dp"
+    android:background="@color/self_white">
+
+
+    <TextView
+        style="@style/wh_mw"
+        android:text="@string/comment"
+        android:textColor="@color/hc_self_black"
+        android:layout_marginBottom="@dimen/margin_15dp"
+        android:textSize="@dimen/font_16"/>
+
+    <EditText
+        android:id="@+id/et_addbuyer_lead_buyercomment"
+        style="@style/hc_ed_quit_buy"
+        android:ems="10"
+        android:layout_height="@dimen/width_90dp"
+        android:gravity="top"
+        android:hint="@string/hint_buyerinfo"
+        android:textColorHint="@color/hc_self_gray"
+        android:inputType="textMultiLine"
+        android:maxLines="8"
+        android:minLines="5"
+        android:padding="@dimen/margin_5dp"
+        android:scrollbars="vertical">
+    </EditText>
+
+</LinearLayout>

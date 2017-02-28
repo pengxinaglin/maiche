@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:padding="5dp">
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_launcher"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerVertical="true"
+           android:textColor="@color/self_white"
+           android:textStyle="bold"
+           android:textSize="@dimen/hc_text_size_large"
+           android:text="正在下载:好车邦"/>
+
+    <ProgressBar
+        android:id="@+id/pb_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:indeterminateDrawable="@color/hc_self_gray"
+        android:progressDrawable="@drawable/progressbar_blue"
+        android:layout_marginTop="4dp"
+        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp">
+            <TextView
+                android:id="@+id/tv_progress"
+                style="@style/wh_wrap"
+                android:text="--"
+                android:textSize="@dimen/hc_text_size_normal"/>
+
+            <TextView
+                style="@style/wh_wrap"
+                android:text="/"
+                android:textSize="@dimen/hc_text_size_normal"/>
+
+            <TextView
+                android:id="@+id/tv_max"
+                style="@style/wh_wrap"
+                android:text="--"
+                android:textSize="@dimen/hc_text_size_normal"/>
+        </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

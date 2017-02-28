@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/anim/ll_casher_search_bt.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/anim/ll_casher_search_bt.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/anim/ll_slide_out_to_left.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/anim/ll_slide_out_to_left.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/anim/ll_grow_from_topright_to_bottomleft.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/anim/ll_grow_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/anim/ll_shrink_from_bottomleft_to_topright.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/anim/ll_shrink_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/anim/ll_slide_out_to_right.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/anim/ll_slide_out_to_right.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/anim/ll_slide_in_from_right.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/anim/ll_slide_in_from_right.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/anim/ll_slide_in_from_left.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/anim/ll_slide_in_from_left.xml"
+    }
+]

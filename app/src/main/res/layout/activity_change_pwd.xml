@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/hc_self_gray_bg"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_common_titlebar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hc_self_white"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_20dp">
+
+        <TextView
+            style="@style/HCTheme.TextHint"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/p_title_orgin_pwd"
+            android:textSize="@dimen/margin_14dp"
+            />
+
+        <EditText
+            android:id="@+id/origin_pwd"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="@dimen/margin_40dp"
+            android:inputType="textPassword"
+            android:textSize="@dimen/margin_14dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hc_self_white"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_20dp">
+
+        <TextView
+            style="@style/HCTheme.TextHint"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/p_title_new_pwd"
+            android:textSize="@dimen/margin_14dp"
+            />
+
+        <EditText
+            android:id="@+id/new_pwd"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="@dimen/margin_40dp"
+            android:inputType="textPassword"
+            android:textSize="@dimen/margin_14dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hc_self_white"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_20dp">
+
+        <TextView
+            style="@style/HCTheme.TextHint"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/p_title_new_pwd_again"
+            android:textSize="@dimen/margin_14dp"
+            />
+
+        <EditText
+            android:id="@+id/new_pwd_again"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="@dimen/margin_40dp"
+            android:inputType="textPassword"
+            android:textSize="@dimen/margin_14dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hc_self_white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_20dp">
+
+        <Button
+            android:id="@+id/btn_ok"
+            style="@style/hc_transfer_tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/color_red_turn_deep"
+            android:text="@string/common_title_commit"
+            android:textSize="@dimen/margin_14dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

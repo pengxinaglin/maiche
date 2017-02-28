@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/HCTheme.TextMain"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:padding="@dimen/margin_15dp"
+            android:text="@string/hc_revisit_today"
+            android:textColor="@color/hc_self_red"
+            android:textSize="@dimen/margin_20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp">
+
+            <LinearLayout
+                android:id="@+id/ll_mine"
+                style="@style/wh_mw"
+                android:layout_weight="1"
+                android:background="@color/hc_self_gray_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/hc_tv_transaction_fail_des"
+                    android:paddingTop="@dimen/margin_15dp"
+                    android:text="@string/hc_revisit_mine"/>
+
+                <TextView
+                    android:id="@+id/tv_mine"
+                    style="@style/hc_tv_transaction_fail_number"
+                    android:layout_marginBottom="@dimen/margin_5dp"
+                    android:padding="@dimen/margin_20dp"
+                    android:text="00"/>
+            </LinearLayout>
+
+            <View
+                style="@style/hc_tv_price_sep"
+                android:layout_width="@dimen/margin_5dp"
+                android:visibility="invisible"/>
+
+            <LinearLayout
+                android:id="@+id/ll_recycled"
+                style="@style/wh_mw"
+                android:layout_weight="1"
+                android:background="@color/hc_self_gray_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/hc_tv_transaction_fail_des"
+                    android:paddingTop="@dimen/margin_15dp"
+                    android:text="@string/hc_revisit_recycled"/>
+
+                <TextView
+                    android:id="@+id/tv_recycled"
+                    style="@style/hc_tv_transaction_fail_number"
+                    android:layout_marginBottom="@dimen/margin_5dp"
+                    android:padding="@dimen/margin_20dp"
+                    android:text="00"/>
+            </LinearLayout>
+
+            <View
+                style="@style/hc_tv_price_sep"
+                android:layout_width="@dimen/margin_5dp"
+                android:visibility="invisible"/>
+
+            <LinearLayout
+                android:id="@+id/ll_nopush"
+                style="@style/wh_mw"
+                android:layout_weight="1"
+                android:background="@color/hc_self_gray_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/hc_tv_transaction_fail_des"
+                    android:paddingTop="@dimen/margin_15dp"
+                    android:text="@string/hc_revisit_nopush"/>
+
+                <TextView
+                    android:id="@+id/tv_nopush"
+                    style="@style/hc_tv_transaction_fail_number"
+                    android:layout_marginBottom="@dimen/margin_5dp"
+                    android:padding="@dimen/margin_20dp"
+                    android:text="00"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/HCTheme.TextMain"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:padding="@dimen/margin_15dp"
+            android:text="@string/see_failure"
+            android:textSize="@dimen/margin_20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp">
+
+            <LinearLayout
+                android:id="@+id/ll_nodoor"
+                style="@style/wh_mw"
+                android:layout_weight="1"
+                android:background="@color/hc_self_gray_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/hc_tv_transaction_fail_des"
+                    android:paddingTop="@dimen/margin_15dp"
+                    android:text="@string/hc_nomeet"/>
+
+                <TextView
+                    android:id="@+id/tv_nodoor"
+                    style="@style/hc_tv_transaction_fail_number"
+                    android:layout_marginBottom="@dimen/margin_5dp"
+                    android:padding="@dimen/margin_20dp"
+                    android:text="00"/>
+            </LinearLayout>
+
+            <View
+                style="@style/hc_tv_price_sep"
+                android:layout_width="@dimen/margin_5dp"
+                android:visibility="invisible"/>
+
+            <LinearLayout
+                android:id="@+id/ll_door"
+                style="@style/wh_mw"
+                android:layout_weight="1"
+                android:background="@color/hc_self_gray_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/hc_tv_transaction_fail_des"
+                    android:paddingTop="@dimen/margin_15dp"
+                    android:text="@string/hc_revisit_door"/>
+
+                <TextView
+                    android:id="@+id/tv_door"
+                    style="@style/hc_tv_transaction_fail_number"
+                    android:layout_marginBottom="@dimen/margin_5dp"
+                    android:padding="@dimen/margin_20dp"
+                    android:text="00"/>
+            </LinearLayout>
+
+            <View
+                style="@style/hc_tv_price_sep"
+                android:layout_width="@dimen/margin_5dp"
+                android:visibility="invisible"/>
+
+            <LinearLayout
+                style="@style/wh_mw"
+                android:layout_weight="1"
+                android:visibility="invisible">
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/HCTheme.TextMain"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:padding="@dimen/margin_15dp"
+            android:text="@string/hc_recommended"
+            android:textSize="@dimen/margin_20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp">
+
+            <LinearLayout
+                android:id="@+id/ll_recommended"
+                style="@style/wh_mw"
+                android:layout_weight="1"
+                android:background="@color/hc_self_gray_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/hc_tv_transaction_fail_des"
+                    android:paddingTop="@dimen/margin_15dp"
+                    android:text="@string/hc_new_recommended"/>
+
+                <TextView
+                    android:id="@+id/tv_recommended"
+                    style="@style/hc_tv_transaction_fail_number"
+                    android:layout_marginBottom="@dimen/margin_5dp"
+                    android:padding="@dimen/margin_20dp"
+                    android:text="00"/>
+            </LinearLayout>
+
+            <View
+                style="@style/hc_tv_price_sep"
+                android:layout_width="@dimen/margin_5dp"
+                android:visibility="invisible"/>
+
+            <LinearLayout
+                style="@style/wh_mw"
+                android:layout_weight="1"
+                android:visibility="invisible">
+
+            </LinearLayout>
+
+            <View
+                style="@style/hc_tv_price_sep"
+                android:layout_width="@dimen/margin_5dp"
+                android:visibility="invisible"/>
+
+            <LinearLayout
+                style="@style/wh_mw"
+                android:layout_weight="1"
+                android:visibility="invisible">
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

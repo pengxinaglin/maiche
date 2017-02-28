@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/hc_self_gray_bg"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_common_titlebar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/wh_match"
+            android:orientation="vertical">
+
+            <!--品牌车系title-->
+            <include layout="@layout/layout_vehicle_sub_brand"/>
+
+            <!--订阅条件-->
+            <include
+                layout="@layout/layout_vehicle_sub_condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/layout_common_bottom_match_btn"/>
+</LinearLayout>

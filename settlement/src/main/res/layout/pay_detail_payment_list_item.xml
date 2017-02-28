@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_settlement_payment_name"
+        android:layout_width="@dimen/margin_0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|left"
+        android:textColor="@color/pay_edit_text_hint"
+        android:textSize="@dimen/hc_text_size_normal" />
+
+    <TextView
+        android:id="@+id/tv_settlement_payment_price"
+        android:layout_width="@dimen/margin_0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|right"
+        android:textColor="@color/pay_edit_text_hint"
+        android:textSize="@dimen/hc_text_size_normal" />
+</LinearLayout>

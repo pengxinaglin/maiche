@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="o2osdk-lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/o2osdk/libs/o2osdk-lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LandiCommDriver">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/o2osdk/libs/LandiCommDriver.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

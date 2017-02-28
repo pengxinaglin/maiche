@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_month"
+            style="@style/hc_tv_price_desc"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/height_10dp"
+            android:text="-----------"
+            android:textColor="@color/black_40"/>
+
+        <TextView
+            android:id="@+id/tv_income"
+            style="@style/hc_tv_price_desc"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/height_10dp"
+            android:fontFamily="monospace"
+            android:text="-------"
+            android:textColor="@color/self_black"
+            android:textSize="@dimen/margin_30dp"
+            android:textStyle="bold"/>
+
+        <include layout="@layout/layout_income_detail"/>
+    </LinearLayout>
+
+</LinearLayout>

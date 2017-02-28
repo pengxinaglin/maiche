@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/wh_mw"
+        android:layout_alignParentTop="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_addbuyer_lead_phone"/>
+
+        <LinearLayout
+            style="@style/hc_ll_transfer_info"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/hc_tv_title.weight1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/hc_city"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left">
+
+                <Spinner
+                    android:id="@+id/spn_city"
+                    style="@style/HCTheme.VehicleSubBlock.Spinner"
+                    />
+
+                <ImageView
+                    style="@style/wh_wrap"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_5dp"
+                    android:src="@drawable/ic_hc_spinner_arrow"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_10dp"/>
+
+        <include layout="@layout/layout_addbuyer_lead_commment"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_10dp"/>
+
+        <!--奖励不确定 暂时不显示-->
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/self_white"-->
+        <!--android:lineSpacingExtra="@dimen/margin_8dp"-->
+        <!--android:padding="@dimen/margin_20dp"-->
+        <!--android:singleLine="false"-->
+        <!--android:text="@string/txt_cluesinfo"-->
+        <!--android:visibility="gone"/>-->
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wh_mw"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/layout_common_bottom_match_btn_red"/>
+    </LinearLayout>
+
+</RelativeLayout>

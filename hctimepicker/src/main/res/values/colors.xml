@@ -1,0 +1,17 @@
+<!-- Copyright 2012 Square, Inc. -->
+<resources>
+  <color name="calendar_active_month_bg">#ffffffff</color>//本月的日期背景色
+  <color name="calendar_bg">#ffffffff</color>//日历控件背景色
+  <color name="calendar_divider">@android:color/transparent</color>//日期之间的分割线
+  <color name="calendar_inactive_month_bg">@android:color/transparent</color>//相邻月的背景色
+  <color name="calendar_selected_day_bg">#263238</color>//选中时间的背景色
+  <color name="calendar_highlighted_day_bg">@android:color/transparent</color>
+  <color name="calendar_selected_range_bg">#263238</color>//选中范围的背景色
+
+  <color name="calendar_text_inactive">#40778088</color>//相邻月的时间
+  <color name="calendar_text_active">#263238</color>//默认显示的字体色
+  <color name="calendar_text_selected">#9f9f9f</color>//选中日期的字体色
+  <color name="calendar_text_unselectable">#263238</color>//未选中日期字体色
+  <color name="calendar_text_highlighted">#263238</color>//ff3333
+  <color name="calendar_text_today">#ff3333</color>
+</resources>

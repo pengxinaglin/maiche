@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/HCTheme.VehicleSubBlock"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--客户备注lable-->
+    <TextView
+        style="@style/HCTheme.TextMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:gravity="center_vertical|left"
+        android:text="备注"
+        android:textSize="@dimen/hc_text_size_normal"/>
+
+    <TextView
+        android:id="@+id/tv_transaction_buyer_info_comment"
+        style="@style/HCTheme.TextMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        android:gravity="left"
+        android:text=""
+        android:textSize="@dimen/hc_text_size_normal"
+        android:visibility="gone"/>
+
+</LinearLayout>

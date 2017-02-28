@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_pospay_buyer_service"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hc_self_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_pospay_title"
+        style="@style/HCTheme.Pospay.Payer"
+        android:text="@string/hc_pospay_buyer" />
+
+    <TextView
+        android:id="@+id/tv_pospay_lable"
+        style="@style/HCTheme.Pospay.PriceLable"
+        android:text="需付金额[元]" />
+
+    <TextView
+        android:id="@+id/tv_pospay_price"
+        style="@style/HCTheme.Pospay.Price"
+        android:text="0" />
+
+    <LinearLayout
+        android:id="@+id/ll_pospay_pay_btu"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:background="@color/hc_self_solid"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:visibility="visible">
+
+        <TextView style="@style/HCTheme.Pospay.CardBtn" />
+    </LinearLayout>
+</LinearLayout>

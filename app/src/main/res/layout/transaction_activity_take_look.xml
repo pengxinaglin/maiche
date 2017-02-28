@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hc_self_white"
+        android:fillViewport="true"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_buyer_phone"
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="买家电话"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <EditText
+                    android:id="@+id/transaction_buyer_phone_edit_text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/shape_common_input_bolck_bg"
+                    android:inputType="numberDecimal"
+                    android:maxLength="11"
+                    android:paddingLeft="@dimen/margin_10dp"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/font_16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_buyer_name"
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="买家姓名"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <EditText
+                    android:id="@+id/transaction_buyer_name_edit_text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/shape_common_input_bolck_bg"
+                    android:paddingLeft="@dimen/margin_10dp"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/font_16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="车源编号"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <EditText
+                    android:id="@+id/transaction_code_edit_text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/shape_common_input_bolck_bg"
+                    android:inputType="numberDecimal"
+                    android:maxLength="10"
+                    android:paddingLeft="@dimen/margin_10dp"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/font_16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/hc_transaction_task_type"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <TextView
+                    android:id="@+id/tv_task_type"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:maxLength="10"
+                    android:paddingLeft="@dimen/margin_10dp"
+                    android:text="-----"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/font_16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/hc_ll_transfer_info"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="left|center_vertical"
+                    android:text="带看时间"
+                    android:textColor="@color/hc_self_gray_hint"
+                    android:textSize="@dimen/font_16"/>
+
+                <TextView
+                    android:id="@+id/take_look_time_view"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/shape_common_input_bolck_bg"
+                    android:drawableRight="@drawable/ic_hc_spinner_arrow"
+                    android:gravity="center_vertical|left"
+                    android:paddingLeft="@dimen/margin_10dp"
+                    android:paddingRight="@dimen/margin_5dp"
+                    android:textColor="@color/hc_self_black"
+                    android:textSize="@dimen/font_16"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/take_look_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_45dp"
+                android:layout_marginBottom="@dimen/margin_5dp"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_30dp"
+                android:background="@drawable/color_red_turn_deep"
+                android:text="@string/commit"
+                android:textColor="@color/hc_self_white"
+                android:textSize="@dimen/font_16"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_white_turn_gray"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/wh_mw"
+            android:background="@color/hc_vehicle_model_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="@dimen/height_1dp"
+                android:src="@drawable/shape_step_point"
+                />
+
+            <TextView
+                android:id="@+id/tv_item_vehicle_revisit_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_8dp"
+                android:text="----"
+                android:textColor="@color/hc_self_black"
+                android:textSize="@dimen/hc_text_size_normal"/>
+
+            <TextView
+                android:id="@+id/tv_item_vehicle_saler_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_8dp"
+                android:text="----"
+                android:textColor="@color/hc_self_black"
+                android:textSize="@dimen/hc_text_size_normal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/wh_mw"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0.3dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:layout_marginBottom="@dimen/margin_5dp"
+                android:background="@color/hc_self_red"/>
+
+            <TextView
+                android:id="@+id/tv_item_vehicle_content"
+                style="@style/hc_tv_desc"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/margin_8dp"
+                android:text="------"
+                android:minHeight="@dimen/margin_60dp"
+                android:padding="@dimen/margin_15dp"
+                android:textSize="@dimen/hc_text_size_middle"/>
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hc_self_white"
+    android:orientation="vertical">
+    <!--刷卡金额-->
+    <LinearLayout
+        android:id="@+id/ll_intention_cancel_price"
+        style="@style/hc_ll_transfer_info"
+        android:background="@color/hc_self_white"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_intention_cancel_price" />
+
+
+        <TextView
+            android:id="@+id/tv_intention_cancel_price"
+            style="@style/wh_wrap"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:paddingRight="@dimen/margin_5dp"
+            android:text="0" />
+
+        <TextView
+            style="@style/wh_wrap"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/margin_5dp"
+            android:text="@string/hc_yuan"
+            android:textSize="@dimen/hc_text_size_normal" />
+    </LinearLayout>
+
+    <!-- 姓名 -->
+    <LinearLayout
+        android:id="@+id/ll_intention_cancel_name"
+        style="@style/hc_ll_transfer_info"
+        android:layout_below="@+id/ll_intention_cancel_price"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_intention_cancel_name" />
+
+        <EditText
+            android:id="@+id/et_intention_cancel_name"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:paddingRight="@dimen/margin_25dp" />
+
+    </LinearLayout>
+
+    <!-- 开户行 -->
+    <LinearLayout
+        android:id="@+id/ll_intention_cancel_bank"
+        style="@style/hc_ll_transfer_info"
+        android:layout_below="@+id/ll_intention_cancel_name"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_intention_cancel_bank" />
+
+        <EditText
+            android:id="@+id/et_intention_cancel_bank"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <!--操作员-->
+    <LinearLayout
+        android:id="@+id/ll_intention_cancel_card_number"
+        style="@style/hc_ll_transfer_info"
+        android:layout_below="@+id/ll_intention_cancel_bank"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_intention_cancel_card_number" />
+
+        <EditText
+            android:id="@+id/et_intention_cancel_card_number"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingRight="@dimen/margin_25dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/ll_btn"
+        android:background="@color/hc_self_gray_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_intention_calcel"
+            style="@style/hc_transfer_tv_2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/color_white_turn_gray"
+            android:gravity="center"
+            android:text="@string/common_title_cancel"
+            android:textColor="@color/hc_self_red"
+            android:textSize="@dimen/hc_text_size_middle"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="@dimen/margin_50dp"
+            android:background="@color/hc_self_gray_line" />
+
+        <TextView
+            android:id="@+id/tv_intention_confirm"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/color_red_turn_deep"
+            android:gravity="center"
+            android:text="@string/common_title_commit"
+            android:textColor="@color/hc_self_white"
+            android:textSize="@dimen/hc_text_size_middle"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</RelativeLayout>

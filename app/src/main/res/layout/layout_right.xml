@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <!--第一排-->
+    <LinearLayout
+        style="@style/wh_mw"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_layout_right_transaction"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_right"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/iv_transaction"
+                style="@style/hc_right_image"
+                android:src="@drawable/ic_task"/>
+
+            <TextView
+                android:id="@+id/tv_transaction"
+                style="@style/hc_right_label"
+                android:layout_below="@+id/iv_transaction"
+                android:text="@string/hc_right_transaction"/>
+
+            <TextView
+                android:id="@+id/tv_transaction_tip"
+                style="@style/hc_right_tip"
+                android:text="10"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_layout_right_customer"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_right"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/iv_customer"
+                style="@style/hc_right_image"
+                android:src="@drawable/ic_customer"/>
+
+            <TextView
+                android:id="@+id/tv_customer"
+                style="@style/hc_right_label"
+                android:layout_below="@+id/iv_customer"
+                android:text="@string/hc_right_custom"/>
+
+            <TextView
+                android:id="@+id/tv_customer_tip"
+                style="@style/hc_right_tip"
+                android:text="10"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_layout_right_online_pay"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_right"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/iv_online_pay"
+                style="@style/hc_right_image"
+                android:src="@drawable/ic_pos"/>
+
+            <TextView
+                android:id="@+id/tv_online_pay"
+                style="@style/hc_right_label"
+                android:layout_below="@+id/iv_online_pay"
+                android:text="@string/hc_right_cashier"/>
+
+            <TextView
+                android:id="@+id/tv_online_pay_tip"
+                style="@style/hc_right_tip"
+                android:text="10"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--第二排-->
+    <LinearLayout
+        style="@style/wh_mw"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_layout_right_transfer"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_right"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/iv_transfer"
+                style="@style/hc_right_image"
+                android:src="@drawable/ic_transfer"/>
+
+            <TextView
+                android:id="@+id/tv_transfer"
+                style="@style/hc_right_label"
+                android:layout_below="@+id/iv_transfer"
+                android:text="@string/hc_right_transfer"/>
+
+            <TextView
+                android:id="@+id/tv_transfer_tip"
+                style="@style/hc_right_tip"
+                android:text="10"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_layout_right_work_report"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_right"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/iv_work_report"
+                style="@style/hc_right_image"
+                android:src="@drawable/ic_workreport"/>
+
+            <TextView
+                android:id="@+id/tv_work_report"
+                style="@style/hc_right_label"
+                android:layout_below="@+id/iv_work_report"
+                android:text="@string/hc_right_work_report"/>
+
+            <TextView
+                android:id="@+id/tv_work_report_tip"
+                style="@style/hc_right_tip"
+                android:text="10"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_layout_right_back_source"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_right"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/iv_message1"
+                style="@style/hc_right_image"
+                android:src="@drawable/ic_vehiclesource"/>
+
+            <TextView
+                android:id="@+id/tv_message1"
+                style="@style/hc_right_label"
+                android:layout_below="@+id/iv_message1"
+                android:text="@string/hc_right_back_source"/>
+
+            <TextView
+                android:id="@+id/tv_message_tip1"
+                style="@style/hc_right_tip"
+                android:text="10"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--第三排-->
+    <LinearLayout
+        style="@style/wh_mw"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/rl_layout_right_buyer_recommend"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_right"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/iv_buyer_recommend"
+                style="@style/hc_right_image"
+                android:src="@drawable/ic_recommended"/>
+
+            <TextView
+                android:id="@+id/tv_buyer_recommend"
+                style="@style/hc_right_label"
+                android:layout_below="@+id/iv_buyer_recommend"
+                android:text="@string/hc_right_buyer_recommend"/>
+
+            <TextView
+                android:id="@+id/tv_buyer_recommend_tip"
+                style="@style/hc_right_tip"
+                android:text="10"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_layout_right_vehicle_recommend"
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_right"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/iv_vehicle_recommend"
+                style="@style/hc_right_image"
+                android:src="@drawable/ic_back_source"/>
+
+            <TextView
+                android:id="@+id/tv_vehicle_recommend"
+                style="@style/hc_right_label"
+                android:layout_below="@+id/iv_vehicle_recommend"
+                android:text="@string/hc_right_vehicle_recommend"/>
+
+            <TextView
+                android:id="@+id/tv_vehicle_recommend_tip"
+                style="@style/hc_right_tip"
+                android:text="10"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_right"
+            android:clickable="true">
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

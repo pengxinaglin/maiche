@@ -1,0 +1,72 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => o2osdk\src\main\AndroidManifest.xml
+* assets\ => o2osdk\src\main\assets
+* libs\armeabi-v7a\liblandijbig.so => o2osdk\src\main\jniLibs\armeabi-v7a\liblandijbig.so
+* libs\armeabi\liblandijbig.so => o2osdk\src\main\jniLibs\armeabi\liblandijbig.so
+* libs\dspread_android_sdk_2.1.8_02.jar => o2osdk\libs\dspread_android_sdk_2.1.8_02.jar
+* libs\httpmime-4.1.1.jar => o2osdk\libs\httpmime-4.1.1.jar
+* libs\iBridge.jar => o2osdk\libs\iBridge.jar
+* libs\JBIG.jar => o2osdk\libs\JBIG.jar
+* libs\mips\liblandijbig.so => o2osdk\src\main\jniLibs\mips\liblandijbig.so
+* libs\o2osdk-lib.jar => o2osdk\libs\o2osdk-lib.jar
+* libs\reader_landicorp_1.1.5.jar => o2osdk\libs\reader_landicorp_1.1.5.jar
+* libs\x86\liblandijbig.so => o2osdk\src\main\jniLibs\x86\liblandijbig.so
+* libs\yintong_o2o.jar => o2osdk\libs\yintong_o2o.jar
+* proguard.pro => o2osdk\proguard.pro
+* res\ => o2osdk\src\main\res\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/hc_self_gray_bg"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_layout_user_setting_qrcode"
+        style="@style/HCTheme.TextMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:background="@drawable/color_white_turn_gray"
+        android:drawableRight="@drawable/ic_setting_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_12dp"
+        android:paddingRight="@dimen/margin_15dp"
+        android:text="@string/layout_user_setting_qrcode"
+        android:textSize="@dimen/font_16" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_line" />
+
+    <TextView
+        android:id="@+id/tv_layout_user_setting_pwd"
+        style="@style/HCTheme.TextMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:background="@drawable/color_white_turn_gray"
+        android:drawableRight="@drawable/ic_setting_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_12dp"
+        android:paddingRight="@dimen/margin_15dp"
+        android:text="@string/change_pwd"
+        android:textSize="@dimen/font_16" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_layout_user_setting_update"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:background="@drawable/color_white_turn_gray"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextMain"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/margin_50dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_12dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:text="@string/layout_user_setting_update"
+            android:textSize="@dimen/font_16" />
+
+        <TextView
+            android:id="@+id/tv_layout_user_setting_version"
+            style="@style/HCTheme.TextHint"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textSize="@dimen/font_14" />
+
+        <TextView
+            style="@style/HCTheme.TextMain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/ic_setting_arrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_12dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:textSize="@dimen/font_16" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_layout_user_setting_logout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:background="@drawable/color_white_turn_gray"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_12dp"
+        android:paddingRight="@dimen/margin_15dp"
+        android:text="@string/logout"
+        android:textColor="@color/hc_self_red"
+        android:textSize="@dimen/font_16" />
+
+</LinearLayout>

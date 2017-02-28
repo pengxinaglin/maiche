@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--客户备注-->
+<LinearLayout
+    style="@style/HCTheme.VehicleSubBlock"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <!--客户备注lable-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextMain"
+            android:text="@string/hc_transfer_start_remark"
+            android:textSize="@dimen/hc_text_size_normal"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/et_transfer_start_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        android:textColor="@color/hc_self_black"
+        android:textSize="@dimen/hc_text_size_normal"
+        />
+</LinearLayout>

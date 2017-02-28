@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/hc_self_white"
+              android:orientation="vertical">
+
+    <TextView
+        style="@style/hc_tv_label_final_price"
+        android:text="@string/hc_label_final_price_wanyuan"/>
+
+    <TextView
+        android:id="@+id/tv_final_price"
+        style="@style/hc_tv_final_price"
+        android:text=""
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hc_self_gray_line"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_transfer_detail_deal_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/tv_transfer_detail_deal_price_lable"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_transfer_detail_deal_price"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_detail_deal_price"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:text="------"
+            android:textSize="@dimen/margin_12dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_transfer_detail_deal_price_change_lable"
+        style="@style/hc_tv_title"
+        android:text="(价格发生变化，请联系城市经理修改)"
+        android:textColor="@color/reminder_red"
+        android:textSize="@dimen/margin_12dp"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_transfer_service_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_label_transfer_service_pay"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="买家服务费[元]"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_service_pay"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_label_transfer_service_pay"
+            android:gravity="right"
+            android:text="-----------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_owner_commission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_label_owner_commission"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="车商服务费[元]"
+            />
+
+        <TextView
+            android:id="@+id/tv_owner_commission"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_label_owner_commission"
+            android:gravity="right"
+            android:text="-----------"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/hc_self_gray_bg"
+        android:src="@drawable/ic_price_bottom_line"/>
+
+</LinearLayout>

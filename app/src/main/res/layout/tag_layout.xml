@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="14dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_span"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_customer_level_red_bg"
+        android:gravity="center"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="未知类型"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin_11dp"
+        />
+</LinearLayout>

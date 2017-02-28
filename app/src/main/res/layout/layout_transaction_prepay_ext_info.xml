@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/wh_mw"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/self_white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_15dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_10dp"
+        android:background="@color/hc_self_gray_bg"
+        />
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/resident"
+            android:textColor="@color/hc_self_black"/>
+
+        <RadioGroup
+            android:id="@+id/rg_transfer_buyer_resident"
+            style="@style/hc_weight1_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_yes"
+                android:gravity="center"/>
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_no"
+                android:gravity="center"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/temp_resident"
+            android:textColor="@color/hc_self_black"/>
+
+        <RadioGroup
+            android:id="@+id/rg_transfer_buyer_temp_resident"
+            style="@style/hc_weight1_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_yes"
+                android:gravity="center"/>
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_no"
+                android:gravity="center"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/seller_present"
+            android:textColor="@color/hc_self_black"/>
+
+        <RadioGroup
+            android:id="@+id/rg_transfer_seller_present"
+            style="@style/hc_weight1_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_yes"
+                android:gravity="center"/>
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_no"
+                android:gravity="center"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/buyer_present"
+            android:textColor="@color/hc_self_black"/>
+
+        <RadioGroup
+            android:id="@+id/rg_transfer_buyer_present"
+            style="@style/hc_weight1_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_yes"
+                android:gravity="center"/>
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_no"
+                android:gravity="center"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/emigrate"
+            android:textColor="@color/hc_self_black"/>
+
+        <RadioGroup
+            android:id="@+id/rg_transfer_buyer_emigrate"
+            style="@style/hc_weight1_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_yes"
+                android:gravity="center"/>
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_no"
+                android:gravity="center"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/company_seller"
+            android:textColor="@color/hc_self_black"/>
+
+        <RadioGroup
+            android:id="@+id/rg_transfer_company_seller"
+            style="@style/hc_weight1_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_yes"
+                android:gravity="center"/>
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_no"
+                android:gravity="center"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/company_buyer"
+            android:textColor="@color/hc_self_black"/>
+
+        <RadioGroup
+            android:id="@+id/rg_transfer_company_buyer"
+            style="@style/hc_weight1_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_yes"
+                android:gravity="center"/>
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_no"
+                android:gravity="center"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transfer_ext_loan"
+            android:textColor="@color/hc_self_black"/>
+
+        <RadioGroup
+            android:id="@+id/rg_transfer_loan"
+            style="@style/hc_weight1_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_yes"
+                android:gravity="center"/>
+
+            <RadioButton
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_no"
+                android:gravity="center"/>
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

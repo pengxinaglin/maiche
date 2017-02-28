@@ -1,0 +1,84 @@
+<resources>
+    <!-- 标题栏高度 -->
+    <dimen name="pay_titlebar_height">50dp</dimen>
+    <!-- 页面button高度 -->
+    <dimen name="pay_button_height">45dp</dimen>
+    <!-- 页面底部button高度 -->
+    <dimen name="pay_bottom_button_height">48dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="height_40dp">40dp</dimen>
+
+    <dimen name="ksw_md_thumb_ripple_size">42dp</dimen>
+    <dimen name="ksw_md_thumb_solid_inset">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset_top">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset_bottom">10dp</dimen>
+
+    <dimen name="margin_0dp">0dp</dimen>
+    <dimen name="margin_1dp">1dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_3dp">3dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_6dp">6dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_9dp">9dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_11dp">11dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+    <dimen name="margin_14dp">14dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_18dp">18dp</dimen>
+    <dimen name="margin_19dp">19dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_22dp">22dp</dimen>
+    <dimen name="margin_25dp">25dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_38dp">38dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_45dp">45dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="margin_55dp">55dp</dimen>
+    <dimen name="margin_57dp">57dp</dimen>
+    <dimen name="margin_60dp">60dp</dimen>
+    <dimen name="margin_66dp">66dp</dimen>
+    <dimen name="margin_70dp">70dp</dimen>
+    <dimen name="margin_75dp">75dp</dimen>
+    <dimen name="margin_80dp">80dp</dimen>
+    <dimen name="margin_84dp">84dp</dimen>
+    <dimen name="margin_90dp">90dp</dimen>
+    <dimen name="margin_100dp">100dp</dimen>
+    <dimen name="margin_120dp">120dp</dimen>
+    <dimen name="margin_140dp">140dp</dimen>
+    <dimen name="margin_156dp">156dp</dimen>
+    <dimen name="margin_160dp">160dp</dimen>
+    <dimen name="margin_200dp">200dp</dimen>
+    <dimen name="margin_308dp">308dp</dimen>
+    <dimen name="margin_28dp">28dp</dimen>
+    <dimen name="margin_26dp">26dp</dimen>
+
+    <dimen name="height_2dp">2dp</dimen>
+    <dimen name="height_1dp">1dp</dimen>
+    <dimen name="height_10dp">10dp</dimen>
+    <dimen name="height_35dp">35dp</dimen>
+
+    <!--font-->
+    <dimen name="font_12">12dp</dimen>
+    <dimen name="font_14">14dp</dimen>
+    <dimen name="font_16">16dp</dimen>
+    <dimen name="font_18">18dp</dimen>
+    <dimen name="font_32">32dp</dimen>
+
+    <!---->
+    <dimen name="hc_main_pager_line_width">0.5dp</dimen>
+    <dimen name="hc_text_size_normal">12dp</dimen>
+    <dimen name="hc_text_size_middle">14dp</dimen>
+    <dimen name="hc_text_size_large">16dp</dimen>
+    <dimen name="hc_text_size_xlarge">18dp</dimen>
+    <dimen name="hc_text_size_xxlarge">24dp</dimen>
+    <dimen name="hc_text_size_xxxlarge">25dp</dimen>
+    <dimen name="hc_text_size_report_statistics_detail">21sp</dimen>
+
+</resources>

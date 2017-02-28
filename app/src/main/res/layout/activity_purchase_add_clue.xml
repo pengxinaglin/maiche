@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical">
+
+    <ScrollView
+        style="@style/wh_match"
+        android:layout_weight="20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_clue_type"
+                style="@style/hc_ll_transfer_info"
+                android:layout_height="@dimen/height_35dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    style="@style/HCTheme.TextHint.Lable"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/hc_clue_type"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_clue_type"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:checkedButton="@+id/rb_outside"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@id/rb_outside"
+                        style="@style/cb_carbody"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/hc_outside_source"/>
+
+                    <RadioButton
+                        android:id="@+id/rb_inside"
+                        style="@style/cb_carbody"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/hc_inside_source"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/self_white"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--外网车输入-->
+                    <LinearLayout
+                        android:id="@+id/ll_outside_source"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/self_white"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            style="@style/hc_ll_transfer_info"
+                            android:layout_height="@dimen/height_35dp"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                style="@style/HCTheme.TextHint.Lable"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hc_seller_name"/>
+
+
+                            <EditText
+                                android:id="@+id/ed_seller_name"
+                                style="@style/HCTheme.VehicleSubBlock.Input"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:inputType="text"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/hc_ll_transfer_info"
+                            android:layout_height="@dimen/height_35dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/HCTheme.TextHint.Lable"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hc_seller_phone"/>
+
+                            <EditText
+                                android:id="@+id/ed_seller_phone"
+                                style="@style/HCTheme.VehicleSubBlock.Input"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:focusableInTouchMode="true"
+                                android:inputType="phone"
+                                android:paddingLeft="3dp"
+                                android:textColorHint="@color/hc_self_gray_hint"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!--内网车输入-->
+                    <LinearLayout
+                        android:id="@+id/ll_inside_source"
+                        style="@style/hc_ll_transfer_info"
+                        android:layout_height="@dimen/height_35dp"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        >
+
+                        <TextView
+                            style="@style/HCTheme.TextHint.Lable"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/p_vehicle_source_id"/>
+
+
+                        <EditText
+                            android:id="@+id/et_vehicle_source_id"
+                            style="@style/HCTheme.VehicleSubBlock.Input"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:inputType="number"
+                            android:maxLength="9"/>
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <LinearLayout
+                    style="@style/hc_ll_transfer_info"
+                    android:layout_height="@dimen/height_35dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/HCTheme.TextHint.Lable"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/vehicle_subscribe_condition_brand_lable"/>
+
+                    <TextView
+                        android:id="@+id/tv_vehicle_model"
+                        style="@style/HCTheme.VehicleSubBlock.Input"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:clickable="true"
+                        android:textSize="@dimen/margin_14dp"
+                        android:focusable="true"
+                        android:paddingRight="@dimen/margin_25dp"/>
+                </LinearLayout>
+                <include layout="@layout/layout_city_select"/>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/wh_match"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:background="@color/self_white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/hc_ll_transfer_info"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/HCTheme.TextHint.Lable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/hc_task_remark"/>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/ed_remark"
+                    style="@style/hc_ed_remark"
+                    android:layout_height="@dimen/margin_100dp"
+                    android:hint="@string/hc_remark_content"
+                    android:padding="@dimen/margin_10dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_task_note"
+                style="@style/HCTheme.TextHint.Lable"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/hc_task_note"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        style="@style/wh_mw"
+        android:layout_weight="0.1">
+
+        <Button
+            android:id="@+id/btn_commit_clue"
+            style="@style/hc_transfer_bottom_1"
+            android:background="@color/hc_self_red"
+            android:padding="@dimen/margin_15dp"
+            android:text="@string/hc_commit_clue"
+            android:textColor="@color/self_white"
+            android:textSize="@dimen/font_16"/>
+    </LinearLayout>
+</LinearLayout>

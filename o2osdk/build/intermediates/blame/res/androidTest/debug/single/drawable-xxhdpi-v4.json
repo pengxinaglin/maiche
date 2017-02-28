@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ll_business_bind_top.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ll_business_bind_top.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ll_bg_print_page.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ll_bg_print_page.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ll_qrcode_loding_bright.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ll_qrcode_loding_bright.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ll_ic_launcher.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ll_ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ll_swiping_card.jpg",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ll_swiping_card.jpg"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ll_unionpay_logo.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ll_unionpay_logo.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ll_swiping_card_applepay.jpg",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ll_swiping_card_applepay.jpg"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ll_qrcode_loding_grey.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ll_qrcode_loding_grey.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ll_business_bind_top_no.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ll_business_bind_top_no.png"
+    }
+]

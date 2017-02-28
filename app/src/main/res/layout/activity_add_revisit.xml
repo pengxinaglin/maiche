@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hc_self_white">
+
+    <LinearLayout
+        style="@style/wh_mw"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_common_titlebar" />
+
+        <include
+            android:id="@+id/ll_transaction_buyer_info_level"
+            layout="@layout/layout_edit_buyer_comment_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <include layout="@layout/layout_add_revisit_input" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wh_mw"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <include layout="@layout/layout_common_bottom_match_btn_red" />
+    </LinearLayout>
+</RelativeLayout>

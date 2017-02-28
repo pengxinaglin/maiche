@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/src/main/assets"/><source path="/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/src/release/assets"/></dataSet></merger>

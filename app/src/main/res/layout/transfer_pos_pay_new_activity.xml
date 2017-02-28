@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/transfer_pos_pay_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_pospay_tocommit"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/hc_self_red"
+        android:gravity="center"
+        android:text="去提交审核"
+        android:textColor="@color/hc_self_white"
+        android:textSize="@dimen/hc_text_size_middle"
+        android:visibility="gone" />
+
+</LinearLayout>

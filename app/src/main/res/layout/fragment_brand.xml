@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/hc_self_white"
+                android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        >
+
+        <ListView
+            android:id="@+id/lv_brand_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:cacheColorHint="#00000000"
+            android:focusable="true"
+            android:listSelector="@drawable/selector_common_click"
+            android:scrollbars="none"
+            />
+
+        <TextView
+            android:id="@+id/tv_toast"
+            android:layout_width="@dimen/margin_75dp"
+            android:layout_height="@dimen/margin_75dp"
+            android:layout_gravity="center"
+            android:background="@drawable/siderbar_bg"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="30.0dip"
+            android:visibility="invisible"
+            />
+
+        <com.haoche51.sales.custom.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="@dimen/margin_25dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_vehicle_sub_series_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_100dp">
+    </FrameLayout>
+</RelativeLayout>

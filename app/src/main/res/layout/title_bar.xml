@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_titlebar_height"
+    android:background="@color/hc_titlebar_black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_titlebar_height"
+        android:background="@color/hc_titlebar_black">
+        <!-- 返回按钮 -->
+        <ImageView
+            android:id="@+id/tv_common_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_right_item"
+            android:src="@drawable/ic_top_back"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:scaleType="centerInside" />
+        <!-- 左分割线 -->
+        <View
+            android:id="@+id/left_divider_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/titlebar_click"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toRightOf="@+id/tv_common_back"
+            />
+        <!-- 标题 -->
+        <TextView
+            android:id="@+id/tv_common_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/app_name"
+            android:textColor="@color/self_white"
+            android:textSize="@dimen/font_18"
+            android:singleLine="true"
+            android:maxEms="15"
+            android:layout_toRightOf="@+id/left_divider_line"
+            android:paddingLeft="@dimen/margin_10dp"
+            android:paddingRight="@dimen/margin_10dp"
+            android:gravity="center_vertical" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true">
+            <!-- 右边文字按钮 -->
+            <TextView
+                android:id="@+id/right_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_right_item"
+                android:textColor="@color/self_white"
+                android:textSize="@dimen/font_16"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:gravity="center"
+                android:visibility="gone" />
+            <!-- 右边图标按钮1 -->
+            <ImageView
+                android:id="@+id/right_image_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_right_item"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:scaleType="centerInside"
+                android:visibility="gone" />
+            <!-- 右边图标按钮2 -->
+            <ImageView
+                android:id="@+id/right_image_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_right_item"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:scaleType="centerInside"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

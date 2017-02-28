@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/HCTheme.VehicleSubBlock"
+        android:layout_height="@dimen/margin_50dp">
+
+        <TextView
+            style="@style/HCTheme.TextMain"
+            android:text="@string/vehicle_subscribe_condition_brand_lable"
+            android:textSize="@dimen/hc_text_size_normal"/>
+
+        <View
+            android:layout_width="@dimen/margin_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_activity_vehicle_sub_brand_modify"
+            style="@style/HCTheme.TextMain"
+            android:layout_height="match_parent"
+            android:text="@string/vehicle_subscribe_condition_add"
+            android:drawableRight="@drawable/ic_setting_arrow"
+            android:drawablePadding="@dimen/margin_10dp"
+            android:textSize="@dimen/hc_text_size_normal"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hc_self_gray_line"/>
+    <!--选好的品牌list-->
+    <LinearLayout
+        android:id="@+id/ll_activity_vehicle_sub_brand_list"
+        style="@style/HCTheme.VehicleSubBlock"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/margin_0dp" />
+</LinearLayout>

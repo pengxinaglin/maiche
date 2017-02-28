@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/HCTheme.VehicleSubBlock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        style="@style/HCTheme.TextMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:text="合同和照片"
+        android:textSize="@dimen/hc_text_size_normal"
+        android:gravity="center_vertical|left"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_contract_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

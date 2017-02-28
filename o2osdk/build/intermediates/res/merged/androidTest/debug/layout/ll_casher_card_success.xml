@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#D3D3D3"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ll_common_title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+       >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingTop="8dp"
+            android:background="@drawable/ll_bg_print_page"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ll_casher_text_size_20"
+                android:layout_marginRight="@dimen/ll_casher_text_size_20"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/ll_casher_text_size_30"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ll_unionpay_logo_top" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:singleLine="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/ll_card_print_title_sign"
+                        android:textColor="@color/ll_color_print_text"
+                        android:textSize="@dimen/ll_casher_text_size_18" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/ll_card_print_business"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_8" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/ll_card_print_business_english"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_8" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ll_casher_text_size_10"
+                    android:background="@drawable/ll_bg_print_text"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_busname"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_busname"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_busnum"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_busnum"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_pos_upper"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_upper"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" 
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_posid"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_posid"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_order"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_order"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_operator"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_operator"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_acquiring"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_acquiring"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_comb"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_comb"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_cardno"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_cardno"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_bustype"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_bustype"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_validity"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_validity"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_batchno"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_batchno"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_certificate"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_certificate"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_license"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_license"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_referenceno"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_referenceno"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_date"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_dates"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_money"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_money"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_comments"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <TextView
+                            android:id="@+id/ll_card_print_comments"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:gravity="right"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/ll_card_print_cardsign"
+                            android:textColor="@color/ll_color_print_text"
+                            android:textSize="@dimen/ll_casher_text_size_12" />
+
+                        <ImageView
+                            android:id="@+id/ll_card_print_cardsign"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/app_name" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2" >
+
+                    <Button
+                        android:id="@+id/ll_card_print_button"
+                        style="@style/LLButton.Next"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="@dimen/ll_casher_text_size_10"
+                        android:text="@string/ll_card_print_btn_print" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

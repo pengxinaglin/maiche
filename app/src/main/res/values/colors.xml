@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 标题栏背景颜色 -->
+    <color name="titlebar">#393A3F</color>
+    <color name="hc_titlebar_black">#393A3F</color>
+    <!-- 标题按钮点击态颜色 -->
+    <color name="titlebar_click">#2E2E32</color>
+    <!-- 高灰色(用于item副标题等) -->
+    <color name="high_gray">#666666</color>
+    <!-- 中灰色(用于label等) -->
+    <color name="middle_gray">#888888</color>
+    <!-- 低灰色(用于界面提示等) -->
+    <color name="low_gray">#A9A9A9</color>
+    <!-- 输入框提示颜色 -->
+    <color name="edit_text_hint">#BBBBBB</color>
+    <!-- item点击态 -->
+    <color name="item_click">#9F9F9F</color>
+    <!-- 分割线颜色 -->
+    <color name="divider_line">#D9D9D9</color>
+    <!-- 分隔行颜色 -->
+    <color name="divider_row">#EBEBEB</color>
+    <!-- 红色-正常态 -->
+    <color name="red">#FF3333</color>
+    <!-- 红色-点击态 -->
+    <color name="red_click">#BC1A1A</color>
+
+
+    <color name="blue">#06c1ae</color>
+    <color name="deep_blue">#057167</color>
+    <color name="hc_blue">#007aff</color>
+    <!-- The default background of the menu. -->
+    <color name="self_black">#000</color>
+    <color name="self_blue">#0099ff</color>
+    <color name="self_gray">#4D4D4D</color>
+    <color name="self_white">#FFFFFF</color>
+    <color name="self_grey">#808080</color>
+    <color name="self_grey_light">#e4e4e4</color>
+    <color name="self_background">#d9d9d9</color>
+    <color name="self_yellow">#ff9900</color>
+    <color name="GREEN">#008000</color>
+
+
+    <color name="BLACK">#000000</color>
+    <color name="orange">#F59F77</color>
+    <color name="self_faint_yellow">#fefadc</color>
+    <color name="transfer_item_gray">#cccccc</color>
+    <color name="gray">#dddddd</color>
+    <color name="hc_self_transparent">#00000000</color>
+    <color name="line_dark">#d7d7d7</color>
+
+    <!-- progress黑色背景 -->
+
+
+    <!-- 白色被点击 -->
+
+    <!-- yangming -->
+    <color name="side_bar">#999999</color>
+    <!-- yangming end -->
+
+    <color name="white_B0">#B0B0B0</color>
+    <color name="success_green">#00EE00</color>
+
+
+    <!-- new -->
+    <!--界面主题背景色-->
+    <color name="hc_self_gray_bg">#eceff1</color>
+    <color name="hc_self_gray_hint">#9f9f9f</color>
+    <color name="hc_self_gray_right">#b0bec5</color>
+    <color name="hc_backgroud_black">#374248</color>
+    <color name="hc_backgroud_black_2">#0eFFFFFF</color>
+    <color name="hc_self_black">#263238</color>
+    <color name="hc_self_white">#FFFFFF</color>
+    <color name="hc_self_white_noright">#33FFFFFF</color>
+    <color name="hc_self_red">#ff3333</color>
+    <color name="deep_red">#BC1A1A</color>
+    <color name="hc_self_gray">#9f9f9f</color>
+    <color name="hc_label_white">#eeeeee</color>
+    <color name="hc_right_click_gray">#335464</color>
+    <color name="hc_indicator">#06c1ae</color>
+    <color name="hc_edit_bg">#f5f8fa</color>
+    <color name="hc_vehicle_model_bg">#f5f5f5</color>
+    <color name="hc_self_gray_line">#cfd8dc</color>
+    <color name="hc_self_input_bg">#f5f8fa</color>
+    <color name="reminder_red">#dd0000</color>
+    <color name="zy_click_gray">#faf7f7</color>
+    <!-- 浅灰色 品牌筛选右边竖直字母栏背景色 选中灰色矩形背景 -->
+    <color name="letter_toast">#7F7F7F</color>
+    <!-- 灰色间隔线 -->
+    <color name="promote_black">#333333</color>
+    <!-- new -->
+    <color name="hc_self_solid">#FAFAFA</color>
+    <color name="hc_transaction_fail_reason_select">#f7fafc</color>
+    <!--支付全款-->
+    <color name="hc_task_fullpay">#43a047</color>
+    <!--搜索蒙板-->
+    <color name="hc_half_black">#55000000</color>
+    <color name="hc_upload_text">#90a4ae</color>
+    <color name="hc_dark_blue">#009999</color>
+    <color name="hc_prepay_bottom_btn_yellow">#ff6d00</color>
+    <color name="hc_prepay_bottom_btn_green">#c8e6c9</color>
+    <color name="hc_prepay_bottom_btn_grey">#bdbdbd</color>
+    <color name="hc_hostling_add_item">#179998</color>
+    <color name="hc_self_orange">#fc6c21</color>
+    <color name="orange_deep">#AF400A</color>
+    <color name="hc_soter_blue">#039be5</color>
+    <color name="hc_outdoor_yellow">#fbbc05</color>
+
+    <!-- switch button-->
+    <color name="pay_ksw_md_ripple_normal">#1E000000</color>
+    <color name="pay_ksw_md_ripple_checked">#33019285</color>
+    <color name="pay_ksw_md_solid_shadow">#33000000</color>
+    <color name="pay_ksw_md_solid_normal">#ECECEC</color>
+    <color name="pay_ksw_md_solid_checked">#019285</color>
+    <color name="pay_ksw_md_solid_disable">#FFFFFF</color>
+    <color name="pay_ksw_md_solid_checked_disable">#aaaaaa</color>
+
+    <color name="hc_check_uploading">#55c4f4</color>
+
+</resources>

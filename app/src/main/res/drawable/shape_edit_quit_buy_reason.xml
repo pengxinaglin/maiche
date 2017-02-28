@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+
+    <stroke android:color="@color/hc_self_gray_line" android:width="0.5dp"/>
+    <solid android:color="@color/hc_edit_bg"/>
+</shape>

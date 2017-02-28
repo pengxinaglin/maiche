@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/user_coupons_dialog_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_25dp">
+
+    <TextView
+        android:id="@+id/tv_pospay_cash_confirm_title"
+        style="@style/HCTheme.TextMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入操作员号"
+        android:textSize="@dimen/hc_text_size_large"/>
+
+    <EditText
+        android:id="@+id/et_pospay_login_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_40dp"
+        android:layout_marginTop="@dimen/margin_22dp"
+        android:background="@drawable/common_content_corner_bg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_pospay_login_name_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#0000"
+            android:text="@string/common_title_commit"
+            android:textColor="@color/hc_indicator"
+            android:textSize="@dimen/hc_text_size_middle"/>
+
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_pospay_login_name_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#0000"
+            android:text="@string/hc_transfer_coupon_unuse"
+            android:textColor="@color/hc_indicator"
+            android:textSize="@dimen/hc_text_size_middle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

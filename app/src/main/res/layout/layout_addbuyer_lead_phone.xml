@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/self_white"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/margin_20dp"
+    android:paddingLeft="@dimen/margin_15dp"
+    android:paddingRight="@dimen/margin_15dp"
+    android:paddingTop="@dimen/margin_20dp">
+
+    <TextView
+        style="@style/hc_tv_title.weight1"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/hint_buyerphone"
+        />
+
+    <EditText
+        android:id="@+id/et_addbuyer_lead_buyerphone"
+        style="@style/hc_tv_title.weight1"
+        android:background="@drawable/shape_edit_quit_buy_reason"
+        android:inputType="number"
+        android:padding="@dimen/margin_3dp"
+        />
+
+</LinearLayout>

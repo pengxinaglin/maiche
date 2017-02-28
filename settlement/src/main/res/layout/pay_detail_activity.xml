@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pay_white"
+    android:orientation="vertical">
+
+    <include layout="@layout/pay_title_bar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ll_title_support"
+        android:textColor="@color/pay_red"
+        android:padding="@dimen/margin_10dp"
+        android:textSize="@dimen/font_14"
+        android:background="@color/pay_divider_line"
+        android:gravity="center"/>
+
+    <FrameLayout
+        android:id="@+id/ll_common_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/pay_detail_payment_info_layout" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_10dp"
+                        android:background="@color/pay_divider_row" />
+
+                    <include
+                        layout="@layout/pay_detail_payment_list_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hc_main_pager_line_width"
+                android:background="@color/pay_divider_line" />
+
+            <include
+                android:id="@+id/bottom"
+                layout="@layout/pay_detail_bottom_btn_layout" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

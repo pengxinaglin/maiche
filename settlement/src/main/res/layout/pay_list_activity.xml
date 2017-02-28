@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/pay_white"
+              android:orientation="vertical"
+    >
+
+    <include layout="@layout/pay_title_bar_search"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ll_title_support"
+        android:textColor="@color/pay_red"
+        android:padding="@dimen/margin_10dp"
+        android:textSize="@dimen/font_14"
+        android:background="@color/pay_divider_line"
+        android:gravity="center"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <com.haoche51.settlement.custom.HCPullToRefresh
+                android:id="@+id/pull_to_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/pay_divider_line"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/pay_bottom_button_height"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/check_money"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/pay_selector_white_turn_gray"
+                    android:text="查余额"
+                    android:textColor="@color/pay_black"
+                    android:textSize="@dimen/font_16"
+                    />
+
+                <Button
+                    android:id="@+id/add_pay_button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/pay_selector_red_turn_deep"
+                    android:text="@string/pay_add_pay"
+                    android:textColor="@color/pay_white"
+                    android:textSize="@dimen/font_16"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/mask_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/pay_half_black"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+</LinearLayout>

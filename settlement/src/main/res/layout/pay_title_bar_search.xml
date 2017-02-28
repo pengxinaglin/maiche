@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/pay_titlebar_height"
+    android:background="@color/pay_titlebar"
+    >
+
+    <include layout="@layout/pay_title_bar" />
+
+    <!-- 搜索框 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        >
+        <ImageView
+            android:id="@+id/search_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/pay_selector_transparent_turn_black"
+            android:src="@drawable/pay_top_search"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:scaleType="centerInside"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+            <EditText
+                android:id="@+id/input_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/pay_transparent"
+                android:textCursorDrawable="@drawable/pay_et_cursor"
+                android:hint="@string/pay_search_phone_hint"
+                android:textColorHint="@color/pay_edit_text_hint"
+                android:textColor="@color/pay_white"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:imeOptions="actionSearch"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/pay_white"
+                android:layout_marginTop="2dp"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/cancel_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/pay_selector_transparent_turn_black"
+            android:text="@string/pay_cancel"
+            android:textColor="@color/pay_white"
+            android:textSize="16dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/wh_mw"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/hc_titlebar_black"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_15dp">
+
+        <TextView
+            android:id="@+id/tv_item_transaction_arrival_label"
+            style="@style/hc_tv_title"
+            android:paddingBottom="@dimen/margin_0dp"
+            android:paddingLeft="@dimen/margin_0dp"
+            android:paddingRight="@dimen/height_2dp"
+            android:paddingTop="@dimen/margin_0dp"
+            android:text="@string/hc_customer_arrival"
+            android:textSize="@dimen/margin_14dp"/>
+
+        <TextView
+            android:id="@+id/tv_arrival"
+            style="@style/hc_tv_title"
+            android:paddingBottom="@dimen/margin_0dp"
+            android:paddingLeft="@dimen/height_2dp"
+            android:paddingRight="@dimen/margin_0dp"
+            android:paddingTop="@dimen/margin_0dp"
+            android:text="xxxx-xx-xx xx:xx"
+            android:textSize="@dimen/margin_14dp"/>
+    </LinearLayout>
+
+    <FrameLayout
+        style="@style/wh_match"
+        android:layout_weight="10">
+
+        <com.haoche51.sales.custom.HCSmartTabLayout
+            android:id="@+id/content_view"
+            style="@style/wh_match">
+        </com.haoche51.sales.custom.HCSmartTabLayout>
+
+        <View
+            android:id="@+id/view_mask"
+            style="@style/wh_match"
+            android:background="@color/hc_half_black"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_transaction_high_seas_detail_receive"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/color_red_turn_deep"
+        android:gravity="center"
+        android:text="领取客户"
+        android:textColor="@color/hc_self_white"
+        android:textSize="@dimen/hc_text_size_middle"/>
+
+</LinearLayout>

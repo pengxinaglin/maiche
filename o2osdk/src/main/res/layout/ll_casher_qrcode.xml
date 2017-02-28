@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ll_color_tx9"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ll_common_title" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="@dimen/ll_casher_text_size_10"
+        android:layout_marginTop="@dimen/ll_casher_text_size_10"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ll_casher_swiping_bt" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.438"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:enabled="false"
+            android:gravity="center"
+            android:src="@drawable/ll_swiping_card" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/ll_casher_final_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:textColor="@color/ll_color_tx6"
+                android:textSize="@dimen/ll_casher_text_size_40"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ll_casher_yuan"
+                android:textColor="@color/ll_color_tx3"
+                android:textSize="@dimen/ll_casher_text_size_18" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/ll_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/ll_casher_text_size_10"
+        android:background="@color/ll_color_tx10"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/ll_casher_text_size_10"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/ll_casher_swiping_text_new"
+            android:textColor="@color/ll_color_tx3"
+            android:textSize="@dimen/ll_casher_text_size_10" />
+
+        <TextView
+            android:id="@+id/ll_casher_btname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/ll_casher_text_size_10"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textColor="@color/ll_color_tx3"
+            android:textSize="@dimen/ll_casher_text_size_10" />
+    </LinearLayout>
+
+</LinearLayout>

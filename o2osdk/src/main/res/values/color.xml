@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ll_color_tx1">#f4f4f4</color>
+    <color name="ll_color_tx2">#d5d5d5</color>
+    <color name="ll_color_tx3">#999999</color>
+    <color name="ll_color_tx4">#666666</color>
+    <color name="ll_color_tx5">#555555</color>
+    <color name="ll_color_tx6">#333333</color>
+    <color name="ll_color_tx7">#e84c3d</color>
+    <color name="ll_color_tx8">#e84c3d</color>
+    <color name="ll_color_tx8_alpha">#80e84c3d</color>
+    <color name="ll_color_tx9">#f9f9f9</color>
+    <color name="ll_color_tx10">#d9d9d9</color>
+    <color name="ll_color_tx11">#fce9e7</color>
+    <color name="ll_color_tx12">#fcada5</color>
+    <color name="ll_color_tx13">#ffffff</color>
+    <color name="ll_color_tx14">#cfcfcf</color>
+    <color name="ll_color_tx15">#64a0d3</color>
+    <color name="ll_color_tx16">#fa0102</color>
+    <color name="ll_color_tx17">#429f22</color>
+    <color name="ll_color_tx18">#f8f8f8</color>
+    <color name="ll_color_bg">#00000000</color>
+    <color name="ll_color_line">#e4e4e4</color>
+    <color name="ll_color_print_text">#515151</color>
+
+</resources>

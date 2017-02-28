@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_customer_name"/>
+
+        <EditText
+            android:id="@+id/et_name"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_custom_wx"/>
+
+        <EditText
+            android:id="@+id/et_wx"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"/>
+    </LinearLayout>
+
+    <!--是否贷款-->
+    <LinearLayout
+        android:id="@+id/ll_buyer_name"
+        style="@style/hc_ll_transfer_info"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="是否车商"
+            android:textColor="@color/hc_self_gray_hint"
+            android:textSize="@dimen/hc_text_size_normal"/>
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_is_dealer"
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_no_dealer"
+                style="@style/hc_weight1_horizontal"
+                android:button="@drawable/select_transfer_extinfo_radio_no"
+                />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wh_match"
+        android:gravity="bottom">
+
+        <include layout="@layout/layout_common_bottom_match_btn"/>
+    </LinearLayout>
+
+</LinearLayout>

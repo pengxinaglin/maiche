@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/hc_self_white"
+            android:orientation="vertical">
+            <!-- 客户信息 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_buyer_name"
+                    style="@style/hc_tv_name"
+                    android:layout_alignParentLeft="true"
+                    android:padding="@dimen/margin_15dp"
+                    android:text="---"/>
+
+                <TextView
+                    android:id="@+id/tv_item_today_task"
+                    style="@style/hc_tv_name"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/tv_transaction_buyer_name"
+                    android:layout_toRightOf="@+id/tv_transaction_buyer_name"
+                    android:text="[车商]"
+                    android:textColor="@color/hc_self_red"
+                    android:textSize="@dimen/hc_text_size_normal"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tv_buyer_phone"
+                    style="@style/hc_tv_phone"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/margin_15dp"
+                    android:text="----"
+                    android:textSize="@dimen/hc_text_size_middle"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_transaction_suc_buyer_name"
+                    style="@style/hc_tv_name"
+                    android:layout_alignParentLeft="true"
+                    android:paddingBottom="@dimen/margin_20dp"
+                    android:paddingLeft="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_15dp"
+                    android:paddingTop="@dimen/margin_20dp"
+                    android:text="---"/>
+
+                <TextView
+                    android:id="@+id/tv_transaction_suc_buyer_phone"
+                    style="@style/hc_tv_phone"
+                    android:layout_alignParentRight="true"
+                    android:padding="@dimen/margin_20dp"
+                    android:text="----"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/hc_self_gray_line"/>
+
+            <LinearLayout
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:layout_marginTop="@dimen/margin_15dp">
+
+                <TextView
+                    style="@style/HCTheme.TextHint"
+                    android:text="@string/view_vehicle_task_detail_status"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+
+                <TextView
+                    android:id="@+id/status"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_weight="6.5"
+                    android:gravity="right|center_vertical"
+                    android:text="——"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_transfer_mode"
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/textview_common_has_weight_3"
+                    android:text="@string/transfer_type"/>
+
+                <TextView
+                    android:id="@+id/transfer_mode"
+                    style="@style/textview_common_has_weight_3"
+                    android:layout_weight="6.5"
+                    android:text="——"/>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linearlayout_common_has_paddinglr_15">
+
+                <TextView
+                    style="@style/HCTheme.TextHint"
+                    android:text="@string/release_party"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+
+                <TextView
+                    android:id="@+id/cancel_type"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_weight="6.5"
+                    android:gravity="right|center_vertical"
+                    android:text="——"/>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linearlayout_common_has_paddinglr_15">
+
+                <TextView
+                    style="@style/HCTheme.TextHint"
+                    android:text="@string/vehicle_operation"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+
+                <TextView
+                    android:id="@+id/vehicle_status"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_weight="6.5"
+                    android:gravity="right|center_vertical"
+                    android:text="——"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:layout_marginBottom="@dimen/margin_15dp">
+
+                <TextView
+                    style="@style/HCTheme.TextHint"
+                    android:text="@string/hc_carowner_give_gift"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+
+                <TextView
+                    android:id="@+id/award_info"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_weight="6.5"
+                    android:gravity="right|center_vertical"
+                    android:text="——"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <LinearLayout
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:layout_marginTop="@dimen/margin_10dp">
+
+                <TextView
+                    style="@style/HCTheme.TextHint"
+                    android:text="买家已付（元）"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+
+                <TextView
+                    android:id="@+id/tv_payed_buyer"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_weight="6.5"
+                    android:gravity="right|center_vertical"
+                    android:text="——"/>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linearlayout_common_has_paddinglr_15">
+
+                <TextView
+                    style="@style/HCTheme.TextHint"
+                    android:text="车主已付（元）"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+
+                <TextView
+                    android:id="@+id/tv_payed_seller"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_weight="6.5"
+                    android:gravity="right|center_vertical"
+                    android:text="——"/>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linearlayout_common_has_paddinglr_15">
+
+                <TextView
+                    style="@style/HCTheme.TextHint"
+                    android:text="公司退买家（元）"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+
+                <TextView
+                    android:id="@+id/tv_refund_buyer"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_weight="6.5"
+                    android:gravity="right|center_vertical"
+                    android:text="——"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:layout_marginBottom="@dimen/margin_10dp">
+
+                <TextView
+                    style="@style/HCTheme.TextHint"
+                    android:text="公司退车主（元）"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+
+                <TextView
+                    android:id="@+id/tv_refund_seller"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_weight="6.5"
+                    android:gravity="right|center_vertical"
+                    android:text="——"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <LinearLayout
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/margin_30dp">
+
+                <TextView
+                    style="@style/HCTheme.TextHint"
+                    android:text="@string/carmodel"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+
+                <TextView
+                    android:id="@+id/vehicle_name"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6.5"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="right|center_vertical"
+                    android:minHeight="25dp"
+                    android:onClick="toWebDetail"
+                    android:text="——"/>
+            </LinearLayout>
+
+            <LinearLayout style="@style/linearlayout_common_has_paddinglr_15">
+
+                <TextView
+                    style="@style/HCTheme.TextHint"
+                    android:text="@string/p_vehicle_source_id"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+
+                <TextView
+                    android:id="@+id/vehicle_source_id"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_weight="6.5"
+                    android:gravity="right|center_vertical"
+                    android:text="——"/>
+            </LinearLayout>
+
+
+            <LinearLayout style="@style/linearlayout_common_has_paddinglr_15">
+
+                <TextView
+                    style="@style/HCTheme.TextHint"
+                    android:text="@string/seller_info"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+
+                <TextView
+                    android:id="@+id/seller_info"
+                    style="@style/HCTheme.TextMain"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/margin_20dp"
+                    android:layout_weight="6.5"
+                    android:gravity="right|center_vertical"
+                    android:text="——"/>
+
+                <TextView
+                    android:id="@+id/seller_phone"
+                    style="@style/hc_tv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:autoLink="phone"
+                    android:gravity="right|center_vertical"
+                    android:text="——"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/gray"
+                android:visibility="gone"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <TextView
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:background="@color/hc_self_white"
+                android:text="@string/cancel_reason"
+                android:textSize="@dimen/hc_text_size_normal"/>
+
+            <TextView
+                android:id="@+id/cancel_reason"
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:background="@color/hc_self_white"
+                android:text="——"
+                android:textColor="@color/hc_self_black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <TextView
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:background="@color/hc_self_white"
+                android:text="买家退款方式及账号"
+                android:textSize="@dimen/hc_text_size_normal"/>
+
+            <TextView
+                android:id="@+id/tv_refund_way_buyer"
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:background="@color/hc_self_white"
+                android:text="——"
+                android:textColor="@color/hc_self_black"/>
+
+            <TextView
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:background="@color/hc_self_white"
+                android:text="车主退款方式及账号"
+                android:textSize="@dimen/hc_text_size_normal"/>
+
+            <TextView
+                android:id="@+id/tv_refund_way_seller"
+                style="@style/linearlayout_common_has_paddinglr_15"
+                android:background="@color/hc_self_white"
+                android:text="——"
+                android:textColor="@color/hc_self_black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/hc_self_gray_bg"/>
+
+            <include
+                style="@style/wh_mw"
+                layout="@layout/layout_transaction_suc_buyer_detail"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        style="@style/wh_mw"
+        layout="@layout/layout_common_bottom_match_btn"/>
+</LinearLayout>

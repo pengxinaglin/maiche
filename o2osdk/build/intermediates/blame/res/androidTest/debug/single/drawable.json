@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_button_no_enable.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_button_no_enable.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_bg_bluetooth_selector.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_bg_bluetooth_selector.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_bg_dialog.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_bg_dialog.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_spinner_small_02_black.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_spinner_small_02_black.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_qrcode_loding.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_qrcode_loding.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_spinner_small_04_black.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_spinner_small_04_black.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_spinner_small.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_spinner_small.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_spinner_small_05_black.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_spinner_small_05_black.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_spinner_small_07_black.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_spinner_small_07_black.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_bg_next_button_selector.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_bg_next_button_selector.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_spinner_small_08_black.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_spinner_small_08_black.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_button_enable.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_button_enable.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_spinner_small_03_black.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_spinner_small_03_black.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_bg_print_text.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_bg_print_text.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_spinner_small_01_black.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_spinner_small_01_black.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_bg_qrcode.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_bg_qrcode.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_spinner_small_06_black.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_spinner_small_06_black.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable/ll_line.xml",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable/ll_line.xml"
+    }
+]

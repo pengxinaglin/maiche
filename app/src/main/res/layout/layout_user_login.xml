@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/self_white"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_50dp"
+            android:background="#0000"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="用户名"
+            android:singleLine="true"
+            android:textColorHint="@color/hc_self_gray_hint"
+            android:textSize="@dimen/margin_16dp">
+            <!--<requestFocus />-->
+        </EditText>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/self_grey"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/margin_50dp"
+            android:background="#0000"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="密码"
+            android:imeOptions="actionSend"
+            android:inputType="textPassword"
+            android:textColorHint="@color/hc_self_gray_hint"
+            android:textSize="@dimen/margin_16dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:layout_below="@+id/ll_activity_login_input"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:background="@drawable/color_dark_turn_black"
+        android:text="@string/login"
+        android:textColor="@color/hc_self_white"
+        android:textSize="@dimen/margin_16dp"
+        android:visibility="visible"/>
+
+</LinearLayout>

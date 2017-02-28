@@ -1,0 +1,1081 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        Theme.AppCompat.Light.NoActionBar
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+
+    <style name="MenuTextStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="HcAppTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="myTheme.actionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+    </style>
+
+    <style name="AlbumTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarTheme">@style/myTheme.actionBar</item>
+        <item name="colorPrimary">#007aff</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+    </style>
+
+    <style name="wh_mw">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wh_wm">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wh_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="rank_table_tv">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:text">---</item>
+    </style>
+
+    <style name="rank_separate_view">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/self_black</item>
+    </style>
+
+    <!-- 过户标题 -->
+    <style name="transfer_tv_left" parent="@style/wh_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:ems">6</item>
+    </style>
+
+    <style name="transfer_tv_right">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="transfer_linear" parent="@style/wh_mw">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <!-- 过户标题 -->
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="PopMenuAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+    <style name="PopPrepayAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_up_out</item>
+    </style>
+
+    <style name="PopSelectorAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/pull_bottom_out</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_in</item>
+    </style>
+
+    <style name="buyercues_phone">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#303030</item>
+    </style>
+
+    <style name="buyercues_other">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#949FAB</item>
+    </style>
+
+    <style name="anim_popup_dir">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+    <style name="dialog_transfer" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 无边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 没有标题 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 背景是否半透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 背景是否模糊 -->
+    </style>
+
+    <!-- 转圈进度条样式 -->
+    <style name="loading_progressbar_style">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">36px</item>
+        <item name="android:layout_height">36px</item>
+        <item name="android:indeterminateDrawable">@drawable/progressbar_loading</item>
+    </style>
+
+    <!-- 横线 实 -->
+    <style name="line_horizontal_style">
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/line_dark</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarStyle -->
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarButtonStyle -->
+    <style name="ButtonBarButton"/>
+
+    <style name="linearlayout_common">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25dp</item>
+    </style>
+
+    <style name="linearlayout_common.text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/BLACK</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="linearlayout_common_has_paddinglr_15">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="textview_common_has_weight_3">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_weight">3.5</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="linearlayout_common_has_paddinglr_15.buyer">
+        <item name="android:layout_height">35dp</item>
+    </style>
+
+    <style name="textview_common_gravity_center_vertical">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TextAppearance.MaterialCalendarWidget.Header" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.MaterialCalendarWidget.Date" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/mcv_text_date_light</item>
+    </style>
+
+    <style name="TextAppearance.MaterialCalendarWidget.WeekDay" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="shareDialog" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="wh_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="hc_styel_wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="HCTheme.TextMain" parent="wh_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="HCTheme.TextHint" parent="wh_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/hc_self_gray_hint</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--首页权限item 设置-->
+    <style name="hc_right_label" parent="wh_wrap">
+        <item name="android:textSize">@dimen/height_10dp</item>
+        <item name="android:layout_marginTop">@dimen/height_10dp</item>
+        <item name="android:textColor">@color/self_black</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/margin_18dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <!--图片提示-->
+    <style name="hc_right_image" parent="wh_wrap">
+        <item name="android:layout_height">@dimen/margin_55dp</item>
+        <item name="android:layout_width">@dimen/margin_55dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/margin_10dp</item>
+        <item name="android:layout_marginRight">@dimen/margin_10dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_10dp</item>
+    </style>
+    <!--任务个数提示-->
+    <style name="hc_right_tip">
+        <item name="android:layout_height">17dp</item>
+        <item name="android:layout_width">17dp</item>
+        <item name="android:textSize">@dimen/height_10dp</item>
+        <item name="android:textColor">@color/hc_self_white</item>
+        <item name="android:layout_marginRight">@dimen/margin_18dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_5dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/shape_right_tip</item>
+    </style>
+    <!-- 标题栏 back-->
+    <style name="hc_styel_titlebar_view_back">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:drawableLeft">@drawable/ic_top_back</item>
+        <item name="android:drawablePadding">@dimen/margin_3dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:textSize">@dimen/margin_18dp</item>
+        <item name="android:background">@drawable/selector_right_item</item>
+    </style>
+    <!-- 标题栏 title-->
+    <style name="hc_styel_titlebar_view_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxEms">15</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/self_white</item>
+        <item name="android:textSize">@dimen/margin_18dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <!-- 标题栏 right fuction-->
+    <style name="hc_styel_titlebar_view_right_fuction">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:drawablePadding">@dimen/margin_3dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxEms">15</item>
+        <item name="android:focusable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:paddingRight">17dp</item>
+        <item name="android:textColor">@color/self_white</item>
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:background">@drawable/selector_right_item</item>
+    </style>
+
+    <style name="hc_styel_titlebar_view_add_fuction">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:drawablePadding">@dimen/margin_3dp</item>
+        <item name="android:maxEms">15</item>
+        <item name="android:focusable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:textColor">@color/self_white</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:background">@drawable/selector_right_item</item>
+    </style>
+
+
+    <!-- 标题栏无icon right fuction-->
+    <style name="hc_styel_titlebar_no_icon_fuction">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:drawablePadding">@dimen/margin_3dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxEms">15</item>
+        <item name="android:focusable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginRight">@dimen/margin_15dp</item>
+        <item name="android:textColor">@color/self_white</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:background">@drawable/selector_right_item</item>
+    </style>
+    <!--详情页电话样式-->
+    <style name="hc_tv_phone" parent="wh_wrap">
+        <item name="android:background">@drawable/color_transparent_turn_write</item>
+        <item name="android:textColor">@color/hc_self_gray</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:padding">@dimen/margin_3dp</item>
+        <item name="android:drawableLeft">@drawable/ic_phone</item>
+        <item name="android:autoLink">phone</item>
+        <item name="android:textColorLink">@color/hc_indicator</item>
+        <item name="android:drawablePadding">@dimen/margin_5dp</item>
+    </style>
+    <!--详情页名字字体-->
+    <style name="hc_tv_name" parent="wh_wrap">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <!--字体为16的黑色标题-->
+    <style name="hc_tv_title_16" parent="wh_wrap">
+        <item name="android:textColor">@color/self_black</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+    <!--详情页title-->
+    <style name="hc_tv_title" parent="wh_wrap">
+        <item name="android:textColor">@color/hc_self_gray</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:paddingLeft">@dimen/margin_15dp</item>
+        <item name="android:paddingRight">@dimen/margin_15dp</item>
+        <item name="android:paddingTop">@dimen/margin_10dp</item>
+        <item name="android:paddingBottom">@dimen/margin_10dp</item>
+    </style>
+    <!--详情页title 高度比较窄-->
+    <style name="hc_tv_title.low" parent="hc_tv_title">
+        <item name="android:paddingTop">@dimen/margin_8dp</item>
+        <item name="android:paddingBottom">@dimen/margin_8dp</item>
+    </style>
+    <!--详情页desc-->
+    <style name="hc_tv_desc" parent="wh_wrap">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:paddingLeft">@dimen/margin_15dp</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:paddingTop">@dimen/margin_10dp</item>
+        <item name="android:paddingBottom">@dimen/margin_10dp</item>
+        <item name="android:paddingRight">@dimen/margin_15dp</item>
+    </style>
+    <!--详情页desc 高度比较窄-->
+    <style name="hc_tv_desc.low" parent="hc_tv_desc">
+        <item name="android:paddingTop">@dimen/margin_8dp</item>
+        <item name="android:paddingBottom">@dimen/margin_8dp</item>
+    </style>
+
+    <!--详情页价格-->
+    <style name="hc_tv_price" parent="wh_wrap">
+        <item name="android:textColor">@color/hc_self_red</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:paddingLeft">@dimen/margin_20dp</item>
+        <item name="android:paddingRight">@dimen/margin_20dp</item>
+        <item name="android:paddingTop">@dimen/margin_15dp</item>
+        <item name="android:paddingBottom">@dimen/margin_10dp</item>
+    </style>
+    <!--详情页价格描述-->
+    <style name="hc_tv_price_desc" parent="wh_wrap">
+        <item name="android:textColor">@color/hc_self_gray</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+    </style>
+    <!--价格分割线-->
+    <style name="hc_tv_price_sep">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">@dimen/margin_60dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_10dp</item>
+        <item name="android:layout_marginBottom">@dimen/margin_10dp</item>
+        <item name="android:background">@color/hc_self_gray_bg</item>
+    </style>
+    <!--价格分割线-->
+    <style name="hc_tv_transaction_detail" parent="wh_match">
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingTop">@dimen/margin_20dp</item>
+        <item name="android:paddingBottom">@dimen/margin_5dp</item>
+        <item name="android:layout_marginRight">@dimen/margin_10dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_10dp</item>
+        <item name="android:drawablePadding">@dimen/margin_5dp</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/color_white_turn_gray</item>
+    </style>
+    <!--底部button 样式 平分-->
+    <style name="hc_transaction_bottom" parent="wh_mw">
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:padding">@dimen/margin_10dp</item>
+    </style>
+    <!--列表总数titlebat 样式-->
+    <style name="hc_titlebar_totalcount">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_40dp</item>
+        <item name="android:background">@color/hc_self_gray_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/hc_titlebar_totalcout</item>
+        <item name="android:textColor">@color/hc_self_gray</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+    <!--登录使用的Theme-->
+    <style name="HCLoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:windowBackground">@color/hc_self_gray_bg</item>
+        <!--输入文本的字体颜色-->
+        <item name="android:textColorPrimary">@color/hc_self_black</item>
+    </style>
+
+    <!--主页使用的Theme-->
+    <style name="HCTheme.MainPager" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:windowBackground">@color/hc_self_gray_bg</item>
+        <item name="android:popupMenuStyle">@style/HCTheme.PopupMenu</item>
+    </style>
+
+    <!--默认使用的Theme-->
+    <style name="HCTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:windowBackground">@color/hc_self_gray_bg</item>
+        <item name="android:popupMenuStyle">@style/HCTheme.PopupMenu</item>
+    </style>
+
+    <!--FloatingActionButton的Theme-->
+    <style name="HCTheme.FloatingActionButton" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:windowBackground">@color/hc_self_gray_bg</item>
+        <item name="android:popupMenuStyle">@style/HCTheme.PopupMenu</item>
+        <item name="android:actionBarWidgetTheme">@style/Widget.AppCompat.ActionBar</item>
+    </style>
+
+    <!--popup menu style-->
+    <style name="HCTheme.PopupMenu" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/hc_self_white</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--车源订阅条件白色方块区域-->
+    <style name="HCTheme.VehicleSubBlock">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/margin_15dp</item>
+        <item name="android:paddingRight">@dimen/margin_15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/hc_self_white</item>
+    </style>
+
+    <!--车源订阅条件输入区域-->
+    <style name="HCTheme.VehicleSubBlock.Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/shape_common_input_bolck_bg</item>
+        <item name="android:drawableRight">@drawable/ic_hc_spinner_arrow</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingLeft">@dimen/margin_6dp</item>
+        <item name="android:paddingRight">@dimen/margin_6dp</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+    </style>
+
+    <!--车源订阅条件条件输入框-->
+    <style name="HCTheme.VehicleSubBlock.Input">
+        <item name="android:layout_width">@dimen/margin_0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/shape_common_input_bolck_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <!--车源订阅条件备注输入框-->
+    <style name="HCTheme.VehicleSubBlock.Remark">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/shape_common_input_bolck_bg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">@dimen/margin_6dp</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <!--车源订阅条件lable-->
+    <style name="HCTheme.TextHint.Lable" parent="wh_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/hc_self_gray_hint</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+    </style>
+
+    <!--车源订阅条件展示-->
+    <style name="HCTheme.VehicleSubBlock.display">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#0000</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+    </style>
+
+    <!--<item name="android:paddingLeft">@dimen/margin_6dp</item>
+    <item name="android:paddingRight">@dimen/margin_6dp</item>-->
+
+    <!--看车失败（放弃购买）radioButton-->
+    <style name="hc_rb_quit_buy_reason">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/margin_60dp</item>
+        <item name="android:background">@drawable/hc_rb_quit_buy_reason_bg</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableRight">@drawable/hc_quit_buy_reason_rb</item>
+        <item name="android:paddingLeft">@dimen/margin_15dp</item>
+        <item name="android:paddingRight">@dimen/margin_15dp</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+    </style>
+
+    <!--看车失败（放弃购买）EditText-->
+    <style name="hc_ed_quit_buy">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/margin_80dp</item>
+        <item name="android:padding">@dimen/margin_5dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:background">@drawable/shape_edit_quit_buy_reason</item>
+    </style>
+
+    <style name="hc_ed_remark">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/margin_80dp</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:layout_marginBottom">@dimen/margin_30dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_20dp</item>
+        <item name="android:layout_marginRight">@dimen/margin_20dp</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/self_black</item>
+        <item name="android:textColorHint">@color/hc_self_gray_hint</item>
+        <item name="android:minLines">10</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:background">@drawable/shape_common_input_bolck_bg</item>
+    </style>
+
+
+    <!--文本编辑框-->
+    <style name="hc_ed_normal" parent="wh_wrap">
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:paddingLeft">@dimen/margin_15dp</item>
+        <item name="android:paddingRight">@dimen/margin_15dp</item>
+        <item name="android:paddingTop">@dimen/margin_10dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingBottom">@dimen/margin_10dp</item>
+        <item name="android:background">@drawable/edittext_selector</item>
+    </style>
+
+    <style name="hc_tv_title.weight1">
+        <item name="android:layout_width">@dimen/margin_0dp</item>
+        <item name="android:layout_height">@dimen/height_35dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+    </style>
+
+    <!--详情页价格-->
+    <style name="hc_tv_trasnfer_price" parent="hc_tv_price">
+        <item name="android:textColor">@color/hc_self_gray</item>
+    </style>
+
+    <!--成交价标题-->
+    <style name="hc_tv_label_final_price" parent="wh_wrap">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/margin_30dp</item>
+    </style>
+
+    <!--成交价样式-->
+    <style name="hc_tv_final_price" parent="wh_wrap">
+        <item name="android:textColor">@color/hc_self_red</item>
+        <item name="android:textSize">@dimen/font_32</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/margin_14dp</item>
+        <item name="android:paddingBottom">@dimen/margin_30dp</item>
+    </style>
+
+    <!--底部LinearLayout  1/3-->
+    <style name="hc_transfer_bottom_1" parent="wh_match">
+        <item name="android:layout_weight">2.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="hc_transfer_tv_1" parent="wh_wrap">
+        <item name="android:background">@color/hc_self_white</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:padding">@dimen/margin_10dp</item>
+    </style>
+    <!--底部LinearLayout 2/3-->
+    <style name="hc_transfer_bottom_2" parent="hc_transfer_bottom_1">
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="hc_transfer_tv_2" parent="wh_wrap">
+        <item name="android:background">@color/hc_self_red</item>
+        <item name="android:textColor">@color/hc_self_white</item>
+        <item name="android:padding">@dimen/margin_10dp</item>
+        <item name="android:drawablePadding">@dimen/margin_10dp</item>
+    </style>
+    <!--车型标题-->
+    <style name="hc_vehicle_model" parent="wh_mw">
+        <item name="android:textSize">@dimen/hc_text_size_large</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">@dimen/margin_15dp</item>
+        <item name="android:paddingTop">@dimen/margin_20dp</item>
+        <item name="android:paddingBottom">@dimen/margin_20dp</item>
+    </style>
+
+    <!--列表页车型标题-->
+    <style name="hc_list_vehicle_model" parent="hc_vehicle_model">
+        <item name="android:textSize">@dimen/hc_text_size_large</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <!--车源推荐图片ll-->
+    <style name="HCTheme.VehicleRecommend.Image" parent="wh_wrap">
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:width">@dimen/margin_0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">@dimen/margin_1dp</item>
+        <item name="android:src">@drawable/empty_brand</item>
+    </style>
+
+    <!--看车失败客户操作次数-->
+    <style name="hc_tv_transaction_fail_number" parent="@style/wh_wrap">
+        <item name="android:padding">@dimen/margin_10dp</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">@dimen/margin_20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--看车失败客户操作描述-->
+    <style name="hc_tv_transaction_fail_des" parent="@style/wh_wrap">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+    </style>
+
+    <!--过户信息基本基本信息-->
+    <style name="hc_ll_transfer_info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_40dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_20dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_15dp</item>
+        <item name="android:layout_marginRight">@dimen/margin_15dp</item>
+    </style>
+
+    <style name="hc_weight1_horizontal">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="hc_weight1_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!--看车任务列表搜索文本输入框-->
+    <style name="hc_et_trans_search" parent="@style/wh_match">
+        <item name="android:background">@color/hc_self_transparent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/self_white</item>
+        <item name="android:textSize">@dimen/margin_16dp</item>
+    </style>
+
+    <style name="hc_transfer_bottom_3">
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="tv_level">
+        <item name="android:layout_width">@dimen/margin_16dp</item>
+        <item name="android:layout_height">@dimen/margin_16dp</item>
+        <item name="android:background">@drawable/common_customer_level_red_bg</item>
+        <item name="android:textColor">@color/hc_self_white</item>
+        <item name="android:textSize">@dimen/margin_11dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="tv_source" parent="wh_wrap">
+        <item name="android:background">@drawable/selector_source_type</item>
+        <item name="android:textColor">@color/hc_self_white</item>
+        <item name="android:textSize">@dimen/margin_12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="cb_carbody">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@drawable/selector_carbody</item>
+        <item name="android:textColor">@drawable/selector_vehicle_sub_checkbox_text_color</item>
+        <item name="android:paddingLeft">@dimen/margin_10dp</item>
+        <item name="android:textSize">@dimen/margin_14dp</item>
+    </style>
+
+    <!--车源标签-->
+    <style name="vehicle_lable" parent="wh_wrap">
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:layout_margin">@dimen/margin_3dp</item>
+        <item name="android:textColor">@color/hc_titlebar_black</item>
+        <item name="android:drawableLeft">@drawable/ic_vehicle_tag</item>
+        <item name="android:drawablePadding">@dimen/margin_5dp</item>
+    </style>
+
+    <!--成功详情页面状态改变-->
+    <style name="hc_succeed_state" parent="wh_wrap">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_18</item>
+        <item name="android:paddingTop">@dimen/margin_20dp</item>
+        <item name="android:paddingBottom">@dimen/margin_20dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="hc_succeed_state_des" parent="wh_wrap">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_12</item>
+        <item name="android:paddingBottom">@dimen/margin_5dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="hc_succeed_state_ll" parent="wh_mw">
+        <item name="android:background">@color/self_faint_yellow</item>
+    </style>
+
+    <style name="hc_contract_and_photos" parent="wh_wrap">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--上传图片样式-->
+    <style name="hc_photo_upload" parent="wh_wrap">
+        <item name="android:layout_marginTop">@dimen/margin_15dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/margin_12dp</item>
+        <item name="android:textColor">@color/hc_upload_text</item>
+
+    </style>
+
+
+    <style name="hc_photo_pupo" parent="wh_wrap">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/margin_14dp</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:drawablePadding">@dimen/margin_10dp</item>
+        <item name="android:paddingBottom">@dimen/margin_15dp</item>
+        <item name="android:paddingTop">@dimen/margin_15dp</item>
+    </style>
+    <!--复活卖家-->
+    <style name="hc_titlebar_buyer_revive">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingTop">@dimen/margin_20dp</item>
+        <item name="android:paddingBottom">@dimen/margin_20dp</item>
+        <item name="android:paddingLeft">@dimen/margin_15dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/hc_please_select_models</item>
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:textColor">@color/hc_self_gray</item>
+    </style>
+
+    <style name="hc_resurrection_buyer" parent="wh_wrap">
+        <item name="android:paddingLeft">@dimen/margin_15dp</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:paddingBottom">@dimen/margin_20dp</item>
+        <item name="android:textSize">@dimen/font_12</item>
+    </style>
+    <!--毁约原因-->
+    <style name="hc_break_reason" parent="wh_mw">
+        <item name="android:textColor">@color/hc_titlebar_black</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:paddingLeft">@dimen/margin_15dp</item>
+        <item name="android:paddingRight">@dimen/margin_15dp</item>
+        <item name="android:paddingTop">@dimen/margin_10dp</item>
+        <item name="android:paddingBottom">@dimen/margin_10dp</item>
+    </style>
+    <!--定金支付·买家卖家-->
+    <style name="HCTheme.Pospay.Payer" parent="HCTheme.TextMain">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/hc_text_size_xxlarge</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">60dp</item>
+    </style>
+
+    <!--定金支付·支付金额的lable-->
+    <style name="HCTheme.Pospay.PriceLable" parent="HCTheme.TextHint">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/margin_15dp</item>
+    </style>
+
+    <!--定金支付·支付金额-->
+    <style name="HCTheme.Pospay.Price" parent="HCTheme.TextMain">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/hc_self_red</item>
+        <item name="android:textSize">@dimen/hc_text_size_xxxlarge</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/margin_15dp</item>
+    </style>
+
+    <!--定金支付·支付成功后，支付方式的展示·现金支付-->
+    <style name="HCTheme.Pospay.Cash" parent="HCTheme.TextMain">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/margin_30dp</item>
+        <item name="android:drawablePadding">@dimen/margin_10dp</item>
+        <item name="android:drawableLeft">@drawable/ic_hc_pospay_cash_lable</item>
+        <item name="android:text">@string/hc_pospay_earnest_cash</item>
+    </style>
+
+    <!--定金支付·支付成功后，支付方式的展示·刷卡支付-->
+    <style name="HCTheme.Pospay.Card" parent="HCTheme.TextMain">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/margin_5dp</item>
+        <item name="android:drawablePadding">@dimen/margin_10dp</item>
+        <item name="android:drawableLeft">@drawable/ic_hc_pospay_card_lable</item>
+        <item name="android:text">@string/hc_pospay_earnest_card</item>
+    </style>
+
+    <!--定金支付·支付选择按钮·现金支付-->
+    <style name="HCTheme.Pospay.CashBtn" parent="HCTheme.TextMain">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/hc_indicator</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:drawablePadding">@dimen/margin_10dp</item>
+        <item name="android:drawableLeft">@drawable/ic_hc_pospay_cash</item>
+        <item name="android:text">@string/hc_pospay_earnest_cash</item>
+    </style>
+
+    <!--定金支付·支付选择按钮·刷卡支付-->
+    <style name="HCTheme.Pospay.CardBtn" parent="HCTheme.TextMain">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/hc_indicator</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:drawablePadding">@dimen/margin_10dp</item>
+        <item name="android:drawableLeft">@drawable/ic_hc_pospay_card</item>
+        <item name="android:text">@string/hc_pospay_earnest_card</item>
+    </style>
+
+    <!--定金支付·支付成功的对号-->
+    <style name="HCTheme.Pospay.Success" parent="HCTheme.TextMain">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:drawableLeft">@drawable/ic_hc_pospay_success</item>
+        <item name="android:layout_marginTop">@dimen/margin_50dp</item>
+    </style>
+
+    <!--定金支付·支付成功·支付金额lable-->
+    <style name="HCTheme.Pospay.SuccessLable" parent="HCTheme.TextMain">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/hc_text_size_normal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/margin_5dp</item>
+        <item name="android:drawablePadding">@dimen/margin_10dp</item>
+        <item name="android:drawableTop">@drawable/ic_hc_pospay_success</item>
+    </style>
+
+    <!--收车图片-->
+    <style name="hc_purchase_photo" parent="wh_mw">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <!-- 完成整顿界面子标题-->
+    <style name="ll_hostling_sub2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <!--<item name="android:paddingRight">40dp</item>-->
+        <!--<item name="android:paddingLeft">40dp</item>-->
+    </style>
+
+    <!-- 完成整顿界面序号 -->
+    <style name="tv_hostling_serial_number">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:background">@drawable/circle_serial_number</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/self_white</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <!-- 完成整顿界面编辑文本框 -->
+    <style name="ed_hostling">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:background">@drawable/shape_common_input_bolck_bg</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+
+    <!-- 完成整顿界面图片内容文本框 -->
+    <style name="tv_hostling_photo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/hc_dark_blue</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <!-- 完成整顿界面水平分割线-->
+    <style name="v_hostling_dash_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_marginLeft">42dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layerType">software</item>
+        <item name="android:background">@drawable/dash_gray_line</item>
+    </style>
+
+    <!--添加整备项目 圆点-->
+    <style name="hc_hostling_add_item">
+        <item name="android:layout_width">@dimen/margin_25dp</item>
+        <item name="android:layout_height">@dimen/margin_25dp</item>
+        <item name="android:background">@drawable/hostling_add_item_point</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/self_white</item>
+        <item name="android:textSize">@dimen/margin_12dp</item>
+    </style>
+
+    <!--整备项目名称-->
+    <style name="hc_hostling_add_item_name" parent="wh_wrap">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/height_10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/hc_hostling_add_item</item>
+        <item name="android:textSize">@dimen/margin_14dp</item>
+    </style>
+
+    <!--成交价标题-->
+    <style name="HCTheme.Report.Detail" parent="wh_wrap">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:textSize">@dimen/hc_text_size_report_statistics_detail</item>
+        <item name="android:paddingLeft">@dimen/margin_20dp</item>
+        <item name="android:paddingRight">@dimen/margin_20dp</item>
+        <item name="android:paddingTop">@dimen/margin_15dp</item>
+        <item name="android:paddingBottom">@dimen/margin_10dp</item>
+    </style>
+
+    <!--switch buton-->
+    <style name="pay_SwitchButtonMD">
+        <item name="kswThumbDrawable">@drawable/pay_ksw_md_thumb</item>
+        <item name="kswBackColor">@color/pay_ksw_md_back_color</item>
+        <item name="kswBackMeasureRatio">1.45</item>
+        <item name="kswThumbMarginLeft">-16dp</item>
+        <item name="kswThumbMarginTop">-14dp</item>
+        <item name="kswThumbMarginRight">-16dp</item>
+        <item name="kswThumbMarginBottom">-14dp</item>
+        <item name="kswThumbWidth">@dimen/ksw_md_thumb_ripple_size</item>
+        <item name="kswThumbHeight">@dimen/ksw_md_thumb_ripple_size</item>
+    </style>
+
+    <!--switch buton-->
+    <style name="pay_SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="dialog_activity" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+</resources>

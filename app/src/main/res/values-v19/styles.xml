@@ -1,0 +1,76 @@
+<resources>
+
+    <!--登录、主页使用的Theme-->
+    <style name="HCLoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <!--输入文本的字体颜色-->
+        <item name="android:textColorPrimary">@color/hc_self_black</item>
+        <item name="android:windowBackground">@color/hc_self_gray_bg</item>
+        <item name="colorPrimaryDark">@color/hc_self_gray_bg</item>
+    </style>
+
+    <!--主页使用的Theme-->
+    <style name="HCTheme.MainPager" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:windowBackground">@color/hc_self_gray_bg</item>
+        <item name="android:popupMenuStyle">@style/HCTheme.PopupMenu</item>
+        <!--输入文本的字体颜色-->
+        <item name="android:textColorPrimary">@color/hc_self_black</item>
+        <item name="colorPrimaryDark">@color/hc_self_gray_bg</item>
+    </style>
+
+    <!--默认使用的Theme-->
+    <style name="HCTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/hc_self_black</item>
+        <item name="android:windowBackground">@color/hc_self_gray_bg</item>
+        <item name="android:popupMenuStyle">@style/HCTheme.PopupMenu</item>
+        <!--输入文本的字体颜色-->
+        <item name="android:textColorPrimary">@color/hc_self_black</item>
+        <item name="colorPrimaryDark">@color/hc_titlebar_black</item>
+        <!--设置系统默认的popMenu、spinner等的背景色-->
+        <item name="android:colorBackground">@color/hc_self_gray_bg</item>
+    </style>
+
+    <!-- 照片样式-->
+    <style name="riv_photo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/photo_shape</item>
+    </style>
+
+    <!--照片线性布局样式-->
+    <style name="ll_photo">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="rl_photo_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <!--照片的样式-->
+    <style name="tv_center_tag">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/hc_dark_blue</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <!--照片中央的标记样式-->
+    <style name="tv_bottom_tag">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/hc_dark_blue</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+
+</resources>

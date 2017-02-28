@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_width="@dimen/margin_25dp"
+        android:layout_height="@dimen/margin_25dp"
+        android:layout_gravity="right"
+        android:background="@color/hc_backgroud_black"
+        android:gravity="center"
+        android:paddingLeft="@dimen/margin_5dp"
+        android:text="×"
+        android:textColor="@color/self_white"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_100dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_5dp"
+            android:text="请确认"
+
+            android:textColor="@color/self_black"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_5dp"
+            android:text="过户完成后"
+            android:textColor="@color/hc_self_red"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_5dp"
+            android:text="再通知财务支付尾款"
+            android:textColor="@color/self_black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+    <include layout="@layout/dialog_button"/>
+</LinearLayout>

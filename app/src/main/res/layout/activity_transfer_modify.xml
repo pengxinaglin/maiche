@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hc_self_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_transfer_time"
+        style="@style/hc_ll_transfer_info"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transfer_time2"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left">
+
+            <TextView
+                android:id="@+id/tv_transfer_modify_time"
+                style="@style/HCTheme.VehicleSubBlock.Spinner"
+                android:entries="@array/filter_vehicle_source_online"
+                />
+
+            <ImageView
+                style="@style/wh_wrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:src="@drawable/ic_hc_spinner_arrow"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_transfer_address"
+        style="@style/hc_ll_transfer_info"
+        android:layout_below="@+id/ll_transfer_time"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transfer_address"/>
+
+        <EditText
+            android:id="@+id/et_transfer_modify_address"
+            style="@style/HCTheme.VehicleSubBlock.Input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="@dimen/margin_6dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_transfer_modify_save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/color_red_turn_deep"
+        android:gravity="center"
+        android:text="@string/hc_common_save"
+        android:textColor="@color/hc_self_white"
+        android:textSize="@dimen/hc_text_size_middle"/>
+
+</RelativeLayout>

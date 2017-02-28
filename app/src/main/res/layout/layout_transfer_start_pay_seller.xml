@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!--客户备注-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/HCTheme.VehicleSubBlock"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="公司转车主金额" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/et_transfer_to_seller"
+                style="@style/HCTheme.VehicleSubBlock.Input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_40dp"
+                android:inputType="number"
+                android:paddingRight="@dimen/margin_25dp" />
+
+            <TextView
+                style="@style/wh_wrap"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:text="@string/hc_yuan"
+                android:textSize="@dimen/hc_text_size_normal" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/HCTheme.TextMain"
+        android:layout_height="@dimen/height_35dp"
+        android:text="车主转账方式"
+        android:textSize="@dimen/hc_text_size_normal" />
+
+    <EditText
+        android:id="@+id/et_transfer_start_pay_to_seller_way"
+        style="@style/HCTheme.VehicleSubBlock.Remark"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="@dimen/margin_20dp" />
+</LinearLayout>

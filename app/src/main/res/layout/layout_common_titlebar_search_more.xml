@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main_titlebar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_titlebar_height"
+    android:background="@color/hc_titlebar_black"
+    android:orientation="horizontal">
+
+    <!-- 这里多套一层 是为了保证顶部栏在collapse动画时 不变形 -->
+    <RelativeLayout
+        android:id="@+id/rl_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_titlebar_height"
+        >
+
+        <TextView
+            android:id="@+id/tv_common_back"
+            style="@style/hc_styel_titlebar_view_back"
+            />
+
+        <!-- 左分割线 -->
+        <View
+            android:id="@+id/left_divider_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/titlebar_click"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toRightOf="@+id/tv_common_back"
+            />
+        <TextView
+            android:id="@+id/tv_common_title"
+            style="@style/hc_styel_titlebar_view_title"
+            android:layout_toEndOf="@+id/left_divider_line"
+            android:layout_toRightOf="@+id/left_divider_line"
+            android:text="@string/app_name"
+            />
+
+        <TextView
+            android:id="@+id/tv_right_fuction"
+            style="@style/hc_styel_titlebar_view_right_fuction"
+            android:drawableLeft="@drawable/ic_top_search"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/tv_title_add"
+            style="@style/hc_styel_titlebar_view_add_fuction"
+            android:drawableLeft="@drawable/ic_title_add"
+            android:visibility="gone"
+            android:layout_toLeftOf="@+id/tv_right_fuction"
+            android:layout_toStartOf="@+id/tv_right_fuction" />
+    </RelativeLayout>
+
+    <!--搜索框-->
+    <RelativeLayout
+        android:id="@+id/rl_search_box"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_titlebar_height"
+        android:focusableInTouchMode="true"
+        >
+
+        <ImageView
+            android:id="@+id/iv_search"
+            style="@style/hc_styel_titlebar_view_back"
+            android:src="@drawable/ic_top_search"
+            android:paddingRight="@dimen/margin_15dp"
+            />
+
+        <LinearLayout
+            style="@style/wh_wrap"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_search_cancel"
+            android:layout_toRightOf="@+id/iv_search"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_trans_search"
+                style="@style/hc_et_trans_search"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="@string/hc_search_hint1"
+                android:textCursorDrawable="@drawable/hc_et_cursor"
+                android:imeOptions="actionSearch"
+                android:textColorHint="@color/hc_self_white"/>
+
+            <View
+                style="@style/wh_mw"
+                android:layout_height="0.5dp"
+                android:layout_weight="0.1"
+                android:layout_marginTop="@dimen/margin_2dp"
+                android:background="@color/self_white"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_search_cancel"
+            style="@style/hc_styel_titlebar_view_right_fuction"
+            android:paddingRight="@dimen/margin_0dp"
+            android:text="取消"/>
+    </RelativeLayout>
+
+</LinearLayout>

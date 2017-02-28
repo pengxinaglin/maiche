@@ -1,0 +1,1 @@
+include ':app', ':qiniu', ':hctimepicker', ':o2osdk', ':settlement', ':hccorelib', ':photospicker'

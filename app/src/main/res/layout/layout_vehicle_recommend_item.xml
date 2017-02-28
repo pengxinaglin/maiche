@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">-->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hc_self_white"
+        android:orientation="vertical">
+
+        <include
+            style="@style/wh_mw"
+            layout="@layout/layout_vehicle_model"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/tv_label_online_time"
+                style="@style/hc_tv_title"
+                android:layout_alignParentLeft="true"
+                android:text="@string/hc_online_time"
+                />
+
+            <TextView
+                android:id="@+id/tv_online_time"
+                style="@style/hc_tv_desc"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/tv_label_online_time"
+                android:gravity="right"
+                android:text="------"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/tv_label_seller_price"
+                style="@style/hc_tv_title"
+                android:layout_alignParentLeft="true"
+                android:text="@string/hc_seller_price_label"
+                />
+
+            <TextView
+                android:id="@+id/tv_seller_price"
+                style="@style/hc_tv_desc"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/tv_label_seller_price"
+                android:gravity="right"
+                android:text="------"
+                android:textColor="@color/hc_self_red"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/tv_label_vehicle_desc"
+                style="@style/hc_tv_title"
+                android:layout_alignParentLeft="true"
+                android:text="@string/hc_seller_desc_label"
+                />
+
+            <TextView
+                android:id="@+id/tv_vehicle_desc"
+                style="@style/hc_tv_desc"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/tv_label_vehicle_desc"
+                android:gravity="right"
+                android:text="------"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_70dp"
+            android:layout_marginBottom="@dimen/margin_20dp"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_20dp"
+            android:paddingRight="@dimen/margin_15dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/iv_vehicle_img1"
+                style="@style/HCTheme.VehicleRecommend.Image"/>
+
+            <ImageView
+                android:id="@+id/iv_vehicle_img2"
+                style="@style/HCTheme.VehicleRecommend.Image"/>
+
+            <ImageView
+                android:id="@+id/iv_vehicle_img3"
+                style="@style/HCTheme.VehicleRecommend.Image"/>
+
+            <LinearLayout
+                android:id="@+id/ll_match_customer"
+                android:layout_width="@dimen/margin_57dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1.5dp"
+                android:layout_marginTop="1.5dp"
+                android:background="@drawable/color_blue_turn_deep"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_match_cus_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/margin_14dp"
+                    android:text="18"
+                    android:textColor="@color/hc_self_white"
+                    android:textSize="@dimen/hc_text_size_large"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/hc_match_cus_desc"
+                    android:textColor="@color/hc_self_white"
+                    android:textSize="@dimen/hc_text_size_normal"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--
+    </android.support.v7.widget.CardView>-->

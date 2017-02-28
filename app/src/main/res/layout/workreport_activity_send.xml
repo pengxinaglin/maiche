@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/margin_15dp"
+    android:paddingRight="@dimen/margin_15dp"
+    android:paddingTop="@dimen/margin_8dp"
+    android:paddingBottom="@dimen/margin_10dp">
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hc_self_transparent"
+        android:lines="5"
+        android:maxLength="100"
+        android:hint="请输入，最多输入100个字"
+        android:textSize="@dimen/font_16"
+        android:gravity="start" />
+
+    <ImageView
+        android:id="@+id/photo_image"
+        android:layout_width="@dimen/margin_80dp"
+        android:layout_height="@dimen/margin_80dp"
+        android:background="@drawable/image_click_shadow"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="@dimen/margin_10dp" />
+
+    <TextView
+        android:id="@+id/place_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="正在定位..."
+        android:layout_marginTop="@dimen/margin_10dp" />
+</LinearLayout>

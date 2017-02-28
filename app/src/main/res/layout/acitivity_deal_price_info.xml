@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/hc_self_gray_bg"
+              android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_seller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_40dp"
+                    android:layout_below="@+id/ll_settlement_pospay_price"
+                    android:layout_marginLeft="@dimen/margin_15dp"
+                    android:layout_marginRight="@dimen/margin_15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="成本价/担保车款"
+                        android:textColor="@color/pay_black"
+                        android:textSize="@dimen/hc_text_size_large"/>
+
+                    <TextView
+                        android:id="@+id/tv_deal_price"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.2"
+                        android:gravity="center"
+                        android:paddingRight="@dimen/margin_25dp"
+                        android:text="------"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/hc_text_size_large"/>
+
+                </LinearLayout> <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_40dp"
+                    android:layout_below="@+id/ll_settlement_pospay_price"
+                    android:layout_marginLeft="@dimen/margin_15dp"
+                    android:layout_marginRight="@dimen/margin_15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="车主定金"
+                        android:textColor="@color/pay_black"
+                        android:textSize="@dimen/hc_text_size_large"/>
+
+                    <TextView
+                        android:id="@+id/tv_seller_prepay"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.2"
+                        android:gravity="center"
+                        android:paddingRight="@dimen/margin_25dp"
+                        android:text="------"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/hc_text_size_large"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_40dp"
+                    android:layout_below="@+id/ll_settlement_pospay_price"
+                    android:layout_marginLeft="@dimen/margin_15dp"
+                    android:layout_marginRight="@dimen/margin_15dp"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="left|center_vertical"
+                        android:text="开户姓名"
+                        android:textColor="@color/pay_black"
+                        android:textSize="@dimen/hc_text_size_large"/>
+
+                    <EditText
+                        android:id="@+id/et_refund_seller_name"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@drawable/pay_shape_common_input_bg"
+                        android:gravity="center"
+                        android:paddingRight="@dimen/margin_25dp"
+                        android:textColor="@color/pay_black"
+                        android:textSize="@dimen/hc_text_size_large"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_40dp"
+                    android:layout_below="@+id/ll_settlement_pospay_price"
+                    android:layout_marginLeft="@dimen/margin_15dp"
+                    android:layout_marginRight="@dimen/margin_15dp"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="left|center_vertical"
+                        android:text="开户银行"
+                        android:textColor="@color/pay_black"
+                        android:textSize="@dimen/hc_text_size_large"/>
+
+                    <EditText
+                        android:id="@+id/et_refund_seller_bank"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@drawable/pay_shape_common_input_bg"
+                        android:gravity="center"
+                        android:hint="提供到支行，如：工商银行海淀支行"
+                        android:paddingRight="@dimen/margin_25dp"
+                        android:textColor="@color/pay_black"
+                        android:textSize="@dimen/hc_text_size_normal"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_40dp"
+                    android:layout_below="@+id/ll_settlement_pospay_price"
+                    android:layout_marginLeft="@dimen/margin_15dp"
+                    android:layout_marginRight="@dimen/margin_15dp"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="left|center_vertical"
+                        android:text="银行卡号"
+                        android:textColor="@color/pay_black"
+                        android:textSize="@dimen/hc_text_size_large"/>
+
+                    <EditText
+                        android:id="@+id/et_refund_seller_card_number"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@drawable/pay_shape_common_input_bg"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:paddingRight="@dimen/margin_25dp"
+                        android:textColor="@color/pay_black"
+                        android:textSize="@dimen/hc_text_size_large"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/pay_divider_line"/>
+
+    <include layout="@layout/layout_common_bottom_match_btn"/>
+
+</LinearLayout>

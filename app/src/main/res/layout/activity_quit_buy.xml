@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/layout_quit_buy_reason_rg"/>
+
+            <include layout="@layout/layout_buyer_tracking"/>
+
+            <include layout="@layout/layout_vehicle_equal_sys"/>
+
+            <include
+                layout="@layout/layout_quit_buy_reason_content"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_quit_buy_commit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50dp"
+        android:layout_weight="1"
+        android:background="@drawable/color_red_turn_deep"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/common_title_commit"
+            android:textColor="@color/hc_self_white"
+            android:textSize="@dimen/font_16"
+            />
+    </LinearLayout>
+</LinearLayout>

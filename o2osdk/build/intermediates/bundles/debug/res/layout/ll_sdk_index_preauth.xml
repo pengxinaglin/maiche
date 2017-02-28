@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ll_color_tx1"
+    android:orientation="vertical" >
+    
+  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ll_casher_text_size_10"
+        android:layout_marginTop="@dimen/ll_casher_text_size_12"
+        android:text="@string/ll_index_preauth_text"
+        android:textColor="@color/ll_color_tx6" />
+
+    <TextView
+        android:id="@+id/ll_index_swiping_preauth"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ll_index_paytype"
+        android:layout_marginTop="@dimen/ll_casher_text_size_12"
+        android:background="@color/ll_color_tx13"
+        android:drawableLeft="@drawable/ll_ic_preauth"
+        android:drawablePadding="@dimen/ll_casher_text_size_10"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/ll_casher_text_size_10"
+        android:text="@string/ll_index_swiping_preauth_text"
+        android:textColor="@color/ll_color_tx6"
+        android:textSize="@dimen/ll_casher_text_size_16" />
+</LinearLayout>

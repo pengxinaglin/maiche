@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ll_unionpay_logo_top.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ll_unionpay_logo_top.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ll_ic_launcher.png",
+        "source": "/Users/mac/Documents/AndroidProject/android_studio_sales/o2osdk/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ll_ic_launcher.png"
+    }
+]

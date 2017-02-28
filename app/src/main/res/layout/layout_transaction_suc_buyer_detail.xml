@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/wh_mw"
+    android:background="@color/self_white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_15dp">
+
+    <RadioGroup
+        style="@style/wh_mw"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_buyer_trans_history"
+            style="@style/hc_tv_transaction_detail"
+            android:drawableTop="@drawable/ic_vehicle_revisit"
+            android:text="@string/buyer_trans_history"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_buyer_trans_revisit"
+            style="@style/hc_tv_transaction_detail"
+            android:drawableTop="@drawable/ic_buyer_revisit"
+            android:text="@string/hc_buyer_revisit"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_trans_vehicle_revisit"
+            style="@style/hc_tv_transaction_detail"
+            android:drawableTop="@drawable/ic_vehicle_revisit"
+            android:text="@string/hc_vehicle_revisit"
+            />
+    </RadioGroup>
+
+    <RadioGroup
+        style="@style/wh_mw"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_trans_vehicle"
+            style="@style/hc_tv_transaction_detail"
+            android:drawableTop="@drawable/ic_vehicle"
+            android:text="@string/hc_vehicle_detail"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_transaction_buyer_revisit"
+            style="@style/hc_tv_transaction_detail"
+            android:drawableTop="@drawable/ic_buyer_revisit"
+            android:visibility="invisible"
+            />
+
+        <RadioButton
+            android:visibility="invisible"
+            android:id="@+id/rb_transaction_recording"
+            style="@style/hc_tv_transaction_detail"
+            android:drawableTop="@drawable/ic_vehicle"
+            />
+    </RadioGroup>
+</LinearLayout>

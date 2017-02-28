@@ -1,0 +1,147 @@
+apply plugin: 'com.android.application'
+apply plugin: 'newlens'
+apply plugin: 'com.neenbedankt.android-apt'
+apt {
+    arguments {
+        eventBusIndex "com.study.sangerzhong.studyapp.MyEventBusIndex"
+    }
+}
+
+repositories {
+    flatDir {
+        dir 'libs'
+    }
+}
+
+android {
+
+    dataBinding {
+        enabled false
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+    compileSdkVersion 22
+    buildToolsVersion "23.0.0"
+    defaultConfig {
+        applicationId "com.haoche51.sales"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 201612270
+        versionName "1.6.4"
+        // dex突破65535的限制
+        multiDexEnabled true
+        // 默认是umeng的渠道
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "1105100001"]
+        signingConfig signingConfigs.debug
+    }
+    //签名
+    signingConfigs {
+        debug {
+            // No debug config
+            storeFile file("../haoche51.keystore")
+            storePassword "haoche51@572"
+            keyAlias "haoche51"
+            keyPassword "haoche51@572"
+        }
+        release {
+            storeFile file("../haoche51.keystore")
+            storePassword "haoche51@572"
+            keyAlias "haoche51"
+            keyPassword "haoche51@572"
+        }
+    }
+    buildTypes {
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "boolean", "DEBUG_TINGYUN", "false"
+            buildConfigField "boolean", "ENABLE_UMENG_ANALYTICS", "false"
+            buildConfigField "boolean", "DEBUG_LEAK_CANARY", "true"
+            buildConfigField "boolean", "ENABLE_HC_STATISTIC", "false"
+            versionNameSuffix "-debug"
+            minifyEnabled false
+            zipAlignEnabled true
+            shrinkResources false
+            signingConfig signingConfigs.debug
+        }
+
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            buildConfigField "boolean", "DEBUG_TINGYUN", "true"
+            buildConfigField "boolean", "ENABLE_UMENG_ANALYTICS", "true"
+            buildConfigField "boolean", "DEBUG_LEAK_CANARY", "false"
+            buildConfigField "boolean", "ENABLE_HC_STATISTIC", "true"
+
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            // 移除无用的resource文件
+            shrinkResources false
+            zipAlignEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        def fileName = "hcsales.apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            assets.srcDirs = ['assets']
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(':qiniu')
+    compile project(':photospicker')
+    compile project(':hctimepicker')
+    compile project(':o2osdk')
+    compile project(path: ':settlement')
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.3'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.3'
+    apt 'org.greenrobot:eventbus-annotation-processor:3.0.1'
+
+    compile 'com.android.support:support-v4:22.2.0'
+//    compile 'com.loopj.android:android-async-http:1.4.8'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    compile 'in.srain.cube:ultra-ptr:1.0.10'
+    compile 'com.ogaclejapan.smarttablayout:library:1.4.1@aar'
+    compile 'com.networkbench.newlens.agent.android:nbs.newlens.agent:2.3.1'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+    compile 'com.squareup.okio:okio:1.8.0'
+}
+
+repositories {
+    mavenCentral()
+}

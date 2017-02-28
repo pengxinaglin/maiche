@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="客户级别" />
+
+        <Spinner
+            android:id="@+id/sp_edit_buyer_level"
+            style="@style/HCTheme.VehicleSubBlock.Spinner"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/margin_40dp"
+            android:layout_weight="1"
+            android:entries="@array/filter_level" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginBottom="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下次回访时间" />
+
+        <Spinner
+            android:id="@+id/sp_buyer_revisit"
+            style="@style/HCTheme.VehicleSubBlock.Spinner"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/margin_40dp"
+            android:layout_weight="1"
+            android:entries="@array/revisit_n" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_10dp"
+        android:background="@color/hc_self_gray_bg" />
+
+</LinearLayout>

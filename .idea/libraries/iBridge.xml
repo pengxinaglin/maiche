@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="iBridge">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/o2osdk/libs/iBridge.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

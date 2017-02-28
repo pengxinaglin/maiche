@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/hc_self_gray_bg"
+              android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/HCTheme.TextMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hc_self_white"
+            android:gravity="left"
+            android:padding="@dimen/margin_15dp"
+            android:text="title"
+            android:textSize="@dimen/font_16" />
+
+        <TextView
+            android:id="@+id/tv_remark"
+            style="@style/HCTheme.TextMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hc_self_white"
+            android:gravity="left"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:paddingBottom="@dimen/margin_10dp"
+            android:text="remark"
+            android:textSize="@dimen/font_16"
+            android:lineSpacingExtra="@dimen/margin_5dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hc_vehicle_model_bg">
+
+            <TextView
+                android:id="@+id/tv_state"
+                style="@style/HCTheme.TextHint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxEms="12"
+                android:padding="@dimen/margin_15dp"
+                android:singleLine="true"
+                android:text="status"
+                android:textSize="@dimen/font_14" />
+
+            <TextView
+                android:id="@+id/tv_createtime"
+                style="@style/HCTheme.TextHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="@dimen/margin_15dp"
+                android:text="time"
+                android:textSize="@dimen/font_14" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

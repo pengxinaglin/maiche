@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titlebar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/pay_titlebar_height"
+    android:background="@color/pay_titlebar"
+    >
+    <!-- 返回按钮 -->
+    <ImageView
+        android:id="@+id/back_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/pay_selector_transparent_turn_black"
+        android:src="@drawable/pay_back_arrow"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:scaleType="centerInside"
+        />
+    <!-- 左分割线 -->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/pay_titlebar_click"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        />
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/pay_app_name"
+        android:textColor="@color/pay_white"
+        android:textSize="@dimen/font_18"
+        android:singleLine="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+        <!-- 右边文字按钮 -->
+        <TextView
+            android:id="@+id/right_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/pay_shape_border_dashed"
+            android:textColor="@color/pay_white"
+            android:textSize="@dimen/font_16"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+        <!-- 右边图标按钮1 -->
+        <ImageView
+            android:id="@+id/right_image_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/pay_selector_transparent_turn_black"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            />
+        <!-- 右边图标按钮2 -->
+        <ImageView
+            android:id="@+id/right_image_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/pay_selector_transparent_turn_black"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+</LinearLayout>

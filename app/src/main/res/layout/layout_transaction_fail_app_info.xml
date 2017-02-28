@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/self_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_transaction_suc_buyer_name"
+            style="@style/hc_tv_name"
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="@dimen/margin_20dp"
+            android:paddingLeft="@dimen/margin_15dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:paddingTop="@dimen/margin_20dp"
+            android:text="---"
+            />
+
+        <TextView
+            android:id="@+id/tv_vehicle_store"
+            style="@style/hc_tv_name"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/tv_transaction_suc_buyer_name"
+            android:layout_toRightOf="@+id/tv_transaction_suc_buyer_name"
+            android:text="[车商]"
+            android:textColor="@color/hc_self_red"
+            android:textSize="@dimen/hc_text_size_normal"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_transaction_suc_buyer_phone"
+            style="@style/hc_tv_phone"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/margin_20dp"
+            android:text="----"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hc_self_gray_bg"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_transfer_order_number"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_order_number"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="--------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/tv_label_transfer_status"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_transaction_status"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_status"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_label_transfer_status"
+            android:gravity="right"
+            android:text="-----------"
+            android:textColor="@color/hc_self_red"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_transaction_vehicle_label"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_name"
+            />
+
+        <TextView
+            android:id="@+id/tv_transaction_vehicle"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_transaction_vehicle_label"
+            android:gravity="right"
+            android:text="-----------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_label_transfer_vc_id"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_source_id"
+            />
+
+        <TextView
+            android:id="@+id/tv_transfer_vc_id"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_label_transfer_vc_id"
+            android:gravity="right"
+            android:text="-----------"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_vehicle_plate_number_label"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_plate_number"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_vehicle_plate_number"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_vehicle_plate_number_label"
+            android:gravity="right"
+            android:text="------"
+            android:textSize="@dimen/margin_12dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_vehicle_type_text_lable"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_tag_lable"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_vehicle_type_text"
+            style="@style/hc_tv_desc"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_vehicle_type_text_lable"
+            android:gravity="right"
+            android:text="------"
+            android:textSize="@dimen/margin_12dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_vehicle_tag_text_lable"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_vehicle_lable"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <com.haoche51.sales.custom.TagsLayout
+            android:id="@+id/ll_vehicle_tag"
+            style="@style/wh_wrap"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@+id/tv_vehicle_tag_text_lable"
+            android:paddingBottom="@dimen/height_10dp"
+            android:paddingLeft="@dimen/margin_60dp"
+            android:paddingRight="@dimen/margin_15dp"
+            android:paddingTop="@dimen/height_10dp"/>
+    </RelativeLayout>
+</LinearLayout>

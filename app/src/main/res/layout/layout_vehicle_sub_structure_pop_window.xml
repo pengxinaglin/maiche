@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/hc_self_input_bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp">
+
+        <CheckBox
+            android:id="@+id/cb_vehicle_color_unlimited"
+            style="@style/cb_carbody"
+            android:text="@string/nomarl_select_unlimited"/>
+
+        <CheckBox
+            android:id="@+id/cb_vehicle_color_black"
+            style="@style/cb_carbody"
+            android:layout_marginLeft="@dimen/margin_66dp"
+            android:text="@string/hc_vehicle_sub_color_black"/>
+
+        <CheckBox
+            android:id="@+id/cb_vehicle_color_white"
+            style="@style/cb_carbody"
+            android:layout_marginLeft="@dimen/margin_66dp"
+            android:text="@string/hc_vehicle_sub_color_white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_vehicle_color_silver"
+            style="@style/cb_carbody"
+            android:text="@string/hc_vehicle_sub_color_silver"/>
+
+        <CheckBox
+            android:id="@+id/cb_vehicle_color_gray"
+            style="@style/cb_carbody"
+            android:layout_marginLeft="@dimen/margin_66dp"
+            android:text="@string/hc_vehicle_sub_color_gray"/>
+
+        <CheckBox
+            android:id="@+id/cb_vehicle_color_red"
+            style="@style/cb_carbody"
+            android:layout_marginLeft="@dimen/margin_66dp"
+            android:text="@string/hc_vehicle_sub_color_red"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_vehicle_color_blue"
+            style="@style/cb_carbody"
+            android:text="@string/hc_vehicle_sub_color_blue"/>
+
+        <CheckBox
+            android:id="@+id/cb_vehicle_color_green"
+            style="@style/cb_carbody"
+            android:layout_marginLeft="@dimen/margin_66dp"
+            android:text="@string/hc_vehicle_sub_color_green"/>
+
+        <CheckBox
+            android:id="@+id/cb_vehicle_color_yellow"
+            style="@style/cb_carbody"
+            android:layout_marginLeft="@dimen/margin_66dp"
+            android:text="@string/hc_vehicle_sub_color_yellow"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_vehicle_color_golden"
+            style="@style/cb_carbody"
+            android:text="@string/hc_vehicle_sub_color_golden"/>
+
+        <CheckBox
+            android:id="@+id/cb_vehicle_color_orange"
+            style="@style/cb_carbody"
+            android:layout_marginLeft="@dimen/margin_66dp"
+            android:text="@string/hc_vehicle_sub_color_orange"/>
+
+        <!--<CheckBox
+            android:id="@+id/cb_carbody_minibus"
+            style="@style/cb_carbody"
+            android:layout_marginLeft="@dimen/margin_66dp"
+            android:text="面包车"/>-->
+
+
+    </LinearLayout>
+
+    <View
+        style="@style/line_horizontal_style"
+        />
+
+    <TextView
+        android:id="@+id/tv_vehicle_color_ok"
+        style="@style/HCTheme.TextMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:background="@color/hc_self_input_bg"
+        android:gravity="center"
+        android:text="确定"
+        android:textSize="@dimen/hc_text_size_middle"/>
+
+    <View
+        style="@style/line_horizontal_style"/>
+
+
+</LinearLayout>

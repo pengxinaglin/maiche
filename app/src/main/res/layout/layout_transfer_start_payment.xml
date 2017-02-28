@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/wh_mw"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/self_white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_20dp">
+
+    <!--收款历史-->
+    <LinearLayout
+        style="@style/hc_ll_transfer_info"
+        android:layout_marginTop="@dimen/margin_0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HCTheme.TextHint.Lable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hc_transfer_start_payment"
+            android:textColor="@color/hc_self_black"/>
+
+        <TextView
+            android:id="@+id/tv_transfer_start_total"
+            style="@style/HCTheme.TextMain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:textSize="@dimen/hc_text_size_normal"
+            android:text=""/>
+
+        <TextView
+            style="@style/HCTheme.TextMain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:textSize="@dimen/hc_text_size_normal"
+            android:text="元"/>
+
+    </LinearLayout>
+
+    <com.haoche51.sales.custom.HCPullToRefresh
+        android:id="@+id/pull_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:overScrollMode="never"/>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/hc_self_solid"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/wh_match"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_transaction_buyer_company"
+                style="@style/hc_tv_trasnfer_price"
+                android:text="--.--"/>
+
+            <TextView
+                style="@style/hc_tv_price_desc"
+                android:text="@string/hc_buyer_company"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/hc_tv_price_sep"
+            />
+
+        <LinearLayout
+            style="@style/wh_match"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_transaction_buyer_owner"
+                style="@style/hc_tv_trasnfer_price"
+                android:text="--.--"/>
+
+            <TextView
+                style="@style/hc_tv_price_desc"
+                android:text="@string/hc_buyer_owner"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/hc_tv_price_sep"
+            />
+
+        <LinearLayout
+            style="@style/wh_match"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_transaction_owner_company"
+                style="@style/hc_tv_trasnfer_price"
+                android:text="--.--"/>
+
+            <TextView
+                style="@style/hc_tv_price_desc"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:text="@string/hc_owner_company"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

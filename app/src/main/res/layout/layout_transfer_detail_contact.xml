@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/self_white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/height_10dp"
+    android:paddingTop="@dimen/margin_10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_seller"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_seller_name_phone"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_seller_name"
+            style="@style/hc_tv_desc"
+            android:layout_toLeftOf="@+id/tv_seller_phone"
+            android:gravity="right"
+            android:text="----"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_seller_phone"
+            style="@style/hc_tv_phone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:gravity="right"
+            android:text="-----------"
+            android:textSize="@dimen/margin_12dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_buyer"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_transfer_buyer"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_buyer_name"
+            style="@style/hc_tv_desc"
+            android:layout_toLeftOf="@+id/tv_buyer_phone"
+            android:gravity="right"
+            android:text="----"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_buyer_phone"
+            style="@style/hc_tv_phone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:gravity="right"
+            android:text="-----------"
+            android:textSize="@dimen/margin_12dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_checker"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_checker_name_phone"
+            />
+
+        <TextView
+            android:id="@+id/tv_checker_name"
+            style="@style/hc_tv_desc"
+            android:layout_toLeftOf="@+id/tv_checker_phone"
+            android:gravity="right"
+            android:text="----"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_checker_phone"
+            style="@style/hc_tv_phone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:gravity="right"
+            android:text="-----------"
+            android:textSize="@dimen/margin_12dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_local_saler"
+            style="@style/hc_tv_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/hc_checker_accompany"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_local_saler_name"
+            style="@style/hc_tv_desc"
+            android:layout_toLeftOf="@+id/tv_local_saler_phone"
+            android:gravity="right"
+            android:text="----"
+            android:textSize="@dimen/margin_12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_local_saler_phone"
+            style="@style/hc_tv_phone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:gravity="right"
+            android:text="-----------"
+            android:textSize="@dimen/margin_12dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

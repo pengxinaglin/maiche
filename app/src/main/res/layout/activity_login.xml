@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hc_self_gray_bg"
+    android:orientation="vertical">
+    <!--
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hc_self_gray_bg"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/hc_self_gray_bg"
+                android:orientation="vertical">-->
+
+    <include
+        layout="@layout/layout_user_face"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_activity_login_input"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_25dp" />
+
+
+    <include
+        android:id="@+id/ll_activity_login_input"
+        layout="@layout/layout_user_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margin_25dp" />
+
+    <!--
+            </LinearLayout>
+        </ScrollView>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_15dp"
+        android:gravity="center"
+        android:text="卖车神器@haoche51.com"
+        android:textColor="@color/hc_self_gray_right" />
+</LinearLayout>
